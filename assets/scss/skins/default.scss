@@ -1,0 +1,15 @@
+﻿@import '../base/colors';
+
+.metismenu{
+    li.active >{
+        a{
+            color: $blue;
+        }
+    }
+}
+@media(max-width:1200px){
+#left-sidebar {
+    z-index: 9;
+    left: 0;
+}
+}
