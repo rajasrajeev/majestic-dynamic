@@ -24,8 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost/majestic2/';
-// $config['base_url'] = 'https://skincareqatar.com/icnc/';
-// $config['base_url'] = 'https://moody-memes-wait.loca.lt/icnc/';
+
 
 
 /*
