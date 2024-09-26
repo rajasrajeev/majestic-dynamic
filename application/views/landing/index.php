@@ -1,3 +1,4 @@
+
 <?php $this->load->view("landing/components/header"); ?>
 
       <section class="home-section home-full-height bg-dark-30" id="home" data-background="<?php echo base_url(); ?>assets/landing/assets/images/section-5.jpg">
@@ -105,71 +106,47 @@
         
 
         <section class="module pb-0" id="products">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Our Products</h2>
-                <div class="module-subtitle font-serif"></div>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
+					<div class="container">
+							<div class="row">
+									<div class="col-sm-6 col-sm-offset-3">
+											<h2 class="module-title font-alt">Our Products</h2>
+											<div class="module-subtitle font-serif"></div>
+									</div>
+							</div>
+					</div>
+					<div class="container">
+							<div class="row">
+									<ul class="works-grid works-grid-gut works-grid-3 works-hover-w">
+											<?php foreach ($products as $product): ?>
+													<li class="work-item illustration webdesign">
+															<a href="portfolio_single_featured_image<?= $product['id']; ?>.html">
+																	<div class="work-image">
+																			<img src="<?= base_url('' . $product['image']); ?>" alt="<?= $product['title']; ?>" />
+																	</div>
+																	<div class="work-caption font-alt">
+																			<h3 class="work-title"><?= $product['title']; ?></h3> <!-- Product name -->
+																	</div>
+															</a>
+													</li>
+											<?php endforeach; ?>
+									</ul>
+							</div>
+					</div>
+					<div class="row bg-dark" style="padding-top: 2rem;">
+							<div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+									<div class="callout-text font-alt">
+											<h3 class="callout-title bg-dark">Want to see more products?</h3>
+											<p>We are always open to interesting projects.</p>
+									</div>
+							</div>
+							<div class="col-sm-6 col-md-4 col-lg-2">
+									<div class="callout-btn-box">
+											<a class="btn btn-w btn-round" href="<?= base_url() . 'products' ?>">Let's view products</a>
+									</div>
+							</div>
+					</div>
+			</section>
 
-            </div>
-          </div>
-          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" >
-            <li class="work-item illustration webdesign"><a href="portfolio_single_featured_image1.html">
-                <div class="work-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/portfolio/grid-portfolio1.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Corporate Identity</h3>
-                  <div class="work-descr">Illustration</div>
-                </div></a></li>
-            <li class="work-item marketing photography"><a href="portfolio_single_featured_image2.html">
-                <div class="work-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/portfolio/grid-portfolio2.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Bag MockUp</h3>
-                  <div class="work-descr">Marketing</div>
-                </div></a></li>
-            <li class="work-item illustration photography"><a href="portfolio_single_featured_slider1.html">
-                <div class="work-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/portfolio/grid-portfolio3.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Disk Cover</h3>
-                  <div class="work-descr">Illustration</div>
-                </div></a></li>
-            <li class="work-item marketing photography"><a href="portfolio_single_featured_slider2.htmll">
-                <div class="work-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/portfolio/grid-portfolio4.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Business Card</h3>
-                  <div class="work-descr">Photography</div>
-                </div></a></li>
-            <li class="work-item illustration webdesign"><a href="portfolio_single_featured_video1.html">
-                <div class="work-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/portfolio/grid-portfolio5.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Web Design</h3>
-                  <div class="work-descr">Webdesign</div>
-                </div></a></li>
-            <li class="work-item marketing webdesign"><a href="portfolio_single_featured_video2.html">
-                <div class="work-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/portfolio/grid-portfolio6.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Paper clip</h3>
-                  <div class="work-descr">Marketing</div>
-                </div></a></li>
-          </ul>
-          <div class="container" ></div>
-            <div class="row bg-dark" style="padding-top: 2rem;">
-               <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2 ">
-                <div class="callout-text font-alt">
-                  <h3 class="callout-title bg-dark">Want to see more products ?</h3>
-                  <p>We are always open to interesting projects.</p>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-2 ">
-                <div class="callout-btn-box"><a class="btn btn-w btn-round" href="portfolio_boxed_gutter_col_3.html">Lets view portfolio</a></div>
-              </div>
-            </div>
-          </div>
-        </section>
 
         <!-- <section class="module-small bg-dark"> -->
        
@@ -183,62 +160,15 @@
               </div>
             </div>
             <div class="row multi-columns-row">
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <!-- <div class="features-icon"><span class="icon-lightbulb"></span></div> -->
-                  <h3 class="features-title font-alt">Ideas and concepts</h3>
-                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <!-- <div class="features-icon"><span class="icon-bike"></span></div> -->
-                  <h3 class="features-title font-alt">Optimised for speed</h3>
-                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <!-- <div class="features-icon"><span class="icon-tools"></span></div> -->
-                  <h3 class="features-title font-alt">Designs &amp; interfaces</h3>
-                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <!-- <div class="features-icon"><span class="icon-gears"></span></div> -->
-                  <h3 class="features-title font-alt">Highly customizable</h3>
-                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <!-- <div class="features-icon"><span class="icon-tools-2"></span></div> -->
-                  <h3 class="features-title font-alt">Coding &amp; development</h3>
-                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <!-- <div class="features-icon"><span class="icon-genius"></span></div> -->
-                  <h3 class="features-title font-alt">Features &amp; plugins</h3>
-                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <!-- <div class="features-icon"><span class="icon-mobile"></span></div> -->
-                  <h3 class="features-title font-alt">Responsive design</h3>
-                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="features-item">
-                  <!-- <div class="features-icon"><span class="icon-lifesaver"></span></div> -->
-                  <h3 class="features-title font-alt">Dedicated support</h3>
-                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
-                </div>
-              </div>
+							<?php foreach ($services as $service): ?>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<div class="features-item">
+										<!-- <div class="features-icon"><span class="icon-lightbulb"></span></div> -->
+										<h3 class="features-title font-alt"><?= $service['title']; ?></h3>
+										<p><?= $service['content']; ?></p>
+									</div>
+								</div>
+							<?php endforeach; ?>
             </div>
           </div>
         </section>
@@ -255,53 +185,22 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
-                <!-- <ul class="filter font-alt" id="filters">
-                  <li><a class="current wow fadeInUp" href="#" data-filter="*">All</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".illustration" data-wow-delay="0.2s">Illustration</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".marketing" data-wow-delay="0.4s">Marketing</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".photography" data-wow-delay="0.6s">Photography</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.6s">Web Design</a></li>
-                </ul> -->
               </div>
             </div>
           </div>
           <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
-            <li class="work-item illustration webdesign"><a href="portfolio_single_featured_image1.html">
-                <div class="work-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/portfolio/grid-portfolio1.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Corporate Identity</h3>
-                  <div class="work-descr">Illustration</div>
-                </div></a></li>
-            <li class="work-item marketing photography"><a href="portfolio_single_featured_image2.html">
-                <div class="work-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/portfolio/grid-portfolio2.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Bag MockUp</h3>
-                  <div class="work-descr">Marketing</div>
-                </div></a></li>
-            <li class="work-item illustration photography"><a href="portfolio_single_featured_slider1.html">
-                <div class="work-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/portfolio/grid-portfolio3.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Disk Cover</h3>
-                  <div class="work-descr">Illustration</div>
-                </div></a></li>
-            <li class="work-item marketing photography"><a href="portfolio_single_featured_slider2.htmll">
-                <div class="work-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/portfolio/grid-portfolio4.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Business Card</h3>
-                  <div class="work-descr">Photography</div>
-                </div></a></li>
-            <li class="work-item illustration webdesign"><a href="portfolio_single_featured_video1.html">
-                <div class="work-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/portfolio/grid-portfolio5.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Web Design</h3>
-                  <div class="work-descr">Webdesign</div>
-                </div></a></li>
-            <li class="work-item marketing webdesign"><a href="portfolio_single_featured_video2.html">
-                <div class="work-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/portfolio/grid-portfolio6.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Paper clip</h3>
-                  <div class="work-descr">Marketing</div>
-                </div></a></li>
+					<?php foreach ($projects as $project): ?>
+													<li class="work-item illustration webdesign">
+															<a href="portfolio_single_featured_image<?= $project['id']; ?>.html">
+																	<div class="work-image">
+																			<img src="<?= base_url('' . $project['image']); ?>" alt="<?= $project['title']; ?>" />
+																	</div>
+																	<div class="work-caption font-alt">
+																			<h3 class="work-title"><?= $project['title']; ?></h3> <!-- Product name -->
+																	</div>
+															</a>
+													</li>
+											<?php endforeach; ?>
           </ul>
         </section>
 

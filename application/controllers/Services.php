@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Services extends CI_Controller {
 	/**
 	 * Index Page for this controller.
 	 *
@@ -19,15 +19,7 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->db->limit(6);
-        $query = $this->db->get('products'); // Replace 'products' with your actual table name
-		$data['products'] = $query->result_array();
-		$this->db->limit(6);
-        $query = $this->db->get('projects'); // Replace 'products' with your actual table name
-		$data['projects'] = $query->result_array();
-        $query = $this->db->get('services'); // Replace 'products' with your actual table name
-		$data['services'] = $query->result_array();
-		$this->load->view('landing/index', $data);
+		$this->load->view('landing/services');
 	}
 }
 
