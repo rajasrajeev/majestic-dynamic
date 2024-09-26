@@ -19,7 +19,9 @@ class Products extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('landing/products');
+		$query = $this->db->get('products'); // Replace 'products' with your actual table name
+		$data['products'] = $query->result_array();
+		$this->load->view('landing/products', $data);
 	}
 }
 

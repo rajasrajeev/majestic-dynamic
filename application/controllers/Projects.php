@@ -19,7 +19,9 @@ class Projects extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('landing/projects');
+		$query = $this->db->get('projects'); // Replace 'products' with your actual table name
+		$data['projects'] = $query->result_array();
+		$this->load->view('landing/projects', $data);
 	}
 }
 

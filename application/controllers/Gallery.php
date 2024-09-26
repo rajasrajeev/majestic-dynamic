@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Clients extends CI_Controller {
+class Gallery extends CI_Controller {
 	/**
 	 * Index Page for this controller.
 	 *
@@ -19,9 +19,9 @@ class Clients extends CI_Controller {
 	 */
 	public function index()
 	{
-		$query = $this->db->get('clients'); // Replace 'products' with your actual table name
-		$data['clients'] = $query->result_array();
-		$this->load->view('landing/clients', $data);
+		$query = $this->db->get('gallery'); // Replace 'products' with your actual table name
+		$data['gallery'] = $query->result_array();
+		$this->load->view('landing/gallery', $data);
 	}
 }
 

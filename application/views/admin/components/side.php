@@ -58,5 +58,18 @@
               </ul>
             </div>
           </li>
+		  <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#clients" aria-expanded="false" aria-controls="clients">
+              <i class="icon-layout menu-icon"></i>
+              <span class="menu-title">Clients</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="clients">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>admin/clients/create">Create</a></li>
+                <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>admin/clients/index">List</a></li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </nav>

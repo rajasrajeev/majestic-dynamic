@@ -19,7 +19,9 @@ class Services extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('landing/services');
+		$query = $this->db->get('services'); // Replace 'products' with your actual table name
+		$data['services'] = $query->result_array();
+		$this->load->view('landing/services', $data);
 	}
 }
 

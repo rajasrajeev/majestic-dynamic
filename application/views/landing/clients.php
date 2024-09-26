@@ -4,7 +4,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
-					<h2 class="module-title font-alt">Our Services</h2>
+					<h2 class="module-title font-alt">Our Gallery</h2>
 					<div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul,
 						like these sweet mornings of spring which I enjoy with my whole heart.</div>
 				</div>
@@ -16,20 +16,15 @@
 	<section class="module-small">
 		<div class="container">
 			<div class="row multi-columns-row">
-				<?php foreach ($services as $product): ?>
-				<div class="col-sm-6 col-md-3 col-lg-3">
-					<div class="shop-item">
-						<div class="shop-item-image"><img src="<?= base_url('' . $product['image']); ?>"
-								alt="Accessories Pack" />
-							<div class="shop-item-detail"><a class="btn btn-round btn-b">
-										<?= $product['content']; ?>
-									</a></div>
+				<?php foreach ($clients as $product): ?>
+					<div class="col-sm-6 col-md-3 col-lg-3">
+						<div class="gallery-item">
+						<div class="gallery-image"><a class="gallery" href="<?= base_url('' . $product['image']); ?>" title="Title 1"><img src="<?= base_url('' . $product['image']); ?>" alt="Gallery Image 1"/>
+							<div class="gallery-caption">
+								<div class="gallery-icon"><span class="icon-magnifying-glass"></span></div>
+							</div></a></div>
 						</div>
-						<h4 class="shop-item-title font-alt"><a href="#">
-								<?= $product['title']; ?>
-							</a></h4>
 					</div>
-				</div>
 				<?php endforeach; ?>
 			</div>
 		</div>
