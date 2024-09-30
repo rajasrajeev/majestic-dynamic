@@ -131,8 +131,12 @@ class Gallery extends CI_Controller {
 
 	  public function updategallery_post() {
 		$this->load->library('upload');
-	
-		$gallery_id = $this->input->post('id');
+		
+		$id = $this->input->post('id');
+		
+		// Fetch existing gallery data from the database (to get the current image path)
+		$existing_gallery = $this->db->get_where('gallery', ['id' => $id])->row();
+		$existing_image = $existing_gallery->image;
 	
 		// Set upload configurations
 		$config['upload_path'] = FCPATH . 'uploads/gallery/';
@@ -143,32 +147,45 @@ class Gallery extends CI_Controller {
 	
 		$this->upload->initialize($config);
 	
+		// Prepare data for update
 		$gallery_data = array(
 			'title' => $this->input->post('title'),
 		);
 	
+		// Check if a new image is uploaded
 		if ($this->upload->do_upload('image')) {
-			// If an image is uploaded, update the image path
+			// If an image is uploaded, get the new file data
 			$data = $this->upload->data();
-			$gallery_data['image'] = "uploads/gallery/" . $data['file_name'];
+			$new_image_path = "uploads/gallery/" . $data['file_name'];
+	
+			// Remove the previous file if it exists
+			if (!empty($existing_image) && file_exists(FCPATH . $existing_image)) {
+				unlink(FCPATH . $existing_image); // Delete the old image file
+			}
+	
+			// Update the image path
+			$gallery_data['image'] = $new_image_path;
+				// Update the gallery data in the database
+			$this->db->where('id', $id);
+			$this->db->update('gallery', $gallery_data);
+		
+			// Redirect to the gallery list or load a success view
+			redirect('admin/gallery');
 		} else {
-			// If the image upload fails, check if it's because no file was selected
+			// If image upload fails, check if it's because no file was selected
 			if ($this->upload->display_errors() !== '<p>You did not select a file to upload.</p>') {
 				// Load the view with the error if there's an actual upload error
 				$error = array('error' => $this->upload->display_errors());
+				$this->session->set_flashdata('error', $this->upload->display_errors());
 				$this->load->view('admin/gallery/edit', $error);
 				return;
 			}
-			// No file selected, do not update the image path
+			// No new file selected, keep the old image path
 		}
 	
-		// Update the gallery data in the database
-		$this->db->where('id', $gallery_id);
-		$this->db->update('gallery', $gallery_data);
-	
-		// Redirect to the gallery list or load a success view
-		redirect('admin/gallery');
+		
 	}
+	
 	
 
 	  public function delete_gallery($id) {

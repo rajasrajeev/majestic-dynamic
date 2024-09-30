@@ -34,3 +34,9 @@
 
 
   <?php $this->load->view("admin/components/bottom"); ?>
+  <script type="text/javascript">
+    // Display error message if it exists
+    <?php if ($this->session->flashdata('error')): ?>
+        alert('<?php echo $this->session->flashdata('error'); ?>');
+    <?php endif; ?>
+</script>

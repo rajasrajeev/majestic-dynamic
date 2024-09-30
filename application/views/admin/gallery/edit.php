@@ -22,10 +22,10 @@
                       <label for="exampleInputName1">Title</label>
                       <input type="text" class="form-control" id="exampleInputName1" placeholder="Name" name="title" value="<?= $gallery['title']; ?>" required>
                     </div>
-
+										<input type="hidden" name="id" value="<?= $gallery['id']; ?>">
                     <div class="form-group">
                       <label>File upload</label>
-                      <input type="file" name="image" class="form-control" name="image">
+                      <input type="file" name="image" class="form-control">
 											<?php if (!empty($gallery['image'])): ?>
 												<img src="<?= base_url() . $gallery['image']; ?>" alt="gallery Image" style="width: 100px; margin-top: 10px;">
 											<?php endif; ?>
@@ -48,9 +48,9 @@
 
   <?php $this->load->view("admin/components/bottom"); ?>
 	<script type="text/javascript">
-    <?php if (isset($_SESSION['error'])): ?>
-        alert('<?php echo addslashes($_SESSION['error']); ?>'); // Use addslashes to handle any quotes inside the error message
-        <?php unset($_SESSION['error']); // Clear the message to prevent it from showing again ?>
+    // Display error message if it exists
+    <?php if ($this->session->flashdata('error')): ?>
+        alert('<?php echo $this->session->flashdata('error'); ?>');
     <?php endif; ?>
 </script>
 

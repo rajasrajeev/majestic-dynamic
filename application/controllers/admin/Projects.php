@@ -99,6 +99,7 @@ class Projects extends CI_Controller {
 
 		if (!$this->upload->do_upload('image')) {
 			$error = array('error' => $this->upload->display_errors());
+			$this->session->set_flashdata('error', $this->upload->display_errors());
 			// Load the view with the error
 			$this->load->view('admin/projects/create', $error);
 		} else {
@@ -161,6 +162,7 @@ class Projects extends CI_Controller {
 			if ($this->upload->display_errors() !== '<p>You did not select a file to upload.</p>') {
 				// Load the view with the error if there's an actual upload error
 				$error = array('error' => $this->upload->display_errors());
+				$this->session->set_flashdata('error', $this->upload->display_errors());
 				$this->load->view('admin/projects/edit', $error);
 				return;
 			}

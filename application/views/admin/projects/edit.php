@@ -26,10 +26,10 @@
                       <label for="exampleInputEmail3">Content</label>
                       <textarea type="email" class="form-control" id="exampleInputEmail3" placeholder="content"  name="content"><?= $projects['content']; ?></textarea>
                     </div>
-
+					<input type="hidden" name="id" value="<?= $projects['id']; ?>">
                     <div class="form-group">
                       <label>File upload</label>
-                      <input type="file" name="image" class="form-control" name="image">
+                      <input type="file" name="image" class="form-control">
 					  <?php if (!empty($projects['image'])): ?>
 							<img src="<?= base_url() . $projects['image']; ?>" alt="Project Image" style="width: 100px; margin-top: 10px;">
 						<?php endif; ?>
@@ -53,10 +53,9 @@
   <?php $this->load->view("admin/components/bottom"); ?>
 
   <script type="text/javascript">
-    CKEDITOR.replace('content');
-    <?php if (isset($_SESSION['error'])): ?>
-        alert('<?php echo $_SESSION['error']; ?>');
-        <?php unset($_SESSION['error']); // Clear the message to prevent it from showing again ?>
+    // Display error message if it exists
+    <?php if ($this->session->flashdata('error')): ?>
+        alert('<?php echo $this->session->flashdata('error'); ?>');
     <?php endif; ?>
 </script>
 

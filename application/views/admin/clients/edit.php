@@ -18,7 +18,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Edit clients</h4>
                   <form enctype="multipart/form-data" class="forms-sample" action="<?= base_url() ?>admin/clients/updateclients_post" method="post">
-
+									<input type="hidden" name="id" value="<?= $clients['id']; ?>">
                     <div class="form-group">
                       <label>File upload</label>
                       <input type="file" name="image" class="form-control" name="image">

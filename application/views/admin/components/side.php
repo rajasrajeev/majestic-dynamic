@@ -71,5 +71,18 @@
               </ul>
             </div>
           </li>
+		  <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#users" aria-expanded="false" aria-controls="users">
+              <i class="icon-layout menu-icon"></i>
+              <span class="menu-title">Enquiries</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="users">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>admin/users/sub">Subscribed Emails</a></li>
+                <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>admin/users/touch">Get In Touch</a></li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </nav>

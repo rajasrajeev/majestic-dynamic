@@ -10,7 +10,7 @@
         <div class="container">
           <div class="navbar-header">
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span>
-              <span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="<?= base_url(). 'home'?>">Majestic</a>
+              <span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" style="display: flex;height: 55px;" href="<?= base_url(). 'home'?>"><img src="<?=base_url()?>assets/images/logo_icon.jpg" alt=""><img src="<?=base_url()?>assets/images/logo_text.jpg" alt=""></a>
           </div>
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -33,3 +33,9 @@
           </div>
         </div>
       </nav>
+			<?php if (!empty($success_message)): ?>
+        <div class="alert alert-success" role="alert">
+                  <button class="close" type="button" data-dismiss="alert" aria-hidden="true">&times;</button><strong><?= $success_message; ?></strong> 
+                </div>
+    <?php endif; ?>
+			

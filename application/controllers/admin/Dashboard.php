@@ -20,15 +20,13 @@ class Dashboard extends CI_Controller {
 	public function index()
 	{
 		if (isset($_SESSION['user_id'])) {
-			/* # code...
-			//die('Session Set'.$_SESSION['user_id']);
-			$this->load->model('User_model');
-			$usercode = $this->session->userdata('usercode');
-			$data = $this->User_model->getDashboardData($usercode);
-			// $sponsor_bonus = $this->User_model->calculateSponsorBonus('94475518','2024-02-26','2024-02-28');
-			// print_r($sponsor_bonus);
-			// die(); */
-			$this->load->view('admin/dashboard');
+
+			$data['products'] =$this->db->count_all('products');
+			$data['projects'] = $this->db->count_all('projects');
+			$data['services'] = $this->db->count_all('services');
+			$data['gallery'] = $this->db->count_all('gallery');
+			$this->load->view('admin/dashboard', $data);
+
 		}
 		else{
 			redirect('admin/login');

@@ -16,10 +16,10 @@
             <div class="col-md-12 grid-margin">
               <div class="row">
                 <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                  <h3 class="font-weight-bold">Welcome Aamir</h3>
-                  <h6 class="font-weight-normal mb-0">All systems are running smoothly! You have <span class="text-primary">3 unread alerts!</span></h6>
+                  <h3 class="font-weight-bold">Welcome Admin</h3>
+                  <h6 class="font-weight-normal mb-0">All systems are running smoothly! </h6>
                 </div>
-                <div class="col-12 col-xl-4">
+                <!-- <div class="col-12 col-xl-4">
                  <div class="justify-content-end d-flex">
                   <div class="dropdown flex-md-grow-1 flex-xl-grow-0">
                     <button class="btn btn-sm btn-light bg-white dropdown-toggle" type="button" id="dropdownMenuDate2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -33,7 +33,7 @@
                     </div>
                   </div>
                  </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@
                   <div class="card card-tale">
                     <div class="card-body">
                       <p class="mb-4">Total Projects</p>
-                      <p class="fs-30 mb-2">2</p>
+                      <p class="fs-30 mb-2"><?php echo $projects; ?></p>
                       <!-- <p>10.00% (30 days)</p> -->
                     </div>
                   </div>
@@ -53,7 +53,7 @@
                   <div class="card card-dark-blue">
                     <div class="card-body">
                       <p class="mb-4">Total Gallery</p>
-                      <p class="fs-30 mb-2">3</p>
+                      <p class="fs-30 mb-2"><?php echo $gallery; ?></p>
                       <!-- <p>22.00% (30 days)</p> -->
                     </div>
                   </div>
@@ -64,7 +64,7 @@
                   <div class="card card-light-blue">
                     <div class="card-body">
                       <p class="mb-4">Total Services</p>
-                      <p class="fs-30 mb-2">4</p>
+                      <p class="fs-30 mb-2"><?php echo($services); ?></p>
                       <!-- <p>2.00% (30 days)</p> -->
                     </div>
                   </div>
@@ -73,7 +73,7 @@
                   <div class="card card-light-danger">
                     <div class="card-body">
                       <p class="mb-4">Total Products</p>
-                      <p class="fs-30 mb-2">5</p>
+                      <p class="fs-30 mb-2"><?php echo($products); ?></p>
                       <!-- <p>0.22% (30 days)</p> -->
                     </div>
                   </div>
@@ -94,3 +94,9 @@
 
 
   <?php $this->load->view("admin/components/bottom"); ?>
+  <script type="text/javascript">
+    // Display error message if it exists
+    <?php if ($this->session->flashdata('error')): ?>
+        alert('<?php echo $this->session->flashdata('error'); ?>');
+    <?php endif; ?>
+</script>
