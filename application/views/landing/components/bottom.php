@@ -1,6 +1,6 @@
 </main>
     <div class="whatsapp social_box">
-      <a href="https://wa.me/971561011153?text=Hai,%20I%20would%20liked%20to%20know%20more%20about%20Majestic" target='_blank'>
+      <a href="https://wa.me/971561011153?text=Hai,%20I%20would%20like%20to%20know%20more%20about%20Majestic" target='_blank'>
         <i class="fa fa-whatsapp" aria-hidden="true"></i>
       </a>
     </div>

@@ -49,7 +49,7 @@
 				</div>
 				<div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
 					<div class="alt-services-image align-center"><img
-							src="<?php echo base_url(); ?>assets/landing/assets/images/promo.png" alt="Feature Image"></div>
+							src="<?php echo base_url(); ?>assets/landing/assets/images/new/about.png" alt="Feature Image"></div>
 				</div>
 				<div class="col-sm-6 col-md-3 col-lg-3">
 					<div class="alt-features-item">
@@ -76,7 +76,7 @@
 
 
 
-	<section class="module bg-dark-60"
+	<!-- <section class="module bg-dark-60"
 		data-background="<?php echo base_url(); ?>assets/landing/assets/images/section-6.jpg">
 		<div class="container">
 			<div class="row">
@@ -90,7 +90,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<!-- Mission and Vission -->
 	<section class="module pb-0">
@@ -246,7 +246,7 @@
 		</div>
 	</section>
 
-	<hr class="divider-w">
+	<!-- <hr class="divider-w">
 	<section class="module" id="team">
 		<div class="container">
 			<div class="row">
@@ -338,9 +338,9 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<section id="clients" class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial"
-		data-background="<?php echo base_url(); ?>assets/landing/assets/images/testimonial_bg.jpg">
+		data-background="<?php echo base_url(); ?>assets/landing/assets/images/new/2.jpeg">
 		<div class="testimonials-slider pt-140 pb-140">
 			<ul class="slides">
 				<li>

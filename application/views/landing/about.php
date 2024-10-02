@@ -1,7 +1,7 @@
 <?php $this->load->view("landing/components/header"); ?>
 <div class="main">
 	<section class="module bg-dark-60 about-page-header"
-		data-background="<?php echo base_url(); ?>assets/landing/assets/images/section-5.jpg">
+		data-background="<?php echo base_url(); ?>assets/landing/assets/images/new/3.jpeg">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
@@ -115,7 +115,7 @@
 	<section class="module pt-0 pb-0" id="about">
 		<div class="row position-relative m-0">
 			<div class="col-xs-12 col-md-6 side-image"
-				data-background="<?= base_url();?>assets/landing/assets/images/section-14.jpg"></div>
+				data-background="<?= base_url();?>assets/landing/assets/images/new/about.png"></div>
 			<div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text">
 				<div class="row">
 					<div class="col-sm-12">
@@ -144,7 +144,7 @@
 				<div class="col-sm-12 col-lg-12 col-md-12">
 					<div class="post">
 						<div class="post-thumbnail" style="justify-content: center;display: flex;"><img
-								src="<?= base_url();?>assets/landing/assets/images/post-4.jpg"
+								src="<?= base_url();?>assets/landing/assets/images/new/2.jpeg"
 								alt="Blog Featured Image" /></div>
 						<div class="post-header font-alt">
 							<h1 class="post-title">What Sets Us Apart</h1>
@@ -171,7 +171,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="module" id="team">
+	<!-- <section class="module" id="team">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
@@ -187,7 +187,7 @@
 				<div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
 					<div class="team-item">
 						<div class="team-image"><img
-								src="<?php echo base_url(); ?>assets/landing/assets/images/team-1.jpg"
+								src="<?php echo base_url(); ?>assets/landing/assets/images/new/1.jpeg"
 								alt="Member Photo" />
 							<div class="team-detail">
 								<h5 class="font-alt">Hi all</h5>
@@ -270,7 +270,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<section class="module pt-0 pb-0" id="contact">
 		<div class="row position-relative m-0">
 			<div class="col-xs-12 col-md-12">
@@ -308,51 +308,6 @@
 			</div>
 		</div>
 	</section>
-	<div class="module-small bg-dark">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="widget">
-						<h5 class="widget-title font-alt">About Majestic</h5>
-						<p>Welcome to MAJESTIC, where quality meets innovation in the realm of manufacturing.
-							Since 2006, we have been committed to delivering exceptional products across a diverse range
-							of categories, including shades, canopies, caravans, hangars,
-							steel structures, doors and gates, car parking shades, panel work, and comprehensive steel
-							and aluminum solutions.
-
-						</p>
-						<p>Phone: +971563337317</p>whatsapp: +971563337317
-						<p>Email:<a href="#">somecompany@example.com</a></p>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="widget">
-						<h5 class="widget-title font-alt">Our Address</h5>
-						<ul class="icon-list">
-							<li>Comapny name on <a href="#">Majestic</a></li>
-							<li>Street <a href="#">Realistic Business Card Mockup</a></li>
-							<li>District <a href="#">hhhh</a></li>
-							<li>Country <a href="#"> Qatar</a></li>
-							<li>Pin Code <a href="#">6888</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="widget">
-						<h5 class="widget-title font-alt">Useful Links</h5>
-						<ul class="icon-list">
-							<li><a href="#">Home </a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Project </a></li>
-							<li><a href="#">Product</a></li>
-							<li><a href="#">Service</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<hr class="divider-d">
 	<?php $this->load->view("landing/components/footer"); ?>
 	<div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
 	<?php $this->load->view("landing/components/bottom"); ?>
