@@ -1,61 +1,72 @@
-<div class="module-small bg-dark">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="widget">
-					<h5 class="widget-title font-alt">About Majestic</h5>
-					<p>Welcome to MAJESTIC, where quality meets innovation in the realm of manufacturing.
-						Since 2006, we have been committed to delivering exceptional products across a diverse range of categories,
-						including shades, canopies, caravans, hangars,
-						steel structures, doors and gates, car parking shades, panel work, and comprehensive steel and aluminum
-						solutions.
+</div><!-- /.page-wrapper -->
 
-					</p>
-					<p>Phone: +971563337317 | +971561260004</p>whatsapp: +971561011153
-					<a>Email:<a href="#">info@majesticuae.ae</a> | <a href="">majestictrailer@gmail.com</a></p>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="widget">
-					<h5 class="widget-title font-alt">Our Address</h5>
-					<ul class="icon-list">
-						<li>Comapny name on <a href="#">Majestic</a></li>
-						<li>Street <a href="#">Industrial Area-Zayed City</a></li>
-						<li>District <a href="#">Al Dhafra Region</a></li>
-						<li>Country <a href="#"> Abu Dhabi- UAE</a></li>
-						<li>Pin Code <a href="#">20044</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="widget">
-					<h5 class="widget-title font-alt">Useful Links</h5>
-					<ul class="icon-list">
-						<li><a href="<?= base_url();?>">Home </a></li>
-						<li><a href="<?= base_url();?>about">About</a></li>
-						<li><a href="<?= base_url();?>projects">Project </a></li>
-						<li><a href="<?= base_url();?>products">Product</a></li>
-						<li><a href="<?= base_url();?>services">Service</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<hr class="divider-d">
-<footer class="footer bg-dark">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-6">
-				<p class="copyright font-alt">&copy; 2024&nbsp; <a href="www.codsynapse.com">Codsynapse</a>, All Rights Reserved
-				</p>
-			</div>
-			<div class="col-sm-6">
-				<div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-							class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i
-							class="fa fa-skype"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>
+		<footer class="crop">
+			<div class="footer-middle">
+				<div class="container">
+					<div class="row justify-content-center footerMiddle">
+						<div class="col-lg-3 col-md-6">
+							<div class="footer-col">
+								<a href="#" style="display: flex;height: 35px;">
+									<img src="<?php echo base_url(); ?>assets/images/logo_icon.jpg" alt="Logo">
+									<img src="<?php echo base_url(); ?>assets/images/logo_text.jpg" alt="Logo">
+								</a>
+								<p class="f1 fw-6 text-white">We pride ourselves on giving you the best quality Service and Repairs. After 30 years experience in the caravan industry.</p>
+							</div><!-- /.footer-cl -->
+						</div><!-- /.col-xl-3 -->
+						<div class="col-lg-3 col-md-6 d-flex justify-content-xl-center">
+							<div class="footer-col">
+								<h2>company</h2>
+								<ul>
+									<li><a href="about.html">About</a></li>
+									<li><a href="contact.html">Book Online</a></li>
+									<li><a href="#">Testimonials</a></li>
+									<li><a href="#">Gallery</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</div><!-- /.footer-col -->
+						</div><!-- /.col-xl-3 -->
+						<div class="col-lg-3 col-md-6">
+							<div class="footer-col">
+								<h2>services</h2>
+								<ul>
+									<li><a href="single-service.html">General repairs</a></li>
+									<li><a href="single-service.html">Insurance repairs</a></li>
+									<li><a href="single-service.html">Warranty repairs</a></li>
+									<li><a href="single-service.html">Installation & Modifications</a></li>
+									<li><a href="single-service.html">Servicing & Maintenance</a></li>
+								</ul>
+							</div><!-- /.footer-col -->
+						</div><!-- /.col-xl-3 -->
+						<div class="col-lg-3 col-md-6">
+							<div class="footer-col">
+								<h2>contact</h2>
+								<h4>855 Road Broklyn Street, 600
+								<br />New York, USA</h4>
+								<ul>
+									<li>
+										<span><i class="fa fa-envelope c1"></i>needhelp@Carivon.com</span>
+									</li>
+									<li>
+										<span><i class="fa fa-phone-square c1"></i>666 888 0000</span>
+									</li>
+								</ul>
+							</div><!-- /.footer-col -->
+						</div><!-- /.col-xl-3 -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</div><!-- /.footer-middle -->
+
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row justify-content-sm-between justify-content-center text-sm-left text-center flex-sm-row flex-column">
+						<ul>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						</ul>
+						<p>© copyright 2019 by Layerdrops.com</p>
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</div><!-- /.footer-bottom -->
+		</footer>

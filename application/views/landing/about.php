@@ -1,313 +1,410 @@
 <?php $this->load->view("landing/components/header"); ?>
-<div class="main">
-	<section class="module bg-dark-60 about-page-header"
-		data-background="<?php echo base_url(); ?>assets/landing/assets/images/new/3.jpeg">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3">
-					<h2 class="module-title font-alt">About</h2>
-					<!-- <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div> -->
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="module">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<h4 class="font-alt mb-30">Who We Are</h4>
-					<p>At MAJESTIC, we are dedicated to providing high-quality manufacturing solutions that cater to a
-						wide array of needs and applications. Our extensive product range includes:</p>
-					<div class="panel-group" id="accordion">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion"
-										href="#support1">Shades and Canopies</a></h4>
-							</div>
-							<div class="panel-collapse collapse in" id="support1">
-								<div class="panel-body">Stylish and functional designs that offer protection and enhance
-									outdoor environments
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse"
-										data-parent="#accordion" href="#support2">Caravans</a></h4>
-							</div>
-							<div class="panel-collapse collapse" id="support2">
-								<div class="panel-body">Comfortable and well-crafted mobile homes designed for travel
-									and leisure
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse"
-										data-parent="#accordion" href="#support3">Hangars</a></h4>
-							</div>
-							<div class="panel-collapse collapse" id="support3">
-								<div class="panel-body">Durable and efficient structures designed for the secure storage
-									and operation of aircraft
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse"
-										data-parent="#accordion" href="#support4">Steel Structures</a></h4>
-							</div>
-							<div class="panel-collapse collapse" id="support4">
-								<div class="panel-body">Versatile and robust constructions suitable for commercial,
-									industrial, and residential uses
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse"
-										data-parent="#accordion" href="#support4">Doors and Gate</a></h4>
-							</div>
-							<div class="panel-collapse collapse" id="support4">
-								<div class="panel-body">Custom-designed solutions providing both security and aesthetic
-									appeal for various properties
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse"
-										data-parent="#accordion" href="#support4">Car Parking Shades</a></h4>
-							</div>
-							<div class="panel-collapse collapse" id="support4">
-								<div class="panel-body">Innovative designs to protect vehicles and improve the
-									functionality of parking areas
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse"
-										data-parent="#accordion" href="#support4">Panel Work</a></h4>
-							</div>
-							<div class="panel-collapse collapse" id="support4">
-								<div class="panel-body">Precision-engineered panels that combine visual appeal with
-									structural integrity
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse"
-										data-parent="#accordion" href="#support4">Steel and Aluminum Wor</a></h4>
-							</div>
-							<div class="panel-collapse collapse" id="support4">
-								<div class="panel-body">Expert fabrication and installation of steel and aluminum
-									components tailored to specific project requirements
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="module pt-0 pb-0" id="about">
-		<div class="row position-relative m-0">
-			<div class="col-xs-12 col-md-6 side-image"
-				data-background="<?= base_url();?>assets/landing/assets/images/new/about.png"></div>
-			<div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text">
-				<div class="row">
-					<div class="col-sm-12">
-						<h2 class="module-title font-alt align-left">Our Mission</h2>
-						<p>Our mission is to exceed customer expectations by providing superior products and services.
-							We are dedicated to blending innovation, high-quality materials, and expert craftsmanship to
-							create solutions that are both functional and aesthetically pleasing</p>
-						<h2 class="module-title font-alt align-left">Our Vision</h2>
-						<p>Looking to the future, we strive to continue leading the industry with innovative solutions
-							and unparalleled service. We are committed to expanding our capabilities and product
-							offerings to better meet the evolving needs of our customers and the market</p>
-						<h2 class="module-title font-alt align-left">Our Story</h2>
-						<p>Founded by Mr Abdulla Butty Salem mousa al qubaisi, MAJESTIC embarked on a journey to
-							redefine manufacturing standards. From our beginnings as a small workshop, local enterprise,
-							we have grown into a leading manufacturer renowned for our commitment to quality and
-							customer satisfaction</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="module">
-		<div class="container">
-			<div class="row">
+<div class="op-header">
+            <div class="thm-header text-center">
+                <ul class="pb-10">
+                    <li><a href="#" class="c1">Home</a></li>
+                    <li class="c1">about us</li>
+                </ul>
+                <h1 class="c3">Get to Know Us</h1>
+            </div><!-- /.thm-header -->
+        </div><!-- /.op-header -->
 
-				<div class="col-sm-12 col-lg-12 col-md-12">
-					<div class="post">
-						<div class="post-thumbnail" style="justify-content: center;display: flex;"><img
-								src="<?= base_url();?>assets/landing/assets/images/new/2.jpeg"
-								alt="Blog Featured Image" /></div>
-						<div class="post-header font-alt">
-							<h1 class="post-title">What Sets Us Apart</h1>
-						</div>
-						<div class="post-entry">
-							<ul>
-								<li><b>Comprehensive Product Range</b>: We offer a broad selection of products, from
-									outdoor shading solutions and mobile homes to structural projects and custom
-									metalwork.</li>
-								<li><b>Innovative Design</b>: Our products are crafted using the latest technologies and
-									design trends, ensuring they meet both functional and aesthetic needs</li>
-								<li><b>High-Quality Materials</b>: We use premium materials to ensure durability and
-									long-lasting performance across all our products.</li>
-								<li><b>Custom Fabrication</b>: Our expertise in steel and aluminum work allows us to
-									deliver tailored solutions that meet specific project requirements.</li>
-								<li><b>Expert Craftsmanship</b>: Our skilled team employs advanced techniques and strict
-									quality control to deliver exceptional results.</li>
-								<li><b>Customer-Centric Approach</b>: We are committed to providing outstanding service
-									from the initial consultation through to project completion and support.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- <section class="module" id="team">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3">
-					<h2 class="module-title font-alt">Meet Our Team</h2>
-					<div class="module-subtitle font-serif">
-						Our team comprises experienced professionals who are passionate about manufacturing excellence.
-						With a diverse range of skills and a commitment to quality, we work collaboratively to bring
-						your vision to life and achieve superior results
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-					<div class="team-item">
-						<div class="team-image"><img
-								src="<?php echo base_url(); ?>assets/landing/assets/images/new/1.jpeg"
-								alt="Member Photo" />
-							<div class="team-detail">
-								<h5 class="font-alt">Hi all</h5>
-								<p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus,
-									a&amp;nbsp;iaculis diam.</p>
-								<div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-											class="fa fa-twitter"></i></a><a href="#"><i
-											class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-descr font-alt">
-							<div class="team-name">Jim Stone</div>
-							<div class="team-role">Art Director</div>
-						</div>
-					</div>
-				</div>
-				<div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-					<div class="team-item">
-						<div class="team-image"><img
-								src="<?php echo base_url(); ?>assets/landing/assets/images/team-2.jpg"
-								alt="Member Photo" />
-							<div class="team-detail">
-								<h5 class="font-alt">Good day</h5>
-								<p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus,
-									a&amp;nbsp;iaculis diam.</p>
-								<div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-											class="fa fa-twitter"></i></a><a href="#"><i
-											class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-descr font-alt">
-							<div class="team-name">Andy River</div>
-							<div class="team-role">Creative director</div>
-						</div>
-					</div>
-				</div>
-				<div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-					<div class="team-item">
-						<div class="team-image"><img
-								src="<?php echo base_url(); ?>assets/landing/assets/images/team-3.jpg"
-								alt="Member Photo" />
-							<div class="team-detail">
-								<h5 class="font-alt">Hello</h5>
-								<p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus,
-									a&amp;nbsp;iaculis diam.</p>
-								<div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-											class="fa fa-twitter"></i></a><a href="#"><i
-											class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-descr font-alt">
-							<div class="team-name">Adele Snow</div>
-							<div class="team-role">Account manager</div>
-						</div>
-					</div>
-				</div>
-				<div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-					<div class="team-item">
-						<div class="team-image"><img
-								src="<?php echo base_url(); ?>assets/landing/assets/images/team-4.jpg"
-								alt="Member Photo" />
-							<div class="team-detail">
-								<h5 class="font-alt">Yes, it's me</h5>
-								<p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus,
-									a&amp;nbsp;iaculis diam.</p>
-								<div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-											class="fa fa-twitter"></i></a><a href="#"><i
-											class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="team-descr font-alt">
-							<div class="team-name">Dylan Woods</div>
-							<div class="team-role">Developer</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<section class="module pt-0 pb-0" id="contact">
-		<div class="row position-relative m-0">
-			<div class="col-xs-12 col-md-12">
-				<div class="row finance-image-content">
-					<div class="col-md-10 col-md-offset-1">
-						<h2 class="module-title font-alt align-left">Get in touch</h2>
-						<form id="contactForm" role="form" method="post" action="php/contact.php">
-							<div class="form-group">
-								<label class="sr-only" for="name">Name</label>
-								<input class="form-control" type="text" id="name" name="name" placeholder="Your Name*"
-									required="required" data-validation-required-message="Please enter your name." />
-								<p class="help-block text-danger"></p>
-							</div>
-							<div class="form-group">
-								<label class="sr-only" for="email">Email</label>
-								<input class="form-control" type="email" id="email" name="email"
-									placeholder="Your Email*" required="required"
-									data-validation-required-message="Please enter your email address." />
-								<p class="help-block text-danger"></p>
-							</div>
-							<div class="form-group">
-								<textarea class="form-control" rows="7" id="message" name="message"
-									placeholder="Your Message*" required="required"
-									data-validation-required-message="Please enter your message."></textarea>
-								<p class="help-block text-danger"></p>
-							</div>
-							<div class="text-center">
-								<button class="btn btn-block btn-round btn-d" id="cfsubmit"
-									type="submit">Submit</button>
-							</div>
-						</form>
-						<div class="ajax-response font-alt" id="contactFormResponse"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="about-page f1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <header>
+                            <figure>
+                                <img src="<?php echo base_url(); ?>assets/landing/img/about-3-1.jpg" alt="About us">
+                                <figcaption>
+                                    <p class="f1 fw-3">Caravan Repair Service Centre takes pride in all our work, our
+                                        qualified staff are highly trained in all areas so your piece of mind is
+                                        assured. We use the latest equipment, genuine parts and quality materials so
+                                        having your caravan repaired to its original condition is our promise to you.</p>
+                                </figcaption>
+                            </figure>
+                        </header>
+                    </div><!-- /.col-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+            <div class="faqs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="thm-header text-center">
+                                <p class="c1 pb-10">faqs</p>
+                                <h1 class="c3">Questions Answers</h1>
+                            </div><!-- /.thm-header -->
+                        </div><!-- /.col-12 -->
+                        <div class="col-xl-6 text-xl-left text-center mb-xl-0 mb-3">
+                            <img src="img/faq-1-1.jpg" alt="Frequently Asked Questions">
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-xl-6">
+                            <div class="accordion faq-blocks f1" id="FAQs">
+                                <div class="card border-0">
+                                    <div class="card-header border-0" id="faqh-1">
+                                        <h2>
+                                            <button type="button" data-toggle="collapse" data-target="#faq-1"
+                                                aria-expanded="false" aria-controls="faq-1">
+                                                All auto & caravan electrical repairs?
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="faq-1" class="collapse" aria-labelledby="faqh-1" data-parent="#FAQs">
+                                        <div class="card-body">
+                                            <p>Lorem Ipsum is simply dummy text of not the print typesetting industry
+                                                has been the industrys standard dummy.</p>
+                                        </div>
+                                    </div>
+                                </div><!-- /.card -->
+                                <div class="card border-0">
+                                    <div class="card-header border-0" id="faqh-2">
+                                        <h2>
+                                            <button type="button" data-toggle="collapse" data-target="#faq-2"
+                                                aria-expanded="true" aria-controls="faq-2">
+                                                How to claim caravan warranty?
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="faq-2" class="collapse show" aria-labelledby="faqh-2" data-parent="#FAQs">
+                                        <div class="card-body">
+                                            <p>Lorem Ipsum is simply dummy text of not the print typesetting industry
+                                                has been the industrys standard dummy.</p>
+                                        </div>
+                                    </div>
+                                </div><!-- /.card -->
+                                <div class="card border-0">
+                                    <div class="card-header border-0" id="faqh-3">
+                                        <h2>
+                                            <button type="button" data-toggle="collapse" data-target="#faq-3"
+                                                aria-expanded="false" aria-controls="faq-3">
+                                                How do i submit a caravan details?
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="faq-3" class="collapse" aria-labelledby="faqh-3" data-parent="#FAQs">
+                                        <div class="card-body">
+                                            <p>Lorem Ipsum is simply dummy text of not the print typesetting industry
+                                                has been the industrys standard dummy.</p>
+                                        </div>
+                                    </div>
+                                </div><!-- /.card -->
+                                <div class="card border-0">
+                                    <div class="card-header border-0" id="faqh-4">
+                                        <h2>
+                                            <button type="button" data-toggle="collapse" data-target="#faq-4"
+                                                aria-expanded="false" aria-controls="faq-4">
+                                                If your caravan or motorhome needs repairs?
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="faq-4" class="collapse" aria-labelledby="faqh-4" data-parent="#FAQs">
+                                        <div class="card-body">
+                                            <p>Lorem Ipsum is simply dummy text of not the print typesetting industry
+                                                has been the industrys standard dummy.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.col-lg-6 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.faqs -->
+            <div class="testimony text-white text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="thm-header text-center text-white">
+                                <p class="pb-10">our feedbacks</p>
+                                <h1>What People Say</h1>
+                            </div><!-- /.thm-header -->
+                        </div><!-- /.col-12 -->
+                        <div class="col-xl-8 col-lg-8 col-md-10">
+                            <div class="rating-area">
+                                <div class="testi-pager d-flex justify-content-center align-items-end mb-55" id="testi-pager">
+                                    <a href="#" class="pager-item active" data-slide-index="0">
+                                        <div class="testi-thumb">
+                                            <img src="<?php echo base_url(); ?>assets/landing/img/testi-1-1.jpg" alt="rating" title="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="pager-item" data-slide-index="1">
+                                        <div class="testi-thumb">
+                                            <img src="<?php echo base_url(); ?>assets/landing/img/testi-1-2.jpg" alt="rating" title="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="pager-item" data-slide-index="2">
+                                        <div class="testi-thumb">
+                                            <img src="<?php echo base_url(); ?>assets/landing/img/testi-1-3.jpg" alt="rating" title="">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!--Slider-->
+                                <ul class="rating-slider f1">
+                                    <li class="slide-item">
+                                        <div class="slide-text">
+                                            <p>This is due to their excellent service, competitive pricing and customer
+                                                support. It’s throughly refresing to get such a personal touch.</p>
+                                            <h4 class="mt-30">Mike Hardson</h4>
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-half-o"></i>
+                                            </div><!-- /.rating -->
+                                        </div>
+                                    </li>
+                                    <li class="slide-item">
+                                        <div class="slide-text">
+                                            <p>This is due to their excellent service, competitive pricing and customer
+                                                support. It’s throughly refresing to get such a personal touch.</p>
+                                            <h4 class="mt-30">Mike Hardson</h4>
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-half-o"></i>
+                                            </div><!-- /.rating -->
+                                        </div>
+                                    </li>
+                                    <li class="slide-item">
+                                        <div class="slide-text">
+                                            <p>This is due to their excellent service, competitive pricing and customer
+                                                support. It’s throughly refresing to get such a personal touch.</p>
+                                            <h4 class="mt-30">Mike Hardson</h4>
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-half-o"></i>
+                                            </div><!-- /.rating -->
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div><!-- /.rating-area -->
+                        </div><!-- /.col-xl-6 col-lg-8 col-md-10 offset-xl-3 offset-lg-2 offset-md-1 offset-sm-0 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.testimony -->
+            <div class="sec-team text-center clearfix">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="thm-header text-center">
+                                <p class="c1 pb-10">team members</p>
+                                <h1 class="c3">Meet Our Experts</h1>
+                            </div><!-- /.thm-header -->
+                        </div><!-- /.col-12 -->
+                        <div class="col-md-4">
+                            <div class="member-card bg-white">
+                                <figure>
+                                    <div class="text-md-right text-center">
+                                        <img src="<?php echo base_url(); ?>assets/landing/img/team-1-1.jpg" alt="Team Member">
+                                    </div>
+                                    <figcaption>
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                                        </ul>
+                                        <div class="member-info f1">
+                                            <h2 class="fw-6 c3"><a href="#">Mike Hardson</a></h2>
+                                            <p class="fw-6">Technician</p>
+                                        </div><!-- /.member-info -->
+                                    </figcaption>
+                                </figure>
+                            </div><!-- /.member-card -->
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-md-4">
+                            <div class="member-card bg-white">
+                                <figure>
+                                    <div class="text-md-right text-center">
+                                        <img src="<?php echo base_url(); ?>assets/landing/img/team-1-2.jpg" alt="Team Member">
+                                    </div>
+                                    <figcaption>
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                                        </ul>
+                                        <div class="member-info f1">
+                                            <h2 class="fw-6 c3"><a href="#">Mike Hardson</a></h2>
+                                            <p class="fw-6">Technician</p>
+                                        </div><!-- /.member-info -->
+                                    </figcaption>
+                                </figure>
+                            </div><!-- /.member-card -->
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-md-4">
+                            <div class="member-card bg-white">
+                                <figure>
+                                    <div class="text-md-right text-center">
+                                        <img src="<?php echo base_url(); ?>assets/landing/img/team-1-3.jpg" alt="Team Member">
+                                    </div>
+                                    <figcaption>
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                                        </ul>
+                                        <div class="member-info f1">
+                                            <h2 class="fw-6 c3"><a href="#">Mike Hardson</a></h2>
+                                            <p class="fw-6">Technician</p>
+                                        </div><!-- /.member-info -->
+                                    </figcaption>
+                                </figure>
+                            </div><!-- /.member-card -->
+                        </div><!-- /.col-lg-4 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.sec-team -->
+            <div class="skills">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 order-xl-1 order-2">
+                            <div class="skill-area f1 mt-xl-0 mt-3">
+                                <p class="fw-4">A Regular service is very important for you and your caravan. Have your
+                                    caravan professionally and regularly serviced by caravan repair service centre and
+                                    take the hassle away for your next journey.</p>
+
+                                <div class="skill-block">
+                                    <h3>Repairing</h3>
+                                    <div class="progress">
+                                        <span>93%</span>
+                                        <div class="progress-bar" data-wow-delay=".2s" role="progressbar" style="width: 93%"
+                                            aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div><!-- /.skill-block -->
+                                <div class="skill-block">
+                                    <h3>Servicing</h3>
+                                    <div class="progress">
+                                        <span>62%</span>
+                                        <div class="progress-bar" data-wow-delay=".2s" role="progressbar" style="width: 62%"
+                                            aria-valuenow="62" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div><!-- /.skill-block -->
+                                <div class="skill-block">
+                                    <h3>Parts</h3>
+                                    <div class="progress">
+                                        <span>30%</span>
+                                        <div class="progress-bar" data-wow-delay=".2s" role="progressbar" style="width: 30%"
+                                            aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div><!-- /.skill-block -->
+                            </div><!-- /.skill-area -->
+                        </div><!-- /.col-lg-5 -->
+                        <div class="col-xl-7 order-xl-2 order-1 text-xl-left text-center">
+                            <figure>
+                                <img src="<?php echo base_url(); ?>assets/landing/img/progress-1-1.jpg" alt="Skills">
+                            </figure>
+                        </div><!-- /.col-lg-7 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.skills -->
+            <div class="towit">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="thm-header text-center">
+                                <p class="pb-10">caravan workshop</p>
+                                <h1 class="c3">Tow it, We Can Fix it</h1>
+                            </div><!-- /.thm-header -->
+                        </div><!-- /.col-12 -->
+                        <div class="pointers f1 col-12">
+                            <figure>
+                                <img src="<?php echo base_url(); ?>assets/landing/img/pointers.jpg" alt="Pointers">
+                                <figcaption>
+
+                                    <div class="dropdown pointer-block">
+                                        <button class="pointSingle dropdown-toggle" type="button" id="point1"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                                        <div class="dropdown-menu bg1 text-white" aria-labelledby="point1">
+                                            <i class="carevan-icon-car-parts"></i>
+                                            <h2>Custom modification</h2>
+                                            <p class="fw-6">Need something changed or is there something not quite
+                                                working the way you envisaged?</p>
+                                        </div>
+                                    </div><!-- /.pointer-block -->
+
+                                    <div class="dropdown pointer-block">
+                                        <button class="pointSingle dropdown-toggle" type="button" id="point2"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                                        <div class="dropdown-menu bg1 text-white" aria-labelledby="point2">
+                                            <i class="carevan-icon-car-parts"></i>
+                                            <h2>Custom modification</h2>
+                                            <p class="fw-6">Need something changed or is there something not quite
+                                                working the way you envisaged?</p>
+                                        </div>
+                                    </div><!-- /.pointer-block -->
+
+                                    <div class="dropdown pointer-block">
+                                        <button class="pointSingle dropdown-toggle" type="button" id="point3"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                                        <div class="dropdown-menu bg1 text-white" aria-labelledby="point3">
+                                            <i class="carevan-icon-car-parts"></i>
+                                            <h2>Custom modification</h2>
+                                            <p class="fw-6">Need something changed or is there something not quite
+                                                working the way you envisaged?</p>
+                                        </div>
+                                    </div><!-- /.pointer-block -->
+
+                                    <div class="dropdown pointer-block">
+                                        <button class="pointSingle dropdown-toggle" type="button" id="point4"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                                        <div class="dropdown-menu bg1 text-white" aria-labelledby="point4">
+                                            <i class="carevan-icon-car-parts"></i>
+                                            <h2>Custom modification</h2>
+                                            <p class="fw-6">Need something changed or is there something not quite
+                                                working the way you envisaged?</p>
+                                        </div>
+                                    </div><!-- /.pointer-block -->
+
+                                    <div class="dropdown pointer-block">
+                                        <button class="pointSingle dropdown-toggle" type="button" id="point5"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                                        <div class="dropdown-menu bg1 text-white" aria-labelledby="point5">
+                                            <i class="carevan-icon-car-parts"></i>
+                                            <h2>Custom modification</h2>
+                                            <p class="fw-6">Need something changed or is there something not quite
+                                                working the way you envisaged?</p>
+                                        </div>
+                                    </div><!-- /.pointer-block -->
+
+                                    <div class="dropdown pointer-block">
+                                        <button class="pointSingle dropdown-toggle" type="button" id="point6"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                                        <div class="dropdown-menu bg1 text-white" aria-labelledby="point6">
+                                            <i class="carevan-icon-car-parts"></i>
+                                            <h2>Custom modification</h2>
+                                            <p class="fw-6">Need something changed or is there something not quite
+                                                working the way you envisaged?</p>
+                                        </div>
+                                    </div><!-- /.pointer-block -->
+
+                                </figcaption>
+                            </figure>
+                        </div><!-- /.pointers -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.towit -->
+            <div class="partners bg4">
+                <div class="container">
+                    <div class="partner-carousel owl-carousel">
+                        <a href="#"><img src="<?php echo base_url(); ?>assets/landing/img/partners/01.png" alt="Partners"></a>
+                        <a href="#"><img src="<?php echo base_url(); ?>assets/landing/img/partners/01.png" alt="Partners"></a>
+                        <a href="#"><img src="<?php echo base_url(); ?>assets/landing/img/partners/01.png" alt="Partners"></a>
+                        <a href="#"><img src="<?php echo base_url(); ?>assets/landing/img/partners/01.png" alt="Partners"></a>
+                        <a href="#"><img src="<?php echo base_url(); ?>assets/landing/img/partners/01.png" alt="Partners"></a>
+                    </div><!-- /.partner-carousel -->
+                </div><!-- /.container -->
+            </div><!-- /.partners -->
+        </div><!-- /.about-page -->
 	<?php $this->load->view("landing/components/footer"); ?>
-	<div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
 	<?php $this->load->view("landing/components/bottom"); ?>

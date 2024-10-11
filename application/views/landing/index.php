@@ -1,488 +1,434 @@
 <?php $this->load->view("landing/components/header"); ?>
 
-<section class="home-section home-full-height bg-dark-30" id="home"
-	data-background="<?php echo base_url(); ?>assets/landing/assets/images/new/1.jpeg">
-	<!-- <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=bNucJgetMjE', containment:'.home-section', startAt:18, mute:false, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
-        <div class="video-controls-box">
-          <div class="container">
-            <div class="video-controls"><a class="fa fa-volume-up" id="video-volume" href="#">&nbsp;</a><a class="fa fa-pause" id="video-play" href="#">&nbsp;</a></div>
-          </div>
-        </div> -->
-	<!-- <div class="titan-caption">
-		<div class="caption-content">
-			<div class="font-alt mb-30 titan-title-size-1">Hello &amp; welcome</div>
-			<div class="font-alt mb-40 titan-title-size-4">We are Majestic</div><a
-				class="section-scroll btn btn-border-w btn-round" href="#about">Learn More</a>
-		</div>
-	</div> -->
-</section>
-<div class="main">
-	<section class="module" id="story">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3">
-					<h2 class="module-title font-alt">Our Story </h2>
-					<div class="module-subtitle font-serif">Founded by Mr Abdulla Butty Salem mousa al qubaisi, MAJESTIC embarked
-						on a journey to redefine manufacturing standards. From our beginnings as a small workshop, local enterprise,
-						we have grown into a leading manufacturer renowned for our commitment to quality and customer satisfaction.
-
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 col-md-3 col-lg-3">
-					<div class="alt-features-item">
-						<div class="alt-features-icon"><span class="icon-tools-2"></span></div>
-						<h3 class="alt-features-title font-alt">Expert Craftsmanship</h3>Our skilled team employs advanced
-						techniques and strict quality control to deliver exceptional results
-					</div>
-					<div class="alt-features-item">
-						<div class="alt-features-icon"><span class="icon-target"></span></div>
-						<h3 class="alt-features-title font-alt">Customer-Centric Approach</h3>We are committed to providing
-						outstanding service from the initial consultation through to project completion and support.
-					</div>
-					<div class="alt-features-item">
-						<div class="alt-features-icon"><span class="icon-tools"></span></div>
-						<h3 class="alt-features-title font-alt">Innovative Design</h3>Our products are crafted using the latest
-						technologies and design trends, ensuring they meet both functional and aesthetic needs.
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
-					<div class="alt-services-image align-center"><img
-							src="<?php echo base_url(); ?>assets/landing/assets/images/new/about.png" alt="Feature Image"></div>
-				</div>
-				<div class="col-sm-6 col-md-3 col-lg-3">
-					<div class="alt-features-item">
-						<div class="alt-features-icon"><span class="icon-camera"></span></div>
-						<h3 class="alt-features-title font-alt">Custom Fabrication</h3>Our expertise in steel and aluminum work
-						allows us to deliver tailored solutions that meet specific project requirements.
-					</div>
-					<div class="alt-features-item">
-						<div class="alt-features-icon"><span class="icon-linegraph"></span></div>
-						<h3 class="alt-features-title font-alt">High-Quality Materials</h3>We use premium materials to ensure
-						durability and long-lasting performance across all our products.
-
-					</div>
-					<div class="alt-features-item">
-						<div class="alt-features-icon"><span class="icon-basket"></span></div>
-						<h3 class="alt-features-title font-alt">Comprehensive Product Range</h3>We offer a broad selection of
-						products, from outdoor shading solutions and mobile homes to structural projects and custom metalwork.
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-
-	<!-- <section class="module bg-dark-60"
-		data-background="<?php echo base_url(); ?>assets/landing/assets/images/section-6.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="video-box">
-						<div class="video-box-icon"><a class="video-pop-up" href="https://www.youtube.com/watch?v=TTxZj3DZiIM"><span
-									class="icon-video"></span></a></div>
-						<div class="video-title font-alt">Presentation</div>
-						<div class="video-subtitle font-alt">Watch the video about our new products</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-
-	<!-- Mission and Vission -->
-	<section class="module pb-0">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 module-title font-alt">Our Mission
-					<img src="<?php echo base_url(); ?>assets/landing/assets/images/favicons/next.png" width="100" height="50" />
-				</div>
-				<div class="col-md-6 alt-features-title font-alt">
-					Our mission is to exceed customer expectations by providing superior products and services. We are dedicated
-					to blending innovation, high-quality materials, and expert craftsmanship to create solutions that are both
-					functional and aesthetically pleasing.
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6 col-12 order-1 order-md-2 module-title font-alt">
-					<img src="<?php echo base_url(); ?>assets/landing/assets/images/favicons/next.png" width="100" height="50" />
-					Our Vision
-				</div>
-				<div class="col-md-6 col-12 order-2 order-md-1 alt-features-title font-alt">
-					Looking to the future, we strive to continue leading the industry with innovative solutions and unparalleled
-					service.
-					We are committed to expanding our capabilities and product offerings to better meet the evolving needs of our
-					customers and the market.
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-	<section class="module pb-0" id="products">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3">
-					<h2 class="module-title font-alt">Our Products</h2>
-					<div class="module-subtitle font-serif"></div>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<ul class="works-grid works-grid-gut works-grid-3 works-hover-w">
-					<?php foreach ($products as $product): ?>
-					<li class="work-item illustration webdesign">
-						<a href="portfolio_single_featured_image<?= $product['id']; ?>.html">
-							<div class="work-image">
-								<img src="<?= base_url('' . $product['image']); ?>" alt="<?= $product['title']; ?>" />
-							</div>
-							<div class="work-caption font-alt">
-								<h3 class="work-title">
-									<?= $product['title']; ?>
-								</h3> <!-- Product name -->
-							</div>
-						</a>
-					</li>
-					<?php endforeach; ?>
-				</ul>
-			</div>
-		</div>
-		<div class="row bg-dark" style="padding-top: 2rem;">
-			<div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
-				<div class="callout-text font-alt">
-					<h3 class="callout-title bg-dark">Want to see more products?</h3>
-					<p>We are always open to interesting projects.</p>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-2">
-				<div class="callout-btn-box">
-					<a class="btn btn-w btn-round" href="<?= base_url() . 'products' ?>">Let's view products</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-	<!-- <section class="module-small bg-dark"> -->
-
-
-	<section class="module" id="services">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3">
-					<h2 class="module-title font-alt">Our Services</h2>
-					<div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like
-						these sweet mornings of spring which I enjoy with my whole heart.</div>
-				</div>
-			</div>
-			<div class="row multi-columns-row">
-				<?php foreach ($services as $service): ?>
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="features-item">
-						<!-- <div class="features-icon"><span class="icon-lightbulb"></span></div> -->
-						<h3 class="features-title font-alt">
-							<?= $service['title']; ?>
-						</h3>
-						<p>
-							<?= $service['content']; ?>
-						</p>
-					</div>
-				</div>
-				<?php endforeach; ?>
-			</div>
-		</div>
-	</section>
-
-	<section class="module pb-0" id="projects">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3">
-					<h2 class="module-title font-alt">Our Works</h2>
-					<div class="module-subtitle font-serif"></div>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-				</div>
-			</div>
-		</div>
-		<ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
-			<?php foreach ($projects as $project): ?>
-			<li class="work-item illustration webdesign">
-				<a href="portfolio_single_featured_image<?= $project['id']; ?>.html">
-					<div class="work-image">
-						<img src="<?= base_url('' . $project['image']); ?>" alt="<?= $project['title']; ?>" />
-					</div>
-					<div class="work-caption font-alt">
-						<h3 class="work-title">
-							<?= $project['title']; ?>
-						</h3> <!-- Product name -->
-					</div>
-				</a>
-			</li>
-			<?php endforeach; ?>
-		</ul>
-	</section>
-
-	<section class="module-small bg-dark">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
-					<div class="callout-text font-alt">
-						<h3 class="callout-title">Want to see more works?</h3>
-						<p>We are always open to interesting projects.</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4 col-lg-2">
-					<div class="callout-btn-box"><a class="btn btn-w btn-round" href="<?= base_url() . 'projects' ?>">Lets view
-							portfolio</a></div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- <hr class="divider-w">
-	<section class="module" id="team">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3">
-					<h2 class="module-title font-alt">Meet Our Team</h2>
-					<div class="module-subtitle font-serif">
-						Our team comprises experienced professionals who are passionate about manufacturing excellence. With a
-						diverse range of skills and a commitment to quality,
-						we work collaboratively to bring your vision to life and achieve superior results.
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-					<div class="team-item">
-						<div class="team-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/team-1.jpg"
-								alt="Member Photo" />
-							<div class="team-detail">
-								<h5 class="font-alt">Hi all</h5>
-								<p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis
-									diam.</p>
-								<div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-											class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i
-											class="fa fa-skype"></i></a></div>
-							</div>
-						</div>
-						<div class="team-descr font-alt">
-							<div class="team-name">Jim Stone</div>
-							<div class="team-role">Art Director</div>
-						</div>
-					</div>
-				</div>
-				<div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-					<div class="team-item">
-						<div class="team-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/team-2.jpg"
-								alt="Member Photo" />
-							<div class="team-detail">
-								<h5 class="font-alt">Good day</h5>
-								<p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis
-									diam.</p>
-								<div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-											class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i
-											class="fa fa-skype"></i></a></div>
-							</div>
-						</div>
-						<div class="team-descr font-alt">
-							<div class="team-name">Andy River</div>
-							<div class="team-role">Creative director</div>
-						</div>
-					</div>
-				</div>
-				<div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-					<div class="team-item">
-						<div class="team-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/team-3.jpg"
-								alt="Member Photo" />
-							<div class="team-detail">
-								<h5 class="font-alt">Hello</h5>
-								<p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis
-									diam.</p>
-								<div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-											class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i
-											class="fa fa-skype"></i></a></div>
-							</div>
-						</div>
-						<div class="team-descr font-alt">
-							<div class="team-name">Adele Snow</div>
-							<div class="team-role">Account manager</div>
-						</div>
-					</div>
-				</div>
-				<div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-					<div class="team-item">
-						<div class="team-image"><img src="<?php echo base_url(); ?>assets/landing/assets/images/team-4.jpg"
-								alt="Member Photo" />
-							<div class="team-detail">
-								<h5 class="font-alt">Yes, it's me</h5>
-								<p class="font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&amp;nbsp;iaculis
-									diam.</p>
-								<div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-											class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i
-											class="fa fa-skype"></i></a></div>
-							</div>
-						</div>
-						<div class="team-descr font-alt">
-							<div class="team-name">Dylan Woods</div>
-							<div class="team-role">Developer</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<section id="clients" class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial"
-		data-background="<?php echo base_url(); ?>assets/landing/assets/images/new/2.jpeg">
-		<div class="testimonials-slider pt-140 pb-140">
-			<ul class="slides">
-				<li>
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12">
-								<div class="module-icon"><span class="icon-quote"></span></div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8 col-sm-offset-2">
-								<blockquote class="testimonial-text font-alt">I am alone, and feel the charm of existence in this spot,
-									which was created for the bliss of souls like mine.</blockquote>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-4 col-sm-offset-4">
-								<div class="testimonial-author">
-									<div class="testimonial-caption font-alt">
-										<div class="testimonial-title">Jack Woods</div>
-										<div class="testimonial-descr">SomeCompany INC, CEO</div>
-									</div>
+<div id="minimal-bootstrap-carousel" class="carousel slide carousel-fade slider-content-style-one slider-home-one">
+			<ol class="carousel-indicators">
+				<li data-target="#minimal-bootstrap-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#minimal-bootstrap-carousel" data-slide-to="1"></li>
+				<li data-target="#minimal-bootstrap-carousel" data-slide-to="2"></li>
+			</ol>
+	
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="carousel-item active slide-1" style="background-image: url(img/bg/01.jpg);background-position: center left;">
+					<div class="carousel-caption">
+						<div class="container">
+							<div class="box valign-middle">
+								<div class="content text-center">
+									<p data-animation="animated fadeInUp " class="tag-line animDe-1"><span class="text-uppercase f1 fw-8">guaranteed work on all repairs</span></p>
+		                            <h2 data-animation="animated fadeInUp " class="animDe-2">Welcome to Caravan</h2>
+		                            <h2 data-animation="animated fadeInUp " class="animDe-3">Repairs Services</h2>
+		                            <a href="service.html" data-animation="animated fadeInUp " class="bg1 text-white banner-btn animDe-4">our services</a>
 								</div>
 							</div>
 						</div>
 					</div>
-				</li>
-				<li>
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12">
-								<div class="module-icon"><span class="icon-quote"></span></div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8 col-sm-offset-2">
-								<blockquote class="testimonial-text font-alt">I should be incapable of drawing a single stroke at the
-									present moment; and yet I feel that I never was a greater artist than now.</blockquote>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-4 col-sm-offset-4">
-								<div class="testimonial-author">
-									<div class="testimonial-caption font-alt">
-										<div class="testimonial-title">Jim Stone</div>
-										<div class="testimonial-descr">SomeCompany INC, CEO</div>
-									</div>
+				</div>
+				<div class="carousel-item slide-2" style="background-image: url(img/bg/02.jpg);background-position: top center;">
+					<div class="carousel-caption">
+						<div class="container">
+							<div class="box valign-middle">
+								<div class="content text-center">
+									<div data-animation="animated fadeInUp " class="animDe-1 d-flex justify-content-center align-items-center mx-auto icon-box">
+		                                <i class="carevan-icon-caravan"></i>
+		                            </div>
+		                            <h2 data-animation="animated fadeInUp " class="animDe-2">Qualified & Certified</h2>
+		                            <h2 data-animation="animated fadeInUp" class=" animDe-3">Repairs Service</h2>
+		                            <a href="contact.html" data-animation="animated fadeInUp " class="animDe-4 bg1 text-white banner-btn">contact us</a>
 								</div>
 							</div>
 						</div>
 					</div>
-				</li>
-				<li>
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12">
-								<div class="module-icon"><span class="icon-quote"></span></div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8 col-sm-offset-2">
-								<blockquote class="testimonial-text font-alt">I am so happy, my dear friend, so absorbed in the
-									exquisite sense of mere tranquil existence, that I neglect my talents.</blockquote>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-4 col-sm-offset-4">
-								<div class="testimonial-author">
-									<div class="testimonial-caption font-alt">
-										<div class="testimonial-title">Adele Snow</div>
-										<div class="testimonial-descr">SomeCompany INC, CEO</div>
-									</div>
+				</div>
+				<div class="carousel-item slide-3" style="background-image: url(img/bg/03.jpg);background-position: top center;">
+					<div class="carousel-caption">
+						<div class="container">
+							<div class="box valign-middle">
+								<div class="content text-center">
+									<h2 data-animation="animated fadeInUp " class="animDe-1">Total Care For Your</h2>
+		                            <h2 data-animation="animated fadeInUp " class="animDe-2">Caravan Or Motorhome</h2>
+		                            <p data-animation="animated fadeInUp " class="animDe-3">We pride ourselves on giving you the best standard of</p>
+									<p data-animation="animated fadeInUp " class="animDe-3">customer Service and quality Repairs.</p>
+									<div class="banner-btn-box">
+		                            	<a href="contact.html" data-animation="animated fadeInUp " class="animDe-4 bg1 text-white banner-btn">contact us</a>
+										<a href="service.html" data-animation="animated fadeInUp " class="animDe-5 bg2 text-white banner-btn style-two">our services</a>
+									</div><!-- /.banner-btn-box -->
 								</div>
 							</div>
 						</div>
 					</div>
-				</li>
-			</ul>
-		</div>
-	</section>
-	<div class="module-small bg-dark">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
-					<div class="callout-text font-alt">
-						<h3 class="callout-title">Subscribe now</h3>
-						<p>We will not spam your email.</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-6 col-lg-4">
-					<div class="callout-btn-box">
-						<form method="post" action="<?= base_url() ?>home/subscribe_now">
-							<div class="input-group">
-								<input class="form-control" type="email" id="semail" name="email" placeholder="Your Email"
-									data-validation-required-message="Please enter your email address." required="required" /><span
-									class="input-group-btn">
-									<button class="btn btn-g btn-round" id="subscription-form-submit" type="submit">Submit</button></span>
-							</div>
-						</form>
-						<div class="text-center" id="subscription-response"></div>
-					</div>
 				</div>
 			</div>
+			<!-- Controls -->
+			<a class="carousel-control-prev carousel-control-one-prev" href="#minimal-bootstrap-carousel" role="button" data-slide="prev">
+				<i class="fa fa-angle-left"></i>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next carousel-control-one-next" href="#minimal-bootstrap-carousel" role="button" data-slide="next">
+				<i class="fa fa-angle-right"></i>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
-	</div>
-	<section class="module" id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3">
-					<h2 class="module-title font-alt">Get in touch</h2>
-					<div class="module-subtitle font-serif"></div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3">
-					<form id="contactForm" role="form" method="post" action="<?= base_url() ?>home/get_in_touch">
-						<div class="form-group">
-							<label class="sr-only" for="name">Name</label>
-							<input class="form-control" type="text" id="name" name="name" placeholder="Your Name*" required="required"
-								data-validation-required-message="Please enter your name." />
-							<p class="help-block text-danger"></p>
-						</div>
-						<div class="form-group">
-							<label class="sr-only" for="email">Email</label>
-							<input class="form-control" type="email" id="email" name="email" placeholder="Your Email*"
-								required="required" data-validation-required-message="Please enter your email address." />
-							<p class="help-block text-danger"></p>
-						</div>
-						<div class="form-group">
-							<textarea class="form-control" rows="7" id="message" name="message" placeholder="Your Message*"
-								required="required" data-validation-required-message="Please enter your message."></textarea>
-							<p class="help-block text-danger"></p>
-						</div>
-						<div class="text-center">
-							<button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
-						</div>
-					</form>
-					<div class="ajax-response font-alt" id="contactFormResponse"></div>
-				</div>
-			</div>
-		</div>
-	</section>
+        
+		<div class="intro">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 mb-xl-5 text-xl-left text-center">
+						<div class="thm-header">
+							<p class="c1 pb-10">We repair all caravans & Motorhome</p>
+							<h1 class="c3">Book Professional Repairmen in Few Seconds</h1>
+						</div><!-- /.thm-header -->
+					</div><!-- /.col-12 -->
+					<div class="col-xl-6">
+						<figure class="text-xl-left text-center my-xl-0 my-3">
+							<img src="<?php echo base_url(); ?>assets/landing/img/about-1-1.jpg" alt="Intro">
+						</figure>
+					</div><!-- /.col-xl-6 -->
+					<div class="col-xl-6">
+						<section class="pt-xl-0 pt-3">
+							<p>Caravan Repair Service Centre takes pride in all our work, our qualified staff are highly trained in all areas so your piece of mind is assured. We use the latest equipment, genuine parts and quality materials so having your caravan repaired to its original condition is our promise to you.</p>
+
+							<p>A Regular service is very important for you and your caravan. Have your caravan professionally and regularly serviced by Caravan Repair Service Centre and take the hassle away for your next journey.</p>
+						</section>
+						<div class="facts text-white text-xl-left text-center">
+							<div class="d-flex justify-content-between flex-sm-row flex-column">
+								<div class="single-fact">
+									<i class="carevan-icon-caravan"></i>
+									<h1 class="counter">6800</h1>
+									<p class="f1 fw-6">Caravan Repairs</p>
+								</div><!-- /.single-fact -->
+								<div class="single-fact">
+									<i class="carevan-icon-disc-brake"></i>
+									<h1 class="counter">4607</h1>
+									<p class="f1 fw-6">Used Auto Parts</p>
+								</div><!-- /.single-fact -->
+								<div class="single-fact">
+									<i class="carevan-icon-heart"></i>
+									<h1 class="counter">8940</h1>
+									<p class="f1 fw-6">Satisfied Clients</p>
+								</div><!-- /.single-fact -->
+							</div><!-- /.d-flex -->
+						</div><!-- /.facts -->
+					</div><!-- /.col-xl-6 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.intro -->
+
+
+		<div class="sec-service">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="thm-header text-center">
+							<p class="c1 pb-10">wide range of services</p>
+							<h1 class="c3">Our Services</h1>
+						</div><!-- /.thm-header -->
+					</div><!-- /.col-12 -->
+					<div class="service-carousel owl-carousel">
+						<div class="col-lg-4">
+							<div class="service-card">
+								<figure>
+									<a href="single-service.html">
+										<img src="<?php echo base_url(); ?>assets/landing/img/service-1-1.jpg" alt="Service Thumb">
+									</a>
+								</figure>
+								<div class="service-card-body">
+									<h2><a href="single-service.html">General Repairs</a></h2>
+									<p>We are specialized in repairing your caravans. We promise to deliver satisfaction.</p>
+									<a href="single-service.html">read more</a>
+								</div><!-- /.service-card-body -->
+							</div><!-- /.service-card -->
+						</div><!-- /.col-lg-4 -->
+						<div class="col-lg-4">
+							<div class="service-card">
+								<figure>
+									<a href="single-service.html">
+										<img src="<?php echo base_url(); ?>assets/landing/img/service-1-2.jpg" alt="Service Thumb">
+									</a>
+								</figure>
+								<div class="service-card-body">
+									<h2><a href="single-service.html">Insurance Repairs</a></h2>
+									<p>We are specialized in repairing your caravans. We promise to deliver satisfaction.</p>
+									<a href="single-service.html">read more</a>
+								</div><!-- /.service-card-body -->
+							</div><!-- /.service-card -->
+						</div><!-- /.col-lg-4 -->
+						<div class="col-lg-4">
+							<div class="service-card">
+								<figure>
+									<a href="single-service.html">
+										<img src="<?php echo base_url(); ?>assets/landing/img/service-1-3.jpg" alt="Service Thumb">
+									</a>
+								</figure>
+								<div class="service-card-body">
+									<h2><a href="single-service.html">Warranty Repairs</a></h2>
+									<p>We are specialized in repairing your caravans. We promise to deliver satisfaction.</p>
+									<a href="single-service.html">read more</a>
+								</div><!-- /.service-card-body -->
+							</div><!-- /.service-card -->
+						</div><!-- /.col-lg-4 -->
+					</div><!-- /.service-carousel owl-carousel -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.sec-service -->
+
+		<div class="testimony text-white text-center">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12">
+						<div class="thm-header text-center text-white">
+							<p class="pb-10">our feedbacks</p>
+							<h1>What People Say</h1>
+						</div><!-- /.thm-header -->
+					</div><!-- /.col-12 -->
+					<div class="col-xl-8 col-lg-8 col-md-10">
+						<div class="rating-area">
+							<div class="testi-pager d-flex justify-content-center align-items-end mb-55" id="testi-pager">
+					            <a href="#" class="pager-item active" data-slide-index="0">
+					                <div class="testi-thumb">
+					                	<img src="<?php echo base_url(); ?>assets/landing/img/testi-1-1.jpg" alt="rating" title="">
+					                </div>
+					            </a>
+					            <a href="#" class="pager-item" data-slide-index="1">
+					                <div class="testi-thumb">
+					                	<img src="<?php echo base_url(); ?>assets/landing/img/testi-1-2.jpg" alt="rating" title="">
+					                </div>
+					            </a>
+					            <a href="#" class="pager-item" data-slide-index="2">
+					                <div class="testi-thumb">
+					                	<img src="<?php echo base_url(); ?>assets/landing/img/testi-1-3.jpg" alt="rating" title="">
+					                </div>
+					            </a>
+					        </div>
+
+					        <!--Slider-->
+					        <ul class="rating-slider f1">
+					            <li class="slide-item">
+					            	<div class="slide-text">
+						                <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</p>
+						                <h4 class="mt-30">Mike Hardson</h4>
+						                <div class="rating">
+						                    <i class="fa fa-star"></i>
+						                    <i class="fa fa-star"></i>
+						                    <i class="fa fa-star"></i>
+						                    <i class="fa fa-star"></i>
+						                    <i class="fa fa-star-half-o"></i>
+						                </div><!-- /.rating -->
+						            </div>
+						        </li>
+					            <li class="slide-item">
+					            	<div class="slide-text">
+						                <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</p>
+						                <h4 class="mt-30">Mike Hardson</h4>
+						                <div class="rating">
+						                    <i class="fa fa-star"></i>
+						                    <i class="fa fa-star"></i>
+						                    <i class="fa fa-star"></i>
+						                    <i class="fa fa-star"></i>
+						                    <i class="fa fa-star-half-o"></i>
+						                </div><!-- /.rating -->
+						            </div>
+						        </li>
+					            <li class="slide-item">
+					            	<div class="slide-text">
+						                <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</p>
+						                <h4 class="mt-30">Mike Hardson</h4>
+						                <div class="rating">
+						                    <i class="fa fa-star"></i>
+						                    <i class="fa fa-star"></i>
+						                    <i class="fa fa-star"></i>
+						                    <i class="fa fa-star"></i>
+						                    <i class="fa fa-star-half-o"></i>
+						                </div><!-- /.rating -->
+						            </div>
+						        </li>
+					        </ul>
+						</div><!-- /.rating-area -->
+					</div><!-- /.col-xl-6 col-lg-8 col-md-10 offset-xl-3 offset-lg-2 offset-md-1 offset-sm-0 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.testimony -->
+
+		<div class="sec-team text-center">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12">
+						<div class="thm-header text-center">
+							<p class="c1 pb-10">team members</p>
+							<h1 class="c3">Meet Our Experts</h1>
+						</div><!-- /.thm-header -->
+					</div><!-- /.col-12 -->
+					<div class="col-md-4">
+						<div class="member-card bg-white">
+							<figure>
+								<div class="text-md-right text-center">
+									<img src="<?php echo base_url(); ?>assets/landing/img/team-1-1.jpg" alt="Team Member">
+								</div>
+								<figcaption>
+									<ul>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+									</ul>
+									<div class="member-info f1">
+										<h2 class="fw-6 c3"><a href="#">Keri Castilleja</a></h2>
+										<p class="fw-6">Technician</p>
+									</div><!-- /.member-info -->
+								</figcaption>
+							</figure>
+						</div><!-- /.member-card -->
+					</div><!-- /.col-lg-4 -->
+					<div class="col-md-4">
+						<div class="member-card bg-white">
+							<figure>
+								<div class="text-md-right text-center">
+									<img src="<?php echo base_url(); ?>assets/landing/img/team-1-2.jpg" alt="Team Member">
+								</div>
+								<figcaption>
+									<ul>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+									</ul>
+									<div class="member-info f1">
+										<h2 class="fw-6 c3"><a href="#">Joette Bagby</a></h2>
+										<p class="fw-6">Engineer</p>
+									</div><!-- /.member-info -->
+								</figcaption>
+							</figure>
+						</div><!-- /.member-card -->
+					</div><!-- /.col-lg-4 -->
+					<div class="col-md-4">
+						<div class="member-card bg-white">
+							<figure>
+								<div class="text-md-right text-center">
+									<img src="<?php echo base_url(); ?>assets/landing/img/team-1-3.jpg" alt="Team Member">
+								</div>
+								<figcaption>
+									<ul>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+									</ul>
+									<div class="member-info f1">
+										<h2 class="fw-6 c3"><a href="#">Jenette Elizondo</a></h2>
+										<p class="fw-6">Manager</p>
+									</div><!-- /.member-info -->
+								</figcaption>
+							</figure>
+						</div><!-- /.member-card -->
+					</div><!-- /.col-lg-4 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.sec-team -->
+		<div class="whyus f1">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-3">
+						<section>
+							<span>
+								<i class="carevan-icon-handshake"></i>
+							</span>
+							<h2 class="fw-3 c3">Why Choose Carivon</h2>
+							<p class="fw-4">We have staff that care about your second home as much as you do. We can help maintaining your caravan and motorhome to ensure longevity.</p>
+						</section>
+					</div><!-- /.col-xl-3 -->
+					<div class="col-xl-9">
+						<div class="feature-area">
+							<h2 class="fw-3 text-white bg1">Competitive prices and guaranteed work on all repairs.</h2>
+							<figure>
+								<img src="<?php echo base_url(); ?>assets/landing/img/feature-1-1.jpg" alt="Feature">
+							</figure>
+						</div><!-- /.feature-area -->
+					</div><!-- /.col-xl-3 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.whyus -->
+		<div class="sec-blog text-center f1">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="thm-header text-center">
+							<p class="c1 pb-10">articles and posts</p>
+							<h1 class="c3">Latest News</h1>
+						</div><!-- /.thm-header -->
+					</div><!-- /.col-12 -->
+					<div class="col-md-6">
+						<div class="blog-card">
+							<figure>
+								<a href="single-news.html">
+									<img src="<?php echo base_url(); ?>assets/landing/img/blog-1-1.jpg" alt="Blog Thumb">
+								</a>
+								<figcaption>
+									<span>18</span>
+									<span>SEP</span>
+									<span>2019</span>
+								</figcaption>
+							</figure>
+							<div class="blog-card-body">
+								<h2><a href="single-news.html">Custom modification & fabrications</a></h2>
+								<p>Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? </p>
+								<a href="single-news.html">Read More</a>
+							</div><!-- /.blog-card-body -->
+						</div><!-- /.blog-card -->
+					</div><!-- /.col-md-6 -->
+					<div class="col-md-6">
+						<div class="blog-card">
+							<figure>
+								<a href="single-news.html">
+									<img src="<?php echo base_url(); ?>assets/landing/img/blog-1-2.jpg" alt="Blog Thumb">
+								</a>
+								<figcaption>
+									<span>12</span>
+									<span>SEP</span>
+									<span>2019</span>
+								</figcaption>
+							</figure>
+							<div class="blog-card-body">
+								<h2><a href="single-news.html">A dedicated caravan and motorhome service</a></h2>
+								<p>Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? </p>
+								<a href="single-news.html">Read More</a>
+							</div><!-- /.blog-card-body -->
+						</div><!-- /.blog-card -->
+					</div><!-- /.col-md-6 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.sec-blog -->
+		<div class="process text-center f1">
+			<div class="container">
+				<div class="row justify-content-center flex-md-row flex-column no-gutters">
+					<div class="col-12">
+						<div class="thm-header text-center">
+							<p class="c1 pb-10">Insurance Repair</p>
+							<h1 class="c3">In 3 Easy Steps</h1>
+						</div><!-- /.thm-header -->
+					</div><!-- /.col-12 -->
+					<div class="col-lg-4">
+						<div class="process-single">
+							<h1 class="f3 c1">01</h1>
+							<h2 class="f1 fw-4 c3">Claim Number</h2>
+							<p class="f1 fw-6">Contact your Insurance company to make a claim and get your claim number</p>
+						</div><!-- /.process-single -->
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4">
+						<div class="process-single">
+							<h1 class="f3 c1">02</h1>
+							<h2 class="f1 fw-4 c3">Get a Quote</h2>
+							<p class="f1 fw-6">Contact us for a Free Quote Today and We will take care of the rest for you</p>
+						</div><!-- /.process-single -->
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4">
+						<div class="process-single">
+							<h1 class="f3 c1">03</h1>
+							<h2 class="f1 fw-4 c3">Fixing Caravan</h2>
+							<p class="f1 fw-6">Let us take care of your claim and Keep it stress free. You'll be back on the road in no time</p>
+						</div><!-- /.process-single -->
+					</div><!-- /.col-lg-4 -->
+					<div class="col-xl-12 col-lg-8 px-0">
+						<p class="block-text">Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc <br> amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci. <br> Lorem ipsum dolor sit amet elit magnis.</p>
+					</div><!-- /.col-xl-6.col-lg-8 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.process -->    
 
 	<?php $this->load->view("landing/components/footer"); ?>
 	<div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>

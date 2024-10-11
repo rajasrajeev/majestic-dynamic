@@ -1,25 +1,19 @@
-</main>
-    <div class="whatsapp social_box">
-      <a href="https://wa.me/971561011153?text=Hai,%20I%20would%20like%20to%20know%20more%20about%20Majestic" target='_blank'>
-        <i class="fa fa-whatsapp" aria-hidden="true"></i>
-      </a>
-    </div>
-    <!--  
-    JavaScripts
-    =============================================
-    -->
-    <script src="<?php echo base_url(); ?>assets/landing/assets/lib/jquery/dist/jquery.js"></script>
-    <script src="<?php echo base_url(); ?>assets/landing/assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/landing/assets/lib/wow/dist/wow.js"></script>
-    <script src="<?php echo base_url(); ?>assets/landing/assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
-    <script src="<?php echo base_url(); ?>assets/landing/assets/lib/isotope/dist/isotope.pkgd.js"></script>
-    <script src="<?php echo base_url(); ?>assets/landing/assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
-    <script src="<?php echo base_url(); ?>assets/landing/assets/lib/flexslider/jquery.flexslider.js"></script>
-    <script src="<?php echo base_url(); ?>assets/landing/assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/landing/assets/lib/smoothscroll.js"></script>
-    <script src="<?php echo base_url(); ?>assets/landing/assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
-    <script src="<?php echo base_url(); ?>assets/landing/assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/landing/assets/js/plugins.js"></script>
-    <script src="<?php echo base_url(); ?>assets/landing/assets/js/main.js"></script>
-  </body>
+<!-- <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-long-arrow-up"></i></a> -->
+    <!-- /.scroll-to-top -->
+
+    <script src="<?php echo base_url(); ?>assets/landing/js/jquery.js"></script>
+    <script src="<?php echo base_url(); ?>assets/landing/https://maps.googleapis.com/maps/api/js?key=AIzaSyBurXgYMavDEzEDzGs8Pq-TZVamhF2aZoE"></script>
+    <script src="<?php echo base_url(); ?>assets/landing/js/gmaps.js"></script>
+    <script src="<?php echo base_url(); ?>assets/landing/js/map-helper.js"></script>
+    <script src="<?php echo base_url(); ?>assets/landing/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/landing/js/jquery.magnific-popup.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/landing/js/owl.carousel.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/landing/js/isotope.js"></script>
+    <script src="<?php echo base_url(); ?>assets/landing/js/bootstrap-select.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/landing/js/waypoints.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/landing/js/jquery.bxslider.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/landing/js/jquery.counterup.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/landing/js/wow.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/landing/js/theme.js"></script>
+    </body>
 </html>

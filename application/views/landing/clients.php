@@ -1,34 +1,29 @@
-<?php $this->load->view("landing/components/header"); ?>
-<div class="main">
-	<section class="module bg-dark-60 shop-page-header" data-background="assets/images/shop/product-page-bg.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3">
-					<h2 class="module-title font-alt">Our Gallery</h2>
-					<div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul,
-						like these sweet mornings of spring which I enjoy with my whole heart.</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	<?php $this->load->view("landing/components/header"); ?>
+	<div class="op-header">
+            <div class="thm-header text-center">
+                <ul class="pb-10">
+                    <li><a href="#" class="c1">Home</a></li>
+                    <li class="c1">Clients</li>
+                </ul>
+                <h1 class="c3">Our Clients</h1>
+            </div><!-- /.thm-header -->
+        </div><!-- /.op-header -->
 
-	<hr class="divider-w">
-	<section class="module-small">
-		<div class="container">
-			<div class="row multi-columns-row">
+        <div class="service">
+            <div class="container">
+                <div class="row">
 				<?php foreach ($clients as $product): ?>
-					<div class="col-sm-6 col-md-3 col-lg-3">
-						<div class="gallery-item">
-						<div class="gallery-image"><a class="gallery" href="<?= base_url('' . $product['image']); ?>" title="Title 1"><img src="<?= base_url('' . $product['image']); ?>" alt="Gallery Image 1"/>
-							<div class="gallery-caption">
-								<div class="gallery-icon"><span class="icon-magnifying-glass"></span></div>
-							</div></a></div>
-						</div>
-					</div>
+					<div class="col-lg-4 col-md-6">
+                        <div class="service-card">
+                            <figure>
+                                <img src="<?= base_url('' . $product['image']); ?>" alt="Gallery Thumb">
+                            </figure>
+                        </div><!-- /.service-card -->
+                    </div><!-- /.col-lg-4 -->
 				<?php endforeach; ?>
-			</div>
-		</div>
-	</section>
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.service -->
+	
 	<?php $this->load->view("landing/components/footer"); ?>
-	<div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
 	<?php $this->load->view("landing/components/bottom"); ?>
