@@ -6,9 +6,9 @@
 					<div class="row justify-content-center footerMiddle">
 						<div class="col-lg-3 col-md-6">
 							<div class="footer-col">
-								<a href="#" style="display: flex;height: 35px;">
-									<img src="<?php echo base_url(); ?>assets/images/logo_icon.jpg" alt="Logo">
-									<img src="<?php echo base_url(); ?>assets/images/logo_text.jpg" alt="Logo">
+								<a href="#" style="display: flex;height: 4rem;">
+									<img src="<?php echo base_url(); ?>assets/images/majestic_logo.png" alt="Logo">
+									<!-- <img src="<?php echo base_url(); ?>assets/images/logo_text.jpg" alt="Logo"> -->
 								</a>
 								<p class="f1 fw-6 text-white">We pride ourselves on giving you the best quality Service and Repairs. After 30 years experience in the caravan industry.</p>
 							</div><!-- /.footer-cl -->
@@ -29,25 +29,31 @@
 							<div class="footer-col">
 								<h2>services</h2>
 								<ul>
-									<li><a href="single-service.html">General repairs</a></li>
-									<li><a href="single-service.html">Insurance repairs</a></li>
-									<li><a href="single-service.html">Warranty repairs</a></li>
-									<li><a href="single-service.html">Installation & Modifications</a></li>
-									<li><a href="single-service.html">Servicing & Maintenance</a></li>
+									<li><a href="single-service.html">Shades and Canopies</a></li>
+									<li><a href="single-service.html">Caravans</a></li>
+									<li><a href="single-service.html">Hangars</a></li>
+									<li><a href="single-service.html">Steel Structures</a></li>
+									<li><a href="single-service.html">Doors and Gates</a></li>
+									<li><a href="single-service.html">Car Parking Shades</a></li>
+									<li><a href="single-service.html">Panel Work</a></li>
+									<li><a href="single-service.html">Steel and Aluminum Work</a></li>
 								</ul>
 							</div><!-- /.footer-col -->
 						</div><!-- /.col-xl-3 -->
 						<div class="col-lg-3 col-md-6">
 							<div class="footer-col">
 								<h2>contact</h2>
-								<h4>855 Road Broklyn Street, 600
-								<br />New York, USA</h4>
+								<h4>Industrial Area-Zayed City – Al Dhafra Region - <br />Abu Dhabi- <br />UAE
+								</h4>
 								<ul>
 									<li>
-										<span><i class="fa fa-envelope c1"></i>needhelp@Carivon.com</span>
+										<span><i class="fa fa-envelope c1"></i>info@majesticuae.ae</span>
+										<span><i class="fa fa-envelope c1"></i> majestictrailer@gmail.com</span>
 									</li>
 									<li>
-										<span><i class="fa fa-phone-square c1"></i>666 888 0000</span>
+										<span><i class="fa fa-phone-square c1"></i>+971563337317</span>
+										<span><i class="fa fa-phone-square c1"></i>+971561011153</span>
+										<span><i class="fa fa-phone-square c1"></i>+971561260004</span>
 									</li>
 								</ul>
 							</div><!-- /.footer-col -->
@@ -65,7 +71,7 @@
 							<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
 							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 						</ul>
-						<p>© copyright 2019 by Layerdrops.com</p>
+						<p>© copyright 2024 by <a href="codsynapse.com" target="_blank">Codsynapse.com </a></p>
 					</div><!-- /.row -->
 				</div><!-- /.container -->
 			</div><!-- /.footer-bottom -->

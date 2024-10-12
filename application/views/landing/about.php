@@ -17,28 +17,47 @@
                             <figure>
                                 <img src="<?php echo base_url(); ?>assets/landing/img/about-3-1.jpg" alt="About us">
                                 <figcaption>
-                                    <p class="f1 fw-3">Caravan Repair Service Centre takes pride in all our work, our
-                                        qualified staff are highly trained in all areas so your piece of mind is
-                                        assured. We use the latest equipment, genuine parts and quality materials so
-                                        having your caravan repaired to its original condition is our promise to you.</p>
+                                    <p class="f1 fw-3">
+                                    Welcome to MAJESTIC, where quality meets innovation in the realm of manufacturing. Since 2006, we have been committed to delivering exceptional products across a diverse range of categories, including shades, 
+                                    canopies, caravans, hangars, steel structures, doors and gates, car parking shades, panel work, and comprehensive steel and aluminum solutions.
+                                </p>
                                 </figcaption>
                             </figure>
                         </header>
                     </div><!-- /.col-12 -->
                 </div><!-- /.row -->
+                <div class="row mb-4">
+                <div class="col-md-6">
+                <h1>Our mission</h1>
+                <p>
+                Our mission is to exceed customer expectations by providing superior products and services. We are dedicated to blending innovation, high-quality materials, and expert craftsmanship to create solutions that are both functional and aesthetically pleasing.
+
+                </p>
+                </div>
+                <div  class="col-md-6">
+                <h1>Our Vision
+                </h1>
+                <p>
+                Looking to the future, we strive to continue leading the industry with innovative solutions and unparalleled service. We are committed to expanding our capabilities and product offerings to better meet the evolving needs of our customers and the market.
+
+                </p>
+                </div>
+                </div>
+                
+                
             </div><!-- /.container -->
-            <div class="faqs">
+            <!-- <div class="faqs">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="thm-header text-center">
                                 <p class="c1 pb-10">faqs</p>
                                 <h1 class="c3">Questions Answers</h1>
-                            </div><!-- /.thm-header -->
-                        </div><!-- /.col-12 -->
+                            </div>
+                        </div>
                         <div class="col-xl-6 text-xl-left text-center mb-xl-0 mb-3">
                             <img src="img/faq-1-1.jpg" alt="Frequently Asked Questions">
-                        </div><!-- /.col-lg-6 -->
+                        </div>
                         <div class="col-xl-6">
                             <div class="accordion faq-blocks f1" id="FAQs">
                                 <div class="card border-0">
@@ -57,7 +76,7 @@
                                                 has been the industrys standard dummy.</p>
                                         </div>
                                     </div>
-                                </div><!-- /.card -->
+                                </div>
                                 <div class="card border-0">
                                     <div class="card-header border-0" id="faqh-2">
                                         <h2>
@@ -74,7 +93,7 @@
                                                 has been the industrys standard dummy.</p>
                                         </div>
                                     </div>
-                                </div><!-- /.card -->
+                                </div>
                                 <div class="card border-0">
                                     <div class="card-header border-0" id="faqh-3">
                                         <h2>
@@ -91,7 +110,7 @@
                                                 has been the industrys standard dummy.</p>
                                         </div>
                                     </div>
-                                </div><!-- /.card -->
+                                </div>
                                 <div class="card border-0">
                                     <div class="card-header border-0" id="faqh-4">
                                         <h2>
@@ -110,10 +129,11 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!-- /.col-lg-6 -->
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </div><!-- /.faqs -->
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- /.faqs -->
             <div class="testimony text-white text-center">
                 <div class="container">
                     <div class="row justify-content-center">
@@ -265,135 +285,9 @@
                     </div><!-- /.row -->
                 </div><!-- /.container -->
             </div><!-- /.sec-team -->
-            <div class="skills">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-5 order-xl-1 order-2">
-                            <div class="skill-area f1 mt-xl-0 mt-3">
-                                <p class="fw-4">A Regular service is very important for you and your caravan. Have your
-                                    caravan professionally and regularly serviced by caravan repair service centre and
-                                    take the hassle away for your next journey.</p>
 
-                                <div class="skill-block">
-                                    <h3>Repairing</h3>
-                                    <div class="progress">
-                                        <span>93%</span>
-                                        <div class="progress-bar" data-wow-delay=".2s" role="progressbar" style="width: 93%"
-                                            aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- /.skill-block -->
-                                <div class="skill-block">
-                                    <h3>Servicing</h3>
-                                    <div class="progress">
-                                        <span>62%</span>
-                                        <div class="progress-bar" data-wow-delay=".2s" role="progressbar" style="width: 62%"
-                                            aria-valuenow="62" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- /.skill-block -->
-                                <div class="skill-block">
-                                    <h3>Parts</h3>
-                                    <div class="progress">
-                                        <span>30%</span>
-                                        <div class="progress-bar" data-wow-delay=".2s" role="progressbar" style="width: 30%"
-                                            aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- /.skill-block -->
-                            </div><!-- /.skill-area -->
-                        </div><!-- /.col-lg-5 -->
-                        <div class="col-xl-7 order-xl-2 order-1 text-xl-left text-center">
-                            <figure>
-                                <img src="<?php echo base_url(); ?>assets/landing/img/progress-1-1.jpg" alt="Skills">
-                            </figure>
-                        </div><!-- /.col-lg-7 -->
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </div><!-- /.skills -->
-            <div class="towit">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="thm-header text-center">
-                                <p class="pb-10">caravan workshop</p>
-                                <h1 class="c3">Tow it, We Can Fix it</h1>
-                            </div><!-- /.thm-header -->
-                        </div><!-- /.col-12 -->
-                        <div class="pointers f1 col-12">
-                            <figure>
-                                <img src="<?php echo base_url(); ?>assets/landing/img/pointers.jpg" alt="Pointers">
-                                <figcaption>
-
-                                    <div class="dropdown pointer-block">
-                                        <button class="pointSingle dropdown-toggle" type="button" id="point1"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                        <div class="dropdown-menu bg1 text-white" aria-labelledby="point1">
-                                            <i class="carevan-icon-car-parts"></i>
-                                            <h2>Custom modification</h2>
-                                            <p class="fw-6">Need something changed or is there something not quite
-                                                working the way you envisaged?</p>
-                                        </div>
-                                    </div><!-- /.pointer-block -->
-
-                                    <div class="dropdown pointer-block">
-                                        <button class="pointSingle dropdown-toggle" type="button" id="point2"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                        <div class="dropdown-menu bg1 text-white" aria-labelledby="point2">
-                                            <i class="carevan-icon-car-parts"></i>
-                                            <h2>Custom modification</h2>
-                                            <p class="fw-6">Need something changed or is there something not quite
-                                                working the way you envisaged?</p>
-                                        </div>
-                                    </div><!-- /.pointer-block -->
-
-                                    <div class="dropdown pointer-block">
-                                        <button class="pointSingle dropdown-toggle" type="button" id="point3"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                        <div class="dropdown-menu bg1 text-white" aria-labelledby="point3">
-                                            <i class="carevan-icon-car-parts"></i>
-                                            <h2>Custom modification</h2>
-                                            <p class="fw-6">Need something changed or is there something not quite
-                                                working the way you envisaged?</p>
-                                        </div>
-                                    </div><!-- /.pointer-block -->
-
-                                    <div class="dropdown pointer-block">
-                                        <button class="pointSingle dropdown-toggle" type="button" id="point4"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                        <div class="dropdown-menu bg1 text-white" aria-labelledby="point4">
-                                            <i class="carevan-icon-car-parts"></i>
-                                            <h2>Custom modification</h2>
-                                            <p class="fw-6">Need something changed or is there something not quite
-                                                working the way you envisaged?</p>
-                                        </div>
-                                    </div><!-- /.pointer-block -->
-
-                                    <div class="dropdown pointer-block">
-                                        <button class="pointSingle dropdown-toggle" type="button" id="point5"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                        <div class="dropdown-menu bg1 text-white" aria-labelledby="point5">
-                                            <i class="carevan-icon-car-parts"></i>
-                                            <h2>Custom modification</h2>
-                                            <p class="fw-6">Need something changed or is there something not quite
-                                                working the way you envisaged?</p>
-                                        </div>
-                                    </div><!-- /.pointer-block -->
-
-                                    <div class="dropdown pointer-block">
-                                        <button class="pointSingle dropdown-toggle" type="button" id="point6"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                        <div class="dropdown-menu bg1 text-white" aria-labelledby="point6">
-                                            <i class="carevan-icon-car-parts"></i>
-                                            <h2>Custom modification</h2>
-                                            <p class="fw-6">Need something changed or is there something not quite
-                                                working the way you envisaged?</p>
-                                        </div>
-                                    </div><!-- /.pointer-block -->
-
-                                </figcaption>
-                            </figure>
-                        </div><!-- /.pointers -->
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </div><!-- /.towit -->
+            
+            
             <div class="partners bg4">
                 <div class="container">
                     <div class="partner-carousel owl-carousel">

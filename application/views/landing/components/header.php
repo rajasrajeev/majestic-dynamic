@@ -10,7 +10,8 @@
 				<div class="container clearfix">
 					<div class="logo-box float-left">
 						<a href="<?= base_url() ?>">
-							<img style="height: 35px;" src="<?php echo base_url(); ?>assets/images/logo_icon.jpg"><img style="height: 35px;" src="<?php echo base_url(); ?>assets/images/logo_text.jpg">
+							<img style="height: 4rem;" src="<?php echo base_url(); ?>assets/images/majestic_logo.png">
+							<!-- s -->
 						</a>
 					</div><!-- /.logo-box -->
 					<div class="float-right right-contact-block">
