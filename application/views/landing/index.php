@@ -16,7 +16,7 @@
 								<div class="content text-center">
 									<p data-animation="animated fadeInUp " class="tag-line animDe-1"><span class="text-uppercase f1 fw-8">Where quality meets innovation </span></p>
 		                            <h2 data-animation="animated fadeInUp " class="animDe-2">Welcome to MAJESTIC</h2>
-		                            <h2 data-animation="animated fadeInUp " class="animDe-3">committed to delivering exceptional products</h2>
+		                            <p data-animation="animated fadeInUp " class="animDe-3">committed to delivering exceptional products</p>
 		                            <a href="service.html" data-animation="animated fadeInUp " class="bg1 text-white banner-btn animDe-4">our services</a>
 								</div>
 							</div>
@@ -28,8 +28,8 @@
 						<div class="container">
 							<div class="box valign-middle">
 								<div class="content text-center">
-									<div data-animation="animated fadeInUp " class="animDe-1 d-flex justify-content-center align-items-center mx-auto icon-box">
-		                                <i class="carevan-icon-caravan"></i>
+									<div data-animation="animated fadeInUp " class="animDe-1 d-flex justify-content-center align-items-center mx-auto icon-box" style="border-radius:2rem">
+		                                <i class=""><img style="height: 4rem;" src="<?php echo base_url(); ?>assets/images/majestic_logo.png"></i>
 		                            </div>
 		                            <h2 data-animation="animated fadeInUp " class="animDe-2">Qualified & Certified</h2>
 		                            <h2 data-animation="animated fadeInUp" class=" animDe-3">Since 2006</h2>
