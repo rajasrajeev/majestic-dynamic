@@ -1,6 +1,6 @@
 </div><!-- /.page-wrapper -->
 
-		<footer class="crop">
+		<footer class="crop" id="contact">
 			<div class="footer-middle">
 				<div class="container">
 					<div class="row justify-content-center footerMiddle">

@@ -20,7 +20,7 @@
 								<i class="carevan-icon-placeholder"></i><!-- /.Carivon-icon-placeholder -->
 							</div><!-- /.icon-block -->
 							<div class="text-block">
-								<p><span>855 Broklyn Street</span> New York, Usa</p>
+								<p><span>Industrial Area-Zayed City <br/>Al Dhafra Region</span> Abu Dhabi- UAE</p>
 							</div><!-- /.text-block -->
 						</div><!-- /.single-right-contact -->
 						<div class="single-right-contact">
@@ -28,7 +28,7 @@
 								<i class="carevan-icon-phone-call"></i><!-- /.Carivon-icon-placeholder -->
 							</div><!-- /.icon-block -->
 							<div class="text-block">
-								<p><span>+971-563 337 317</span> Phone line</p>
+								<p><span>+971561011153</span> Phone line</p>
 							</div><!-- /.text-block -->
 						</div><!-- /.single-right-contact -->
 						<div class="single-right-contact">
@@ -40,7 +40,7 @@
 							</div><!-- /.text-block -->
 						</div><!-- /.single-right-contact -->
 						<div class="single-right-contact">
-							<a href="<?php echo base_url();?>contact" class="header-btn">Contact Us</a><!-- /.header-btn -->
+							<a href="#contact" class="header-btn">Contact Us</a><!-- /.header-btn -->
 						</div><!-- /.single-right-contact -->
 					</div><!-- /.float-right -->					
 				</div><!-- /.container -->
