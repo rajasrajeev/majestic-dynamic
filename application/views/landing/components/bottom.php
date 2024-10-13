@@ -2,7 +2,7 @@
     <!-- /.scroll-to-top -->
 
     <script src="<?php echo base_url(); ?>assets/landing/js/jquery.js"></script>
-    <script src="<?php echo base_url(); ?>assets/landing/https://maps.googleapis.com/maps/api/js?key=AIzaSyBurXgYMavDEzEDzGs8Pq-TZVamhF2aZoE"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBurXgYMavDEzEDzGs8Pq-TZVamhF2aZoE"></script>
     <script src="<?php echo base_url(); ?>assets/landing/js/gmaps.js"></script>
     <script src="<?php echo base_url(); ?>assets/landing/js/map-helper.js"></script>
     <script src="<?php echo base_url(); ?>assets/landing/js/bootstrap.bundle.min.js"></script>
