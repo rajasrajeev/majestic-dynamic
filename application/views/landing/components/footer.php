@@ -10,7 +10,7 @@
 									<img src="<?php echo base_url(); ?>assets/images/majestic_logo.png" alt="Logo">
 									<!-- <img src="<?php echo base_url(); ?>assets/images/logo_text.jpg" alt="Logo"> -->
 								</a>
-								<p class="f1 fw-6 text-white">We pride ourselves on giving you the best quality Service and Repairs. After 30 years experience in the caravan industry.</p>
+								<p class="f1 fw-6 text-white">Explore how MAJESTIC can provide the perfect solutions for your needs. For more information or to discuss your project.</p>
 							</div><!-- /.footer-cl -->
 						</div><!-- /.col-xl-3 -->
 						<div class="col-lg-3 col-md-6 d-flex justify-content-xl-center">
@@ -47,12 +47,12 @@
 								</h4>
 								<ul>
 									<li>
-										<span><i class="fa fa-envelope c1"></i>info@majesticuae.ae</span>
+										<span><i class="fa fa-envelope c1"></i>info@majesticuae.ae</span><br/>
 										<span><i class="fa fa-envelope c1"></i> majestictrailer@gmail.com</span>
 									</li>
 									<li>
-										<span><i class="fa fa-phone-square c1"></i>+971563337317</span>
-										<span><i class="fa fa-phone-square c1"></i>+971561011153</span>
+										<span><i class="fa fa-phone-square c1"></i>+971563337317</span><br/>
+										<span><i class="fa fa-phone-square c1"></i>+971561011153</span><br/>
 										<span><i class="fa fa-phone-square c1"></i>+971561260004</span>
 									</li>
 								</ul>

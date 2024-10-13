@@ -420,7 +420,7 @@
 							<span>
 								<i class="carevan-icon-handshake"></i>
 							</span>
-							<h2 class="fw-3 c3">Why Choose Carivon</h2>
+							<h2 class="fw-3 c3">Why Choose Majestic</h2>
 							<p class="fw-4">Our mission is to exceed customer expectations by providing superior products and services.</p>
 							
 						</section>
