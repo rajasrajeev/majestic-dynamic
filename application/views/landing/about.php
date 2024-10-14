@@ -43,96 +43,7 @@
                 </p>
                 </div>
                 </div>
-                
-                
             </div><!-- /.container -->
-            <!-- <div class="faqs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="thm-header text-center">
-                                <p class="c1 pb-10">faqs</p>
-                                <h1 class="c3">Questions Answers</h1>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 text-xl-left text-center mb-xl-0 mb-3">
-                            <img src="img/faq-1-1.jpg" alt="Frequently Asked Questions">
-                        </div>
-                        <div class="col-xl-6">
-                            <div class="accordion faq-blocks f1" id="FAQs">
-                                <div class="card border-0">
-                                    <div class="card-header border-0" id="faqh-1">
-                                        <h2>
-                                            <button type="button" data-toggle="collapse" data-target="#faq-1"
-                                                aria-expanded="false" aria-controls="faq-1">
-                                                All auto & caravan electrical repairs?
-                                            </button>
-                                        </h2>
-                                    </div>
-
-                                    <div id="faq-1" class="collapse" aria-labelledby="faqh-1" data-parent="#FAQs">
-                                        <div class="card-body">
-                                            <p>Lorem Ipsum is simply dummy text of not the print typesetting industry
-                                                has been the industrys standard dummy.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card border-0">
-                                    <div class="card-header border-0" id="faqh-2">
-                                        <h2>
-                                            <button type="button" data-toggle="collapse" data-target="#faq-2"
-                                                aria-expanded="true" aria-controls="faq-2">
-                                                How to claim caravan warranty?
-                                            </button>
-                                        </h2>
-                                    </div>
-
-                                    <div id="faq-2" class="collapse show" aria-labelledby="faqh-2" data-parent="#FAQs">
-                                        <div class="card-body">
-                                            <p>Lorem Ipsum is simply dummy text of not the print typesetting industry
-                                                has been the industrys standard dummy.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card border-0">
-                                    <div class="card-header border-0" id="faqh-3">
-                                        <h2>
-                                            <button type="button" data-toggle="collapse" data-target="#faq-3"
-                                                aria-expanded="false" aria-controls="faq-3">
-                                                How do i submit a caravan details?
-                                            </button>
-                                        </h2>
-                                    </div>
-
-                                    <div id="faq-3" class="collapse" aria-labelledby="faqh-3" data-parent="#FAQs">
-                                        <div class="card-body">
-                                            <p>Lorem Ipsum is simply dummy text of not the print typesetting industry
-                                                has been the industrys standard dummy.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card border-0">
-                                    <div class="card-header border-0" id="faqh-4">
-                                        <h2>
-                                            <button type="button" data-toggle="collapse" data-target="#faq-4"
-                                                aria-expanded="false" aria-controls="faq-4">
-                                                If your caravan or motorhome needs repairs?
-                                            </button>
-                                        </h2>
-                                    </div>
-
-                                    <div id="faq-4" class="collapse" aria-labelledby="faqh-4" data-parent="#FAQs">
-                                        <div class="card-body">
-                                            <p>Lorem Ipsum is simply dummy text of not the print typesetting industry
-                                                has been the industrys standard dummy.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
             <!-- /.faqs -->
             <div class="testimony text-white text-center">
                 <div class="container">
@@ -291,11 +202,13 @@
             <div class="partners bg4">
                 <div class="container">
                     <div class="partner-carousel owl-carousel">
+						<?php foreach ($clients as $product): ?>
+                        	<a href="#"><img src="<?= base_url('' . $product['image']); ?>" alt="Partners"></a>
+						<?php endforeach; ?>
+                        <!-- <a href="#"><img src="<?php echo base_url(); ?>assets/landing/img/partners/01.png" alt="Partners"></a>
                         <a href="#"><img src="<?php echo base_url(); ?>assets/landing/img/partners/01.png" alt="Partners"></a>
                         <a href="#"><img src="<?php echo base_url(); ?>assets/landing/img/partners/01.png" alt="Partners"></a>
-                        <a href="#"><img src="<?php echo base_url(); ?>assets/landing/img/partners/01.png" alt="Partners"></a>
-                        <a href="#"><img src="<?php echo base_url(); ?>assets/landing/img/partners/01.png" alt="Partners"></a>
-                        <a href="#"><img src="<?php echo base_url(); ?>assets/landing/img/partners/01.png" alt="Partners"></a>
+                        <a href="#"><img src="<?php echo base_url(); ?>assets/landing/img/partners/01.png" alt="Partners"></a> -->
                     </div><!-- /.partner-carousel -->
                 </div><!-- /.container -->
             </div><!-- /.partners -->

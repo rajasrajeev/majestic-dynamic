@@ -19,7 +19,17 @@ class About extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('landing/about');
+		$this->db->limit(6);
+		$query = $this->db->get('clients');
+		$data['clients'] = $query->result_array();
+
+		$this->db->limit(6);
+		$query = $this->db->get('projects');
+		$data['projects'] = $query->result_array();
+
+		$query = $this->db->get('services');
+		$data['services'] = $query->result_array();
+		$this->load->view('landing/about', $data);
 	}
 }
 

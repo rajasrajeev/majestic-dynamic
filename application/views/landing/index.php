@@ -9,48 +9,49 @@
 	
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
-				<div class="carousel-item active slide-1" style="background-image: url(img/bg/01.jpg);background-position: center left;">
+				<div class="carousel-item active slide-1" style="background-image: url(<?php echo base_url(); ?>/assets/landing/img/bg/01.jpg);background-position: center left;">
 					<div class="carousel-caption">
 						<div class="container">
 							<div class="box valign-middle">
 								<div class="content text-center">
-									<p data-animation="animated fadeInUp " class="tag-line animDe-1"><span class="text-uppercase f1 fw-8">Where quality meets innovation </span></p>
-		                            <h2 data-animation="animated fadeInUp " class="animDe-2">Welcome to MAJESTIC</h2>
-		                            <p data-animation="animated fadeInUp " class="animDe-3">committed to delivering exceptional products</p>
-		                            <a href="service.html" data-animation="animated fadeInUp " class="bg1 text-white banner-btn animDe-4">our services</a>
+									<p data-animation="animated fadeInUp " class="tag-line animDe-1"><span class="text-uppercase f1 fw-8">Crafting Excellence since 2006</span></p>
+		                            <h2 data-animation="animated fadeInUp " class="animDe-2">Welcome to MAJESTIC — Where Quality Meets Innovation</h2>
+		                            <p data-animation="animated fadeInUp " class="animDe-3">: With over a decade of experience, we deliver exceptional solutions for all your structural needs. From canopies and caravans to advanced steel and aluminum work, we cover it all</p>
+		                            <a href="<?php echo base_url(); ?>services" data-animation="animated fadeInUp " class="bg1 text-white banner-btn animDe-4">our services</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="carousel-item slide-2" style="background-image: url(img/bg/02.jpg);background-position: top center;">
+				<div class="carousel-item slide-2" style="background-image: url(<?php echo base_url(); ?>/assets/landing/img/bg/02.jpg);background-position: top center;">
 					<div class="carousel-caption">
 						<div class="container">
 							<div class="box valign-middle">
 								<div class="content text-center">
-									<div data-animation="animated fadeInUp " class="animDe-1 d-flex justify-content-center align-items-center mx-auto icon-box" style="border-radius:2rem">
+									<!-- <div data-animation="animated fadeInUp " class="animDe-1 d-flex justify-content-center align-items-center mx-auto icon-box" style="border-radius:2rem">
 		                                <i class=""><img style="height: 4rem;" src="<?php echo base_url(); ?>assets/images/majestic_logo.png"></i>
-		                            </div>
-		                            <h2 data-animation="animated fadeInUp " class="animDe-2">Qualified & Certified</h2>
-		                            <h2 data-animation="animated fadeInUp" class=" animDe-3">Since 2006</h2>
-		                            <a href="contact.html" data-animation="animated fadeInUp " class="animDe-4 bg1 text-white banner-btn">contact us</a>
+		                            </div> -->
+									<p data-animation="animated fadeInUp " class="tag-line animDe-1"><span class="text-uppercase f1 fw-8">Your Trusted Partner for Comprehensive Solutions</span></p>
+		                            <h2 data-animation="animated fadeInUp " class="animDe-2">Building the Future of Steel & Aluminum Structures</h2>
+		                            <!-- <h2 data-animation="animated fadeInUp" class=" animDe-3">Explore our diverse offerings, including car parking shades, doors, gates, and hangars. Majestic is your go-to provider for all-around manufacturing excellence</h2> -->
+		                            <a href="#contact" data-animation="animated fadeInUp " class="animDe-4 bg1 text-white banner-btn">contact us</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="carousel-item slide-3" style="background-image: url(img/bg/03.jpg);background-position: top center;">
+				<div class="carousel-item slide-3" style="background-image: url(<?php echo base_url(); ?>/assets/landing/img/bg/03.jpg);background-position: top center;">
 					<div class="carousel-caption">
 						<div class="container">
 							<div class="box valign-middle">
 								<div class="content text-center">
-									<h2 data-animation="animated fadeInUp " class="animDe-1">Committed to delivering </h2>
-		                            <h2 data-animation="animated fadeInUp " class="animDe-2">Exceptional products </h2>
-		                            <p data-animation="animated fadeInUp " class="animDe-3">Shades, canopies, caravans, hangars, steel structures, doors and gates, car parking shades, panel work, </p>
-									<p data-animation="animated fadeInUp " class="animDe-3">and comprehensive steel and aluminum solutions</p>
+									<h2 data-animation="animated fadeInUp " class="animDe-1">Innovation in Every Design</h2>
+		                            <h2 data-animation="animated fadeInUp " class="animDe-2">Shades, Canopies & More </h2>
+		                            <p data-animation="animated fadeInUp " class="animDe-3">Whether it's tailored shades or bespoke panel work, Majestic creates durable, </p>
+									<p data-animation="animated fadeInUp " class="animDe-3">modern solutions that enhance functionality and aesthetics.</p>
 									<div class="banner-btn-box">
-		                            	<a href="contact.html" data-animation="animated fadeInUp " class="animDe-4 bg1 text-white banner-btn">contact us</a>
-										<a href="service.html" data-animation="animated fadeInUp " class="animDe-5 bg2 text-white banner-btn style-two">our services</a>
+		                            	<a href="#contact" data-animation="animated fadeInUp " class="animDe-4 bg1 text-white banner-btn">contact us</a>
+										<a href="<?php echo base_url(); ?>services" data-animation="animated fadeInUp " class="animDe-5 bg2 text-white banner-btn style-two">our services</a>
 									</div><!-- /.banner-btn-box -->
 								</div>
 							</div>
@@ -131,129 +132,24 @@
 						</div><!-- /.thm-header -->
 					</div><!-- /.col-12 -->
 					<div class="service-carousel owl-carousel">
+					<?php foreach ($services as $service): ?>
 						<div class="col-lg-4">
 							<div class="service-card">
 								<figure>
 									<a href="single-service.html">
-										<img src="<?php echo base_url(); ?>assets/landing/img/service-1-1.jpg" alt="Service Thumb">
+										<img src="<?= base_url('' . $service['image']); ?>" alt="Service Thumb">
 									</a>
 								</figure>
 								<div class="service-card-body">
-									<h2><a href="single-service.html">Hangars:</a></h2>
+									<h2><a href="single-service.html"><?= $service['title']; ?>:</a></h2>
 									<p>
-									 Durable and efficient structures designed for the secure storage and operation of aircraft.
-
+									<?= $service['content']; ?>
 									</p>
-									<a href="single-service.html">read more</a>
+									<a href="<?php echo base_url(); ?>services">read more</a>
 								</div><!-- /.service-card-body -->
 							</div><!-- /.service-card -->
 						</div><!-- /.col-lg-4 -->
-						<div class="col-lg-4">
-							<div class="service-card">
-								<figure>
-									<a href="single-service.html">
-										<img src="<?php echo base_url(); ?>assets/landing/img/service-1-2.jpg" alt="Service Thumb">
-									</a>
-								</figure>
-								<div class="service-card-body">
-									<h2><a href="single-service.html">Shades and Canopies: </a></h2>
-									<p>Stylish and functional designs that offer protection and enhance outdoor environments.
-									</p>
-									<a href="single-service.html">read more</a>
-								</div><!-- /.service-card-body -->
-							</div><!-- /.service-card -->
-						</div><!-- /.col-lg-4 -->
-						<div class="col-lg-4">
-							<div class="service-card">
-								<figure>
-									<a href="single-service.html">
-										<img src="<?php echo base_url(); ?>assets/landing/img/service-1-3.jpg" alt="Service Thumb">
-									</a>
-								</figure>
-								<div class="service-card-body">
-									<h2><a href="single-service.html">Caravans:</a></h2>
-									<p>Comfortable and well-crafted mobile homes designed for travel and leisure.</p>
-									<a href="single-service.html">read more</a>
-								</div><!-- /.service-card-body -->
-							</div><!-- /.service-card -->
-						</div><!-- /.col-lg-4 -->
-						<div class="col-lg-4">
-							<div class="service-card">
-								<figure>
-									<a href="single-service.html">
-										<img src="<?php echo base_url(); ?>assets/landing/img/service-1-3.jpg" alt="Service Thumb">
-									</a>
-								</figure>
-								<div class="service-card-body">
-									<h2><a href="single-service.html">Steel Structures:</a></h2>
-									<p> Versatile and robust constructions suitable for commercial, industrial, and residential uses.
-									</p>
-									<a href="single-service.html">read more</a>
-								</div><!-- /.service-card-body -->
-							</div><!-- /.service-card -->
-						</div>
-						<div class="col-lg-4">
-							<div class="service-card">
-								<figure>
-									<a href="single-service.html">
-										<img src="<?php echo base_url(); ?>assets/landing/img/service-1-3.jpg" alt="Service Thumb">
-									</a>
-								</figure>
-								<div class="service-card-body">
-									<h2><a href="single-service.html">Doors and Gates:</a></h2>
-									<p>Custom-designed solutions providing both security and aesthetic appeal for various properties.
-									</p>
-									<a href="single-service.html">read more</a>
-								</div><!-- /.service-card-body -->
-							</div><!-- /.service-card -->
-						</div>
-						<div class="col-lg-4">
-							<div class="service-card">
-								<figure>
-									<a href="single-service.html">
-										<img src="<?php echo base_url(); ?>assets/landing/img/service-1-3.jpg" alt="Service Thumb">
-									</a>
-								</figure>
-								<div class="service-card-body">
-									<h2><a href="single-service.html">Car Parking Shades:</a></h2>
-									<p> Innovative designs to protect vehicles and improve the functionality of parking areas.
-
-									</p>
-									<a href="single-service.html">read more</a>
-								</div><!-- /.service-card-body -->
-							</div><!-- /.service-card -->
-						</div>
-						<div class="col-lg-4">
-							<div class="service-card">
-								<figure>
-									<a href="single-service.html">
-										<img src="<?php echo base_url(); ?>assets/landing/img/service-1-3.jpg" alt="Service Thumb">
-									</a>
-								</figure>
-								<div class="service-card-body">
-									<h2><a href="single-service.html">Panel Work:</a></h2>
-									<p> Precision-engineered panels that combine visual appeal with structural integrity.
-
-									</p>
-									<a href="single-service.html">read more</a>
-								</div><!-- /.service-card-body -->
-							</div><!-- /.service-card -->
-						</div>
-						<div class="col-lg-4">
-							<div class="service-card">
-								<figure>
-									<a href="single-service.html">
-										<img src="<?php echo base_url(); ?>assets/landing/img/service-1-3.jpg" alt="Service Thumb">
-									</a>
-								</figure>
-								<div class="service-card-body">
-									<h2><a href="single-service.html">Steel and Aluminum Work: </a></h2>
-									<p>Expert fabrication and installation of steel and aluminum components tailored to specific project requirements.
-									</p>
-									<a href="single-service.html">read more</a>
-								</div><!-- /.service-card-body -->
-							</div><!-- /.service-card -->
-						</div>
+						<?php endforeach; ?>
 					</div><!-- /.service-carousel owl-carousel -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->
@@ -273,17 +169,17 @@
 							<div class="testi-pager d-flex justify-content-center align-items-end mb-55" id="testi-pager">
 					            <a href="#" class="pager-item active" data-slide-index="0">
 					                <div class="testi-thumb">
-					                	<img src="<?php echo base_url(); ?>assets/landing/img/testi-1-1.jpg" alt="rating" title="">
+					                	<img src="<?php echo base_url(); ?>assets/landing/img/team-1-1.jpg" alt="rating" title="">
 					                </div>
 					            </a>
 					            <a href="#" class="pager-item" data-slide-index="1">
 					                <div class="testi-thumb">
-					                	<img src="<?php echo base_url(); ?>assets/landing/img/testi-1-2.jpg" alt="rating" title="">
+					                	<img src="<?php echo base_url(); ?>assets/landing/img/team-1-2.jpg" alt="rating" title="">
 					                </div>
 					            </a>
 					            <a href="#" class="pager-item" data-slide-index="2">
 					                <div class="testi-thumb">
-					                	<img src="<?php echo base_url(); ?>assets/landing/img/testi-1-3.jpg" alt="rating" title="">
+					                	<img src="<?php echo base_url(); ?>assets/landing/img/team-1-3.jpg" alt="rating" title="">
 					                </div>
 					            </a>
 					        </div>
@@ -429,105 +325,15 @@
 						<div class="feature-area">
 							<h2 class="fw-3 text-white bg1">Competitive prices and guaranteed work on all repairs.</h2>
 							<figure>
-								<img src="<?php echo base_url(); ?>assets/landing/img/feature-1-1.jpg" alt="Feature">
+								<img style="width: 124%;" src="<?php echo base_url(); ?>assets/landing/img/feature-1-1.jpg" alt="Feature">
 							</figure>
 						</div><!-- /.feature-area -->
 					</div><!-- /.col-xl-3 -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</div><!-- /.whyus -->
-		
-		<!-- <div class="sec-blog text-center f1">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="thm-header text-center">
-							<p class="c1 pb-10">articles and posts</p>
-							<h1 class="c3">Latest News</h1>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="blog-card">
-							<figure>
-								<a href="single-news.html">
-									<img src="<?php echo base_url(); ?>assets/landing/img/blog-1-1.jpg" alt="Blog Thumb">
-								</a>
-								<figcaption>
-									<span>18</span>
-									<span>SEP</span>
-									<span>2019</span>
-								</figcaption>
-							</figure>
-							<div class="blog-card-body">
-								<h2><a href="single-news.html">Custom modification & fabrications</a></h2>
-								<p>Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? </p>
-								<a href="single-news.html">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="blog-card">
-							<figure>
-								<a href="single-news.html">
-									<img src="<?php echo base_url(); ?>assets/landing/img/blog-1-2.jpg" alt="Blog Thumb">
-								</a>
-								<figcaption>
-									<span>12</span>
-									<span>SEP</span>
-									<span>2019</span>
-								</figcaption>
-							</figure>
-							<div class="blog-card-body">
-								<h2><a href="single-news.html">A dedicated caravan and motorhome service</a></h2>
-								<p>Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? </p>
-								<a href="single-news.html">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-		<!-- /.sec-blog -->
-		<!-- <div class="process text-center f1">
-			<div class="container">
-				<div class="row justify-content-center flex-md-row flex-column no-gutters">
-					<div class="col-12">
-						<div class="thm-header text-center">
-							<p class="c1 pb-10">Insurance Repair</p>
-							<h1 class="c3">In 3 Easy Steps</h1>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="process-single">
-							<h1 class="f3 c1">01</h1>
-							<h2 class="f1 fw-4 c3">Claim Number</h2>
-							<p class="f1 fw-6">Contact your Insurance company to make a claim and get your claim number</p>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="process-single">
-							<h1 class="f3 c1">02</h1>
-							<h2 class="f1 fw-4 c3">Get a Quote</h2>
-							<p class="f1 fw-6">Contact us for a Free Quote Today and We will take care of the rest for you</p>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="process-single">
-							<h1 class="f3 c1">03</h1>
-							<h2 class="f1 fw-4 c3">Fixing Caravan</h2>
-							<p class="f1 fw-6">Let us take care of your claim and Keep it stress free. You'll be back on the road in no time</p>
-						</div>
-					</div>
-					<div class="col-xl-12 col-lg-8 px-0">
-						<p class="block-text">Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc <br> amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci. <br> Lorem ipsum dolor sit amet elit magnis.</p>
-					</div>
-				</div>
-			</div>
-		</div> -->
-		<!-- /.process -->    
 
 	<?php $this->load->view("landing/components/footer"); ?>
-	<!-- <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div> -->
 	<?php $this->load->view("landing/components/bottom"); ?>
 
 	

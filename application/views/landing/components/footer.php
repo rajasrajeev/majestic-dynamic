@@ -10,7 +10,7 @@
 									<img src="<?php echo base_url(); ?>assets/images/majestic_logo.png" alt="Logo">
 									<!-- <img src="<?php echo base_url(); ?>assets/images/logo_text.jpg" alt="Logo"> -->
 								</a>
-								<p class="f1 fw-6 text-white">Explore how MAJESTIC can provide the perfect solutions for your needs. For more information or to discuss your project.</p>
+								<p class="f1 fw-6 text-white">Where Craftsmanship Meets Innovation - We bring over a decade of experience to deliver precision in shades, canopies, and comprehensive steel solutions.</p>
 							</div><!-- /.footer-cl -->
 						</div><!-- /.col-xl-3 -->
 						<div class="col-lg-3 col-md-6 d-flex justify-content-xl-center">
