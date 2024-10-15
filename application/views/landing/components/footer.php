@@ -71,7 +71,7 @@
 							<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
 							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 						</ul>
-						<p>© copyright 2024 by <a href="codsynapse.com" target="_blank">Codsynapse.com </a></p>
+						<p>© copyright 2024 by <a href="#" target="_blank">Five Designer Technologies </a></p>
 					</div><!-- /.row -->
 				</div><!-- /.container -->
 			</div><!-- /.footer-bottom -->
