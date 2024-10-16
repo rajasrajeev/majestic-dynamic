@@ -13,7 +13,7 @@
 								<p class="f1 fw-6 text-white">Where Craftsmanship Meets Innovation - We bring over a decade of experience to deliver precision in shades, canopies, and comprehensive steel solutions.</p>
 							</div><!-- /.footer-cl -->
 						</div><!-- /.col-xl-3 -->
-						<div class="col-lg-3 col-md-6 d-flex justify-content-xl-center">
+						<div class="col-lg-4 col-md-6 d-flex justify-content-xl-center">
 							<div class="footer-col">
 								<h2>company</h2>
 								<ul>
@@ -25,22 +25,8 @@
 								</ul>
 							</div><!-- /.footer-col -->
 						</div><!-- /.col-xl-3 -->
-						<div class="col-lg-3 col-md-6">
-							<div class="footer-col">
-								<h2>services</h2>
-								<ul>
-									<li><a href="single-service.html">Shades and Canopies</a></li>
-									<li><a href="single-service.html">Caravans</a></li>
-									<li><a href="single-service.html">Hangars</a></li>
-									<li><a href="single-service.html">Steel Structures</a></li>
-									<li><a href="single-service.html">Doors and Gates</a></li>
-									<li><a href="single-service.html">Car Parking Shades</a></li>
-									<li><a href="single-service.html">Panel Work</a></li>
-									<li><a href="single-service.html">Steel and Aluminum Work</a></li>
-								</ul>
-							</div><!-- /.footer-col -->
-						</div><!-- /.col-xl-3 -->
-						<div class="col-lg-3 col-md-6">
+
+						<div class="col-lg-5 col-md-6">
 							<div class="footer-col">
 								<h2>contact</h2>
 								<h4>Industrial Area-Zayed City – Al Dhafra Region - <br />Abu Dhabi- <br />UAE

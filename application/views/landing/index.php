@@ -13,7 +13,7 @@
 					<div class="carousel-caption">
 						<div class="container">
 							<div class="box valign-middle">
-								<div class="content text-center">
+								<div class="content text-left">
 									<p data-animation="animated fadeInUp " class="tag-line animDe-1"><span class="text-uppercase f1 fw-8">Crafting Excellence since 2006</span></p>
 		                            <h2 data-animation="animated fadeInUp " class="animDe-2">Welcome to MAJESTIC — Where Quality Meets Innovation</h2>
 		                            <p data-animation="animated fadeInUp " class="animDe-3">: With over a decade of experience, we deliver exceptional solutions for all your structural needs. From canopies and caravans to advanced steel and aluminum work, we cover it all</p>

@@ -18,9 +18,7 @@
                                 <img src="<?php echo base_url(); ?>assets/landing/img/about-3-1.jpg" alt="About us">
                                 <figcaption>
                                     <p class="f1 fw-3">
-                                    Founded by Mr Abdulla Butty Salem mousa al qubaisi, MAJESTIC embarked on a journey to redefine manufacturing standards. From our beginnings as a 
-                                    small workshop, local enterprise, we have grown into a leading manufacturer renowned for our commitment to quality and customer satisfaction.
-
+                                    Welcome to MAJESTIC, where quality meets innovation in the realm of manufacturing. Since 2006, we have been committed to delivering exceptional products across a diverse range of categories, including shades, canopies, caravans, hangars, steel structures, doors and gates, car parking shades, panel work, and comprehensive steel and aluminum solutions
                                 </p>
                                 </figcaption>
                             </figure>
@@ -45,94 +43,15 @@
                 </div>
                 </div>
             </div><!-- /.container -->
-            <!-- /.faqs -->
-            <div class="testimony text-white text-center">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-12">
-                            <div class="thm-header text-center text-white">
-                                <p class="pb-10">our feedbacks</p>
-                                <h1>What People Say</h1>
-                            </div><!-- /.thm-header -->
-                        </div><!-- /.col-12 -->
-                        <div class="col-xl-8 col-lg-8 col-md-10">
-                            <div class="rating-area">
-                                <div class="testi-pager d-flex justify-content-center align-items-end mb-55" id="testi-pager">
-                                    <a href="#" class="pager-item active" data-slide-index="0">
-                                        <div class="testi-thumb">
-                                            <img src="<?php echo base_url(); ?>assets/landing/img/testi-1-1.jpg" alt="rating" title="">
-                                        </div>
-                                    </a>
-                                    <a href="#" class="pager-item" data-slide-index="1">
-                                        <div class="testi-thumb">
-                                            <img src="<?php echo base_url(); ?>assets/landing/img/testi-1-2.jpg" alt="rating" title="">
-                                        </div>
-                                    </a>
-                                    <a href="#" class="pager-item" data-slide-index="2">
-                                        <div class="testi-thumb">
-                                            <img src="<?php echo base_url(); ?>assets/landing/img/testi-1-3.jpg" alt="rating" title="">
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <!--Slider-->
-                                <ul class="rating-slider f1">
-                                    <li class="slide-item">
-                                        <div class="slide-text">
-                                            <p>This is due to their excellent service, competitive pricing and customer
-                                                support. It’s throughly refresing to get such a personal touch.</p>
-                                            <h4 class="mt-30">Mike Hardson</h4>
-                                            <div class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </div><!-- /.rating -->
-                                        </div>
-                                    </li>
-                                    <li class="slide-item">
-                                        <div class="slide-text">
-                                            <p>This is due to their excellent service, competitive pricing and customer
-                                                support. It’s throughly refresing to get such a personal touch.</p>
-                                            <h4 class="mt-30">Mike Hardson</h4>
-                                            <div class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </div><!-- /.rating -->
-                                        </div>
-                                    </li>
-                                    <li class="slide-item">
-                                        <div class="slide-text">
-                                            <p>This is due to their excellent service, competitive pricing and customer
-                                                support. It’s throughly refresing to get such a personal touch.</p>
-                                            <h4 class="mt-30">Mike Hardson</h4>
-                                            <div class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </div><!-- /.rating -->
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div><!-- /.rating-area -->
-                        </div><!-- /.col-xl-6 col-lg-8 col-md-10 offset-xl-3 offset-lg-2 offset-md-1 offset-sm-0 -->
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </div><!-- /.testimony -->
             <div class="sec-team text-center clearfix">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-12">
                             <div class="thm-header text-center">
-                                <p class="c1 pb-10">Services</p>
-                                <h1 class="c3">Our Services</h1>
-                            </div><!-- /.thm-header -->
+                                
+                                <h1 class="c3">Who We Are</h1>
+								<p class="c1 pb-10">At MAJESTIC, we are dedicated to providing high-quality manufacturing solutions that cater to a wide array of needs and applications. Our extensive product range includes</p>
+							</div><!-- /.thm-header -->
                         </div><!-- /.col-12 -->
 						<?php foreach ($services as $product): ?>
                         	<!-- <a href="#"><img src="" alt="Partners"></a> -->
