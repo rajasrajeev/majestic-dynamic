@@ -1,7 +1,7 @@
 <?php $this->load->view("landing/components/top"); ?>
 
 <body>
-	<div class="preloader"></div>
+	<!-- <div class="preloader"></div> -->
     <div class="page-wrapper">
 
 		<!-- space for preloader -->
@@ -10,7 +10,7 @@
 				<div class="container clearfix">
 					<div class="logo-box float-left">
 						<a href="<?= base_url() ?>">
-							<img style="height: 4rem;" src="<?php echo base_url(); ?>assets/images/majestic_logo.png">
+							<img style="height: 4rem;" src="<?php echo base_url(); ?>assets/images/logo.png">
 							<!-- s -->
 						</a>
 					</div><!-- /.logo-box -->
@@ -57,21 +57,12 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="main-navigation" id="main-nav-bar">
 					<ul class="navigation-box">
-						<li class="current"><a href="<?= base_url() ?>" data-toggle="">Home</a>
-						</li>
-						<li><a href="<?= base_url() . 'about' ?>" data-toggle="">About</a>
-						</li>
-						<li><a href="<?= base_url() . 'products' ?>" data-toggle="">Products</a>
-						</li>
-						<li><a href="<?= base_url() . 'services' ?>" data-toggle="">Services</a>
-						</li>
-						<li><a href="<?= base_url() . 'projects' ?>" data-toggle="">Our Projects</a>
-						</li>
-						<li><a href="<?= base_url() . 'gallery' ?>" data-toggle="">Gallery</a>
-						</li>
-						</li>
-						<li><a href="<?= base_url() . 'clients' ?>" data-toggle="">Clients</a>
-						</li>
+					<li <?= ($this->uri->segment(1) == '') ? 'class="current"' : '' ?> ><a href="<?= base_url() ?>" data-toggle="">Home</a></li>
+                        <li <?= ($this->uri->segment(1) == 'about') ? 'class="current"' : '' ?> ><a href="<?= base_url() . 'about' ?>" data-toggle="">About</a></li>
+                        <li <?= ($this->uri->segment(1) == 'products') ? 'class="current"' : '' ?> ><a href="<?= base_url() . 'products' ?>" data-toggle="">Products</a></li>
+                        <li <?= ($this->uri->segment(1) == 'services') ? 'class="current"' : '' ?> ><a href="<?= base_url() . 'services' ?>" data-toggle="">Services</a></li>
+                        <li <?= ($this->uri->segment(1) == 'projects') ? 'class="current"' : '' ?> ><a href="<?= base_url() . 'projects' ?>" data-toggle="">Our Projects</a></li>
+                        <li <?= ($this->uri->segment(1) == 'gallery') ? 'class="current"' : '' ?> ><a href="<?= base_url() . 'gallery' ?>" data-toggle="">Gallery</a></li>
 					</ul>
                     </div><!-- /.navbar-collapse -->
                     <div class="right-side-box">

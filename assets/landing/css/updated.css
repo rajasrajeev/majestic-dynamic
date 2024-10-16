@@ -41,7 +41,7 @@
 }
 
 .thm-header li a {
-  color: #05223a;
+  color: #A0CC3C;
 }
 
 .faq-blocks .card {
@@ -60,7 +60,7 @@
   padding: 0;
   position: relative;
   padding-top: 20px;
-  background-color: #05223A;
+  background-color: #A0CC3C;
 }
 
 .header-navigation .container {
@@ -156,7 +156,7 @@
 .header-navigation ul.navigation-box > li > a {
   font-weight: 900;
   font-size: 16px;
-  color: #B9C2CA;
+  color: #000000;
   padding: 0;
   font-weight: 600;
   -webkit-transition: all .4s ease;
@@ -179,7 +179,7 @@
   padding: 0px 0px;
   text-align: left;
   list-style: none;
-  background-color: #0B5FA4;
+  background-color: #A0CC3C;
   background-clip: padding-box;
   opacity: 0;
   border-radius: 0px;
@@ -260,7 +260,7 @@
   padding: 0px 0px;
   text-align: left;
   list-style: none;
-  background-color: #0B5FA4;
+  background-color: #A0CC3C;
   background-clip: padding-box;
   opacity: 0;
   border-radius: 0px;
@@ -341,7 +341,7 @@
 }
 
 .site-header.header-one {
-  background-color: #ca1f26;
+  background-color: #232423;
 }
 
 .site-header.header-one .logo-box {
@@ -383,7 +383,7 @@
 }
 
 .site-header.header-one .right-contact-block .single-right-contact .icon-block i {
-  color: #ca1f26;
+  color: #232423;
   font-size: 32px;
 }
 
@@ -396,14 +396,14 @@
 }
 
 .site-header.header-one .right-contact-block .single-right-contact .text-block span {
-  color: #05223a;
+	color: #05223A;
   font-size: 16px;
   display: block;
 }
 
 .site-header.header-one .right-contact-block .single-right-contact .header-btn {
   font-size: 11px;
-  background: #0B5FA4;
+  background: #A0CC3C;
   text-transform: uppercase;
   display: inline-block;
   vertical-align: middle;
@@ -417,7 +417,7 @@
 }
 
 .site-header.header-one .right-contact-block .single-right-contact .header-btn:hover {
-  background-color: #05223a;
+  background-color: #A0CC3C;
 }
 
 .site-header.header-two .header-navigation {
@@ -449,7 +449,7 @@
 
 .site-header.header-two .header-navigation .right-side-box .phone-block .icon-block i {
   font-size: 32px;
-  color: #ca1f26;
+  color: #232423;
 }
 
 .site-header.header-two .header-navigation .right-side-box .phone-block .text-block {
@@ -465,13 +465,13 @@
 .site-header.header-two .header-navigation .right-side-box .phone-block .text-block p span {
   display: block;
   font-weight: 600;
-  color: #05223A;
+  color: #A0CC3C;
 }
 
 .site-header.header-two .header-navigation .right-side-box .search-btn {
   width: 106px;
   height: 97px;
-  background-color: #0B5FA4;
+  background-color: #A0CC3C;
   text-align: center;
 }
 
@@ -483,7 +483,7 @@
 
 .site-header.header-two .header-navigation .right-side-box .book-btn {
   width: 218px;
-  background-color: #ca1f26;
+  background-color: #232423;
   height: 97px;
   text-transform: uppercase;
   font-size: 11px;
@@ -509,7 +509,7 @@
 }
 
 .site-header.header-two .header-navigation ul.navigation-box > li > a {
-  color: #7C848A;
+  color: #000000;
 }
 
 .site-header.header-two .header-navigation .container {
@@ -576,7 +576,7 @@
   height: 72px;
   font-size: 24px;
   background: #fff;
-  color: #05223a;
+  color: #A0CC3C;
   opacity: .2;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -643,7 +643,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-color: #05223a;
+  background-color: #A0CC3C;
 }
 
 #minimal-bootstrap-carousel.slider-home-two .carousel-inner .carousel-item {
@@ -653,7 +653,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-color: #05223a;
+  background-color: #A0CC3C;
 }
 
 /* content stylings */
@@ -729,7 +729,7 @@
 }
 
 #minimal-bootstrap-carousel.slider-home-one .banner-btn:hover {
-  background-color: #05223a;
+  background-color: #A0CC3C;
 }
 
 #minimal-bootstrap-carousel.slider-home-one p {
@@ -749,7 +749,7 @@
 #minimal-bootstrap-carousel.slider-home-one .icon-box {
   width: 136px;
   height: 136px;
-  background: #ca1f26;
+  background: #232423;
   color: #fff;
   margin-bottom: 30px;
 }
@@ -762,7 +762,7 @@
   width: 100%;
   max-width: 632px;
   padding: 88px 100px 100px;
-  background: #ca1f26;
+  background: #232423;
 }
 
 #minimal-bootstrap-carousel.slider-home-two .bannerContent h2 {
@@ -779,8 +779,8 @@
 }
 
 #minimal-bootstrap-carousel.slider-home-two h2 span {
-  color: #ca1f26;
-  border-bottom: 5px solid #ca1f26;
+  color: #232423;
+  border-bottom: 5px solid #232423;
   display: inline-block;
   padding-bottom: 1px;
 }
@@ -983,4 +983,12 @@
 /* animate out */
 .my-mfp-slide-bottom.mfp-removing.mfp-bg {
     opacity: 0;
+}
+
+.site-color-text{
+	color: #A0CC3C;
+}
+
+.site-bg-color{
+	background-color: #A0CC3C;
 }

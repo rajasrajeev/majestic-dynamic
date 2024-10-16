@@ -412,7 +412,7 @@ nav {
   padding-bottom: 10px;
 }
 .bootstrap-select .dropdown-menu > li.selected > a {
-  background: #ca1f26;
+  background: #232423;
   color: #fff;
 }
 .bootstrap-select .dropdown-menu > li > a {
@@ -424,7 +424,7 @@ nav {
   transition: all .4s ease;
 }
 .bootstrap-select .dropdown-menu > li > a:hover {
-  background: #ca1f26;
+  background: #232423;
   color: #fff;
   cursor: pointer;
 }
@@ -444,7 +444,7 @@ nav {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #ca1f26;
+  background: #232423;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -464,7 +464,7 @@ nav {
 }
 
 .scroll-to-top:hover {
-  background: #05223a;
+  background: #A0CC3C;
 }
 
 /* hidding google logos from map */
@@ -486,13 +486,13 @@ a[href^="https://maps.google.com/maps"] {
   background: none !important;
 }
 
-.c1 {color: #ca1f26}
+.c1 {color: #232423}
 .c2 {color: #0b5fa4}
-.c3 {color: #05223a}
+.c3 {color: #A0CC3C}
 .c4 {color: #7c848a}
-.bg1 {background: #ca1f26}
+.bg1 {background: #232423}
 .bg2 {background: #0b5fa4}
-.bg3 {background: #05223a}
+.bg3 {background: #A0CC3C}
 .bg4 {background: #f3f5f9}
 
 .f1 {font-family: 'Muli', sans-serif;}
@@ -511,7 +511,7 @@ a[href^="https://maps.google.com/maps"] {
     font-family: 'Muli', sans-serif;
     position: relative;
     padding-top: 34px;
-    color: #ca1f26;
+    color: #232423;
 }
 
 .thm-header::before {
@@ -580,7 +580,7 @@ a[href^="https://maps.google.com/maps"] {
 .thm-header li:not(:last-of-type)::after {
   position: absolute;
   content: '-';
-  color: #ca1f26;
+  color: #232423;
   right: -3px;
 }
 
@@ -628,7 +628,7 @@ a[href^="https://maps.google.com/maps"] {
   transition: all .4s ease;
 }
 
-.bannerContent > a:hover {background: #05223a;}
+.bannerContent > a:hover {background: #A0CC3C;}
 .bannerContent > a:not(:last-of-type) {margin-right: 5px;}
 
 .bannerContent > h1 {
@@ -652,7 +652,7 @@ a[href^="https://maps.google.com/maps"] {
 [data-item="5"] .bannerContent > p {
     width: 136px;
     height: 136px;
-    background: #ca1f26;
+    background: #232423;
     color: #fff;
     margin-bottom: 28px;
 }
@@ -700,7 +700,7 @@ a[href^="https://maps.google.com/maps"] {
   height: 72px;
   font-size: 24px;
   background: #fff;
-  color: #05223a;
+  color: #A0CC3C;
   opacity: .2;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -720,15 +720,15 @@ a[href^="https://maps.google.com/maps"] {
 [data-item="4"] .bannerContent {
   width: 632px;
   padding: 88px 100px 100px;
-  background: #ca1f26;
+  background: #232423;
 }
 
 [data-item="4"] .bannerContent h1 {font-size: 55px;}
 [data-item="4"] .bannerContent a {margin-top: 31px;}
 [data-item="6"] .bannerContent a {margin-top: 47px;}
 [data-item="6"] .bannerContent h1:first-of-type span {
-  color: #ca1f26;
-  border-bottom: 5px solid #ca1f26;
+  color: #232423;
+  border-bottom: 5px solid #232423;
   display: inline-block;
   padding-bottom: 1px;
 }
@@ -752,7 +752,7 @@ a[href^="https://maps.google.com/maps"] {
   text-align: center;
   text-transform: uppercase;
   display: block;
-  background: #ca1f26;
+  background: #232423;
   color: #fff !important;
   font-weight: 700;
   font-size: 11px;
@@ -760,12 +760,12 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .quote-btn:hover {
-  background: #05223a;
+  background: #A0CC3C;
 }
 
 .contact-box > i {
   font-size: 32px;
-  color: #ca1f26;
+  color: #232423;
 }
 
 .contact-box p,
@@ -810,8 +810,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .nav-2 .mainmenu > li.active a {
-  text-shadow: 1px 0 0 #ca1f26;
-  color: #ca1f26 !important;
+  text-shadow: 1px 0 0 #232423;
+  color: #232423 !important;
 }
 
 .mainmenu .dropdown-toggle::after {display: none;}
@@ -876,7 +876,7 @@ a[href^="https://maps.google.com/maps"] {
 .facts {
     padding: 100px 0 96px;
     margin-top: 75px;
-    background: #ca1f26;
+    background: #232423;
     position: relative;
     z-index: 1;
 }
@@ -980,7 +980,7 @@ a[href^="https://maps.google.com/maps"] {
     width: 14px;
     height: 3px;
     margin-right: 10px;
-    background: #05223a;
+    background: #A0CC3C;
     opacity: .2;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -1024,11 +1024,11 @@ a[href^="https://maps.google.com/maps"] {
 
 .service-card-body > h2 > a {
     font-size: 20px;
-    color: #05223a;
+    color: #A0CC3C;
 }
 
 .service-card-body > h2 > a:hover {
-    color: #ca1f26;
+    color: #232423;
 }
 
 .service-card-body p {
@@ -1041,7 +1041,7 @@ a[href^="https://maps.google.com/maps"] {
 .service-card-body > a {
     font-size: 11px;
     letter-spacing: 4px;
-    color: #ca1f26;
+    color: #232423;
     text-transform: uppercase;
 }
 .service-card-body > a:hover {
@@ -1150,7 +1150,7 @@ a[href^="https://maps.google.com/maps"] {
 .rating-area .bx-controls-direction [class^="bx-"] i {
     line-height: 72px;
     font-size: 24px;
-    color: #05223a;
+    color: #A0CC3C;
 }
 
 .rating-area .bx-controls-direction [class^="bx-"]:hover {
@@ -1226,12 +1226,12 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .member-card figcaption ul li a:hover {
-    background: #ca1f26;
+    background: #232423;
 }
 
 .member-card figcaption ul li a i {
     font-size: 16px;
-    color: #05223a;
+    color: #A0CC3C;
     -webkit-transition: all .4s ease;
     transition: all .4s ease;
 }
@@ -1245,7 +1245,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .member-info h2 > a:hover {
-    color: #ca1f26;
+    color: #232423;
 }
 
 .member-info p {
@@ -1292,7 +1292,7 @@ a[href^="https://maps.google.com/maps"] {
     width: 91px;
     height: 91px;
     text-align: center;
-    background: #ca1f26;
+    background: #232423;
     display: block;
 }
 
@@ -1374,7 +1374,7 @@ a[href^="https://maps.google.com/maps"] {
   position: absolute;
   top: 0;
   right: 0;
-  background: #ca1f26;
+  background: #232423;
   width: 75px;
   height: 73px;
   -webkit-box-shadow: 0 0 0 10px #fff;
@@ -1433,11 +1433,11 @@ a[href^="https://maps.google.com/maps"] {
   font-size: 30px;
   font-weight: 300;
   line-height: 30px;
-  color: #05223a;
+  color: #A0CC3C;
 }
 
 .blog-card-body > h2 > a:hover {
-  color: #ca1f26;
+  color: #232423;
 }
 
 .blog-card-body > p {
@@ -1453,7 +1453,7 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #ca1f26;
+  color: #232423;
 }
 
 .blog-card-body > a:hover {
@@ -1493,7 +1493,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .process-single h1 {
   font-size: 80px;
-  color: #ca1f26;
+  color: #232423;
 }
 
 .process-single h2 {
@@ -1523,7 +1523,7 @@ a[href^="https://maps.google.com/maps"] {
 
 /* footer start */
 .footer-middle {
-  background: #ca1f26;
+  background: #232423;
   position: relative;
   z-index: 2;
 }
@@ -1555,7 +1555,7 @@ a[href^="https://maps.google.com/maps"] {
 .footer-col > h2 {
   font-size: 18px;
   font-weight: 600;
-  color: #05223a;
+  color: #A0CC3C;
   text-transform: capitalize;
   padding-top: 12px;
   margin-bottom: 35px;
@@ -1615,7 +1615,7 @@ a[href^="https://maps.google.com/maps"] {
 .footer-bottom {
   padding-top: 50px;
   padding-bottom: 31px;
-  background: #05223a;
+  background: #A0CC3C;
 }
 
 .footer-bottom ul li {
@@ -1635,7 +1635,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .footer-bottom p {
-  color: #b9c2ca;
+  color: #000000;
   font-size: 16px;
   font-weight: 600;
 }
@@ -1722,7 +1722,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .post-info a:hover {
-  color: #ca1f26;
+  color: #232423;
 }
 
 .thePost .post-body > p {
@@ -1740,11 +1740,11 @@ a[href^="https://maps.google.com/maps"] {
 
 .post-tags > span {
   font-size: 16px;
-  color: #05223a;
+  color: #A0CC3C;
 }
 
 .post-tags > span > a {
-  color: #ca1f26
+  color: #232423
 }
 
 .post-share > a {
@@ -1758,7 +1758,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .post-share > a > i {
   font-size: 18px;
-  color: #05223a;
+  color: #A0CC3C;
 }
 
 .author-area {
@@ -1767,7 +1767,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .author-area h5 {
   font-size: 22px;
-  color: #05223a;
+  color: #A0CC3C;
   margin-bottom: 33px;
 }
 
@@ -1783,7 +1783,7 @@ a[href^="https://maps.google.com/maps"] {
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 2px;
-  color: #ca1f26;
+  color: #232423;
 }
 
 .author-area {
@@ -1831,7 +1831,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .comment-area .media .media-header > a {
   text-transform: uppercase;
-  background: #ca1f26;
+  background: #232423;
   font-size: 11px;
   letter-spacing: 2px;
   display: inline-block;
@@ -1840,7 +1840,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .comment-area .media .media-header > a:hover {
-  background: #05223a;
+  background: #A0CC3C;
 }
 
 .comment-form {
@@ -1849,7 +1849,7 @@ a[href^="https://maps.google.com/maps"] {
 .comment-form > h1 {
   font-size: 30px;
   font-weight: 300;
-  color: #05223a;
+  color: #A0CC3C;
   line-height: 23px;
   padding-bottom: 60px;
 }
@@ -1857,14 +1857,14 @@ a[href^="https://maps.google.com/maps"] {
   width: calc(50% - 10px);
   height: 71px;
   background: #e7e9ef;
-  color: #05223a;
+  color: #A0CC3C;
   padding: 0 28px;
 }
 .comment-form textarea {
   width: 100%;
   height: 188px;
   background: #e7e9ef;
-  color: #05223a;
+  color: #A0CC3C;
   margin: 20px 0 15px;
   padding: 26px 28px;
 }
@@ -1874,7 +1874,7 @@ a[href^="https://maps.google.com/maps"] {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
-  background: #ca1f26;
+  background: #232423;
   color: #fff;
   padding: 25px 40px;
   -webkit-transition: all .4s ease;
@@ -1882,7 +1882,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .comment-form button:hover {
-  background: #05223a;
+  background: #A0CC3C;
 }
 
 .comment-form textarea::-webkit-input-placeholder,
@@ -1907,7 +1907,7 @@ a[href^="https://maps.google.com/maps"] {
   height: 79px;
   padding: 10px 20px 10px 50px;
   color: #fff;
-  background: #05223a;
+  background: #A0CC3C;
 }
 
 .comment-form input::-webkit-input-placeholder {color: #b9c2ca;}
@@ -1917,7 +1917,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .blog-widget > h2 {
   font-size: 20px;
-  color: #05223a;
+  color: #A0CC3C;
 }
 
 .blog-widget {
@@ -1954,7 +1954,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .blog-widget .media h5 a:hover {
-  color: #ca1f26;
+  color: #232423;
 }
 
 .blog-widget ul > li > a {
@@ -1975,7 +1975,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .blog-widget ul > li > a:hover {
-  color: #ca1f26;
+  color: #232423;
 }
 
 .blog-widget ul > li > a::after {
@@ -2012,7 +2012,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .all-tags span a:hover,
 .all-tags span a.active {
-  color: #ca1f26;
+  color: #232423;
 }
 /* blog end */
 
@@ -2043,7 +2043,7 @@ a[href^="https://maps.google.com/maps"] {
   height: calc(100% - 14px);
   top: 0;
   left: 0;
-  background: #05223a;
+  background: #A0CC3C;
   z-index: -1;
 }
 
@@ -2070,7 +2070,7 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: 400;
   font-size: 18px;
   line-height: 31px;
-  color: #05223a;
+  color: #A0CC3C;
 }
 
 .feature-list li:not(:last-of-type) {
@@ -2081,7 +2081,7 @@ a[href^="https://maps.google.com/maps"] {
   position: absolute;
   content: '0' counter(zero);
   left: 0;
-  color: #ca1f26;
+  color: #232423;
 }
 
 .feature-area-2 figure img {
@@ -2109,7 +2109,7 @@ a[href^="https://maps.google.com/maps"] {
   height: 91px;
   display: block;
   text-align: center;
-  background: #ca1f26;
+  background: #232423;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
@@ -2128,12 +2128,12 @@ a[href^="https://maps.google.com/maps"] {
   font-size: 30px;
   font-weight: 300;
   line-height: 30px;
-  color: #05223a;
+  color: #A0CC3C;
   margin: 37px 0 35px;
 }
 
 .repair-card h2 a {
-  color: #05223a;
+  color: #A0CC3C;
 }
 
 .repair-card p {
@@ -2169,7 +2169,7 @@ a[href^="https://maps.google.com/maps"] {
   font-size: 40px;
   font-weight: 300;
   line-height: 30px;
-  color: #05223a;
+  color: #A0CC3C;
   margin-bottom: 46px;
   padding-top: 50px;
 }
@@ -2178,7 +2178,7 @@ a[href^="https://maps.google.com/maps"] {
 .quote-form > h2 {
   font-size: 30px;
   font-weight: 300;
-  color: #05223a;
+  color: #A0CC3C;
 }
 
 .service-body > h3 {
@@ -2214,7 +2214,7 @@ a[href^="https://maps.google.com/maps"] {
   font-family: 'FontAwesome';
   font-size: 11px;
   font-weight: 400;
-  color: #ca1f26;
+  color: #232423;
   top: 5px;
   left: 0;
 }
@@ -2232,7 +2232,7 @@ a[href^="https://maps.google.com/maps"] {
 .quote-block input:not([type="radio"]):not([type="checkbox"]):not([type="file"]),
 .quote-form textarea {
   width: 100%;
-  color: #05223a;
+  color: #A0CC3C;
   background: #e7e9ef;
   padding: 28px;
   margin-bottom: 20px;
@@ -2276,7 +2276,7 @@ a[href^="https://maps.google.com/maps"] {
 
 #repair:checked + label::before,
 #service:checked + label::before {
-  border: 7px solid #05223a;
+  border: 7px solid #A0CC3C;
 }
 
 
@@ -2287,19 +2287,19 @@ a[href^="https://maps.google.com/maps"] {
   font-size: 11px;
   letter-spacing: 2px;
   color: #fff;
-  background: #ca1f26;
+  background: #232423;
   text-transform: uppercase;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
 
 .quote-form button:hover {
-  background: #05223a;
+  background: #A0CC3C;
 }
 
 .service-widget > h2 {
   font-size: 20px;
-  color: #05223a;
+  color: #A0CC3C;
 }
 
 .service-widget {
@@ -2329,7 +2329,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .service-widget ul > li > a:hover {
-  color: #ca1f26;
+  color: #232423;
 }
 
 .service-widget ul > li > a::after {
@@ -2348,7 +2348,7 @@ a[href^="https://maps.google.com/maps"] {
 .call-us {
   padding: 33px 5px 28px;
   margin-top: 40px;
-  border: 20px solid #ca1f26;
+  border: 20px solid #232423;
 }
 
 .call-us p {
@@ -2397,7 +2397,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .faq-blocks .card .card-header button {
-    color: #05223a;
+    color: #A0CC3C;
     font-size: 18px;
     cursor: pointer;
     display: block !important;
@@ -2421,7 +2421,7 @@ a[href^="https://maps.google.com/maps"] {
   content: "\f067";
   font-family: 'FontAwesome';
   font-size: 10px;
-  color: #05223a;
+  color: #A0CC3C;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -2431,11 +2431,11 @@ a[href^="https://maps.google.com/maps"] {
 }
 .faq-blocks .card .card-header button[aria-expanded="true"]::before {
   content: "\f068";
-  color: #ca1f26;
+  color: #232423;
 }
 
 .faq-blocks .card .card-header button[aria-expanded="true"] {
-  color: #ca1f26;
+  color: #232423;
 }
 
 .skills {
@@ -2457,7 +2457,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .skill-block h3 {
   font-size: 18px;
-  color: #05223a;
+  color: #A0CC3C;
   margin-bottom: 11px;
 }
 
@@ -2474,7 +2474,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .skill-area .progress .progress-bar {
-  background: #ca1f26;
+  background: #232423;
 }
 
 .skill-area .progress > span {
@@ -2594,7 +2594,7 @@ a[href^="https://maps.google.com/maps"] {
   z-index: 2;
   left: 0;
   bottom: 0;
-  background: #ca1f26;
+  background: #232423;
 
   padding: 100px 100px 105px;
   width: 570px;
@@ -2643,7 +2643,7 @@ a[href^="https://maps.google.com/maps"] {
   background: #e7e9ef;
   font-size: 16px;
   font-weight: 600;
-  color: #05223a;
+  color: #A0CC3C;
 }
 
 .contact-form form input {
@@ -2660,7 +2660,7 @@ a[href^="https://maps.google.com/maps"] {
 .contact-form form button {
   display: inline-block;
   padding: 22px 38px 22px 40px;
-  background: #ca1f26;
+  background: #232423;
   color: #fff;
   font-size: 11px;
   letter-spacing: 2px;
@@ -2670,7 +2670,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .contact-form form button:hover {
-  background: #05223a;
+  background: #A0CC3C;
 }
 /* contact end */
 
@@ -2692,7 +2692,7 @@ a[href^="https://maps.google.com/maps"] {
   position: absolute;
   bottom: -20px;
   right: 30px;
-  background: #ca1f26;
+  background: #232423;
 }
 
 .about-2 .col-xl-6 > figure figcaption a i {
@@ -2751,7 +2751,7 @@ a[href^="https://maps.google.com/maps"] {
   content: '';
   width: 100vw;
   height: 100%;
-  background: #ca1f26;
+  background: #232423;
   right: 0;
   top: 0;
   z-index: -1;

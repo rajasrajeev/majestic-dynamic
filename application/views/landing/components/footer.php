@@ -7,7 +7,7 @@
 						<div class="col-lg-3 col-md-6">
 							<div class="footer-col">
 								<a href="#" style="display: flex;height: 4rem;">
-									<img src="<?php echo base_url(); ?>assets/images/majestic_logo.png" alt="Logo">
+									<img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Logo">
 									<!-- <img src="<?php echo base_url(); ?>assets/images/logo_text.jpg" alt="Logo"> -->
 								</a>
 								<p class="f1 fw-6 text-white">Where Craftsmanship Meets Innovation - We bring over a decade of experience to deliver precision in shades, canopies, and comprehensive steel solutions.</p>
