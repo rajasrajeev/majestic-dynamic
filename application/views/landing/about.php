@@ -5,7 +5,7 @@
                     <li><a href="#" class="c1">Home</a></li>
                     <li class="c1">about us</li>
                 </ul>
-                <h1 class="c3">Get to Know Us</h1>
+                <h1 class="c3">Our Story</h1>
             </div><!-- /.thm-header -->
         </div><!-- /.op-header -->
 
@@ -18,8 +18,9 @@
                                 <img src="<?php echo base_url(); ?>assets/landing/img/about-3-1.jpg" alt="About us">
                                 <figcaption>
                                     <p class="f1 fw-3">
-                                    Welcome to MAJESTIC, where quality meets innovation in the realm of manufacturing. Since 2006, we have been committed to delivering exceptional products across a diverse range of categories, including shades, 
-                                    canopies, caravans, hangars, steel structures, doors and gates, car parking shades, panel work, and comprehensive steel and aluminum solutions.
+                                    Founded by Mr Abdulla Butty Salem mousa al qubaisi, MAJESTIC embarked on a journey to redefine manufacturing standards. From our beginnings as a 
+                                    small workshop, local enterprise, we have grown into a leading manufacturer renowned for our commitment to quality and customer satisfaction.
+
                                 </p>
                                 </figcaption>
                             </figure>
