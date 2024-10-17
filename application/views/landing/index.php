@@ -178,7 +178,11 @@
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</div><!-- /.whyus -->
-
+		<div class="whatsapp social_box">
+   			 <a href="https://wa.me/919447789047?text=Hai,%20I%20would%20liked%20to%20know%20more%20about%20CodSynapse" target="_blank">
+      		 <i class="fa fa-whatsapp" aria-hidden="true"></i>
+			 </a>
+  		</div> 
 	<?php $this->load->view("landing/components/footer"); ?>
 	<?php $this->load->view("landing/components/bottom"); ?>
 
