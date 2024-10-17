@@ -34,15 +34,15 @@
                 </div><!-- /.row -->
                 <div class="row mb-4">
                 <div class="col-md-6">
-                <h1>Our mission</h1>
-                <p>
+                <h1 class="pb-2 c3">Our mission</h1>
+                <p class="f1 fw-3">
                 Our mission is to exceed customer expectations by providing superior products and services. We are dedicated to blending innovation, high-quality materials, and expert craftsmanship to create solutions that are both functional and aesthetically pleasing.
 
                 </p>
                 </div>
                 <div  class="col-md-6">
-                <h1 class="pb-2">Our Vision</h1>
-                <p>
+                <h1 class="pb-2 c3">Our Vision</h1>
+                <p class="f1 fw-3">
                 Looking to the future, we strive to continue leading the industry with innovative solutions and unparalleled service. We are committed to expanding our capabilities and product offerings to better meet the evolving needs of our customers and the market. </p>
                 </div>
                 </div>
