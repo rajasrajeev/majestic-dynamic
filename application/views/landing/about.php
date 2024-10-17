@@ -60,45 +60,57 @@
 								</p>
 							</div><!-- /.thm-header -->
                         </div><!-- /.col-12 -->
-						<div class="row">
-							<div class="col-md-3">
-								<h4 class="pb-2">Shades and Canopies</h4>
-								<p>Stylish and functional designs that offer protection and enhance outdoor environments.
-								</p>
+						<div class="row d-flex justify-content-center align-items-stretch row-gap mb-5">
+								<div class="col-md-3 d-flex">
+								<div class="glass-card flex-fill">
+									<h4 class="pb-2">Shades and Canopies</h4>
+									<p>Stylish and functional designs that offer protection and enhance outdoor environments.</p>
+								</div>
 							</div>
-							<div class="col-md-3">
-							<h4 class="pb-2">Caravans</h4>
-								<p> Comfortable and well-crafted mobile homes designed for travel and leisure.</p>
+							<div class="col-md-3 d-flex">
+								<div class="glass-card flex-fill">
+									<h4 class="pb-2">Caravans</h4>
+									<p>Comfortable and well-crafted mobile homes designed for travel and leisure.</p>
+								</div>
 							</div>
-							<div class="col-md-3">
-							<h4 class="pb-2">Steel Structures</h4>
-								<p>Versatile and robust constructions suitable for commercial, industrial, and residential uses.</p>
+							<div class="col-md-3 d-flex">
+								<div class="glass-card flex-fill">
+									<h4 class="pb-2">Steel Structures</h4>
+									<p>Versatile and robust constructions suitable for commercial, industrial, and residential uses.</p>
+								</div>
 							</div>
-							<div class="col-md-3">
-							<h4 class="pb-2">Doors and Gates
-							</h4>
-								<p>Custom-designed solutions providing both security and aesthetic appeal for various properties.</p>
+							<div class="col-md-3 d-flex">
+								<div class="glass-card flex-fill">
+									<h4 class="pb-2">Doors and Gates</h4>
+									<p>Custom-designed solutions providing both security and aesthetic appeal for various properties.</p>
+								</div>
+							</div>
+							<div class="col-md-3 d-flex">
+								<div class="glass-card flex-fill">
+									<h4 class="pb-2">Car Parking Shades</h4>
+									<p>Innovative designs to protect vehicles and improve the functionality of parking areas.</p>
+								</div>
+							</div>
+							<div class="col-md-3 d-flex">
+								<div class="glass-card flex-fill">
+									<h4 class="pb-2">Panel Work</h4>
+									<p>Precision-engineered panels that combine visual appeal with structural integrity.</p>
+								</div>
+							</div>
+							<div class="col-md-3 d-flex">
+								<div class="glass-card flex-fill">
+									<h4 class="pb-2">Hangars</h4>
+									<p>Durable and efficient structures designed for the secure storage and operation of aircraft.</p>
+								</div>
+							</div>
+							<div class="col-md-3 d-flex">
+								<div class="glass-card flex-fill">
+									<h4 class="pb-2">Steel and Aluminum Work</h4>
+									<p>Expert fabrication and installation of steel and aluminum components tailored to specific project requirements.</p>
+								</div>
 							</div>
 						</div>
-						<div class="row m-2">
-							<div class="col-md-3">
-							<h4 class="pb-2">Car Parking Shades</h4>
-								<p>Innovative designs to protect vehicles and improve the functionality of parking areas.</p>
-							</div>
-							<div class="col-md-3">
-							<h4 class="pb-2">Panel Work</h4>
-								<p> Precision-engineered panels that combine visual appeal with structural integrity.</p>
-							</div>
-							<div class="col-md-3">
-							<h4 class="pb-2">Hangars</h4>
-								<p>Durable and efficient structures designed for the secure storage and operation of aircraft.</p>
-							</div>
-							<div class="col-md-3">
-							<h4 class="pb-2">Steel and Aluminum Work
-							</h4>
-								<p>Expert fabrication and installation of steel and aluminum components tailored to specific project requirements.</p>
-							</div>
-						</div>
+
 						<!-- <?php foreach ($services as $product): ?>
                         	
 							<div class="col-md-4">

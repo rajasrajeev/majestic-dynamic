@@ -2793,3 +2793,39 @@ a[href^="https://maps.google.com/maps"] {
 	text-decoration: none; /* Remove underline */
   }
   
+  .glass-card {
+    background: rgba(255, 255, 255, 0.2); /* Transparent background */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Subtle border */
+    padding: 20px;
+    
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-10px); /* Hover effect */
+}
+
+.glass-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.glass-card p {
+    font-size: 1rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-fill {
+  flex: 1 1 auto;
+}
+.row-gap{
+  row-gap: 20px;
+}
