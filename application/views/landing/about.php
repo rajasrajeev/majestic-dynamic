@@ -5,20 +5,27 @@
                     <li><a href="#" class="c1">Home</a></li>
                     <li class="c1">about us</li>
                 </ul>
-                <h1 class="c3">Our Story</h1>
+                
             </div><!-- /.thm-header -->
         </div><!-- /.op-header -->
 
         <div class="about-page f1">
             <div class="container">
+				<h1 class="text-center pb-4">About US</h1>
+			<p>
+				Welcome to MAJESTIC, where quality meets innovation in the realm of manufacturing. Since 2006, we have been committed to delivering exceptional products across a diverse range of categories, including shades, canopies, caravans, hangars, steel structures, doors and gates, car parking shades, panel work, and comprehensive steel and aluminum solutions.
+
+				</p>
                 <div class="row">
                     <div class="col-12">
+					
                         <header>
                             <figure>
                                 <img src="<?php echo base_url(); ?>assets/landing/img/about-3-1.jpg" alt="About us">
                                 <figcaption>
+								<h1 class="c3 text-center pt-5">Our Story</h1>
                                     <p class="f1 fw-3">
-                                    Welcome to MAJESTIC, where quality meets innovation in the realm of manufacturing. Since 2006, we have been committed to delivering exceptional products across a diverse range of categories, including shades, canopies, caravans, hangars, steel structures, doors and gates, car parking shades, panel work, and comprehensive steel and aluminum solutions
+									Founded by Mr Abdulla Butty Salem mousa al qubaisi, MAJESTIC embarked on a journey to redefine manufacturing standards. From our beginnings as a  small workshop, local enterprise, we have grown into a leading manufacturer renowned for our commitment to quality and customer satisfaction.
                                 </p>
                                 </figcaption>
                             </figure>
@@ -50,11 +57,68 @@
                             <div class="thm-header text-center">
                                 
                                 <h1 class="c3">Who We Are</h1>
-								<p class="c1 pb-10">At MAJESTIC, we are dedicated to providing high-quality manufacturing solutions that cater to a wide array of needs and applications. Our extensive product range includes</p>
+								<p class="c1 pb-10">
+								At MAJESTIC, we are dedicated to providing high-quality manufacturing solutions that cater to a wide array of needs and applications. Our extensive product range includes:
+
+								</p>
 							</div><!-- /.thm-header -->
                         </div><!-- /.col-12 -->
-						<?php foreach ($services as $product): ?>
-                        	<!-- <a href="#"><img src="" alt="Partners"></a> -->
+						<div class="row">
+							<div class="col-md-3">
+								<h4>Shades and Canopies</h4>
+								<p>Stylish and functional designs that offer protection and enhance outdoor environments.
+								</p>
+							</div>
+							<div class="col-md-3">
+							<h4>Caravans</h4>
+								<p> Comfortable and well-crafted mobile homes designed for travel and leisure.
+
+								</p>
+							</div>
+							<div class="col-md-3">
+							<h4>Steel Structures</h4>
+								<p>Versatile and robust constructions suitable for commercial, industrial, and residential uses.
+								</p>
+							</div>
+							<div class="col-md-3">
+							<h4>Doors and Gates
+							</h4>
+								<p>Custom-designed solutions providing both security and aesthetic appeal for various properties.
+								</p>
+							</div>
+						</div>
+						<div class="row m-2">
+							<div class="col-md-3">
+							<h4>Car Parking Shades
+							</h4>
+								<p>Innovative designs to protect vehicles and improve the functionality of parking areas.
+
+								</p>
+							</div>
+							<div class="col-md-3">
+							<h4>Panel Work
+							</h4>
+								<p> Precision-engineered panels that combine visual appeal with structural integrity.
+
+								</p>
+							</div>
+							<div class="col-md-3">
+							<h4>Hangars
+							</h4>
+								<p>Durable and efficient structures designed for the secure storage and operation of aircraft.
+
+								</p>
+							</div>
+							<div class="col-md-3">
+							<h4>Steel and Aluminum Work
+							</h4>
+								<p>Expert fabrication and installation of steel and aluminum components tailored to specific project requirements.
+
+								</p>
+							</div>
+						</div>
+						<!-- <?php foreach ($services as $product): ?>
+                        	
 							<div class="col-md-4">
 								<div class="member-card bg-white">
 									<figure>
@@ -65,12 +129,12 @@
 											<div class="member-info f1">
 												<h2 class="fw-6 c3"><a href="#"><?= $product['title']; ?></a></h2>
 												<p class="fw-6"><?= $product['content']; ?></p>
-											</div><!-- /.member-info -->
+											</div>
 										</figcaption>
 									</figure>
-								</div><!-- /.member-card -->
-							</div><!-- /.col-lg-4 -->
-						<?php endforeach; ?>
+								</div>
+							</div>
+						<?php endforeach; ?> -->
                     </div><!-- /.row -->
                 </div><!-- /.container -->
             </div><!-- /.sec-team -->
@@ -79,37 +143,50 @@
 					<div class="row justify-content-center">
 						<div class="col-12">
 							<div class="thm-header text-center text-white">
-								<p class="pb-10">What Sets Us Apart</p>
-								<h1>Our Products</h1>
+								<p class="pb-4">What Sets Us Apart</p>
+								<!-- <h1>Our Products</h1> -->
 							</div><!-- /.thm-header -->
 						</div><!-- /.col-12 -->
-						<div class="col-xl-8 col-lg-8 col-md-10">
-							<div class="rating-area">
-								<div class="testi-pager d-flex justify-content-center align-items-end mb-55" id="testi-pager">
-								<?php foreach ($products as $key=>$product): ?>
-									<a href="#" class="pager-item active" data-slide-index="<?= $key; ?>">
-										<div class="testi-thumb">
-											<img src="<?= base_url('' . $product['image']); ?>" alt="rating" title="">
-										</div>
-									</a>
-								<?php endforeach; ?>
-									
-								</div>
-
-								<!--Slider-->
-								<ul class="rating-slider f1">
-								<?php foreach ($products as $key=>$product): ?>
-									<li class="slide-item">
-										<div class="slide-text">
-											<p><?= $product['content']; ?></p>
-											<h4 class="mt-30"><?= $product['title']; ?></h4>
-										</div>
-									</li>
-								<?php endforeach; ?>
-								</ul>
-							</div><!-- /.rating-area -->
-						</div><!-- /.col-xl-6 col-lg-8 col-md-10 offset-xl-3 offset-lg-2 offset-md-1 offset-sm-0 -->
+						
 					</div><!-- /.row -->
+					<div class="row mb-4">
+							<div class="col-md-4">
+								<h2 class="pb-2">Comprehensive Product Range</h2>
+								<p>We offer a broad selection of products, from outdoor shading solutions and mobile homes to structural projects and custom metalwork.
+								</p>
+							</div>
+							<div class="col-md-4">
+							<h2 class="pb-2">Innovative Design</h2>
+								<p> Our products are crafted using the latest technologies and design trends, ensuring they meet both functional and aesthetic needs.
+
+
+								</p>
+							</div>
+							<div class="col-md-4">
+							<h2 class="pb-2">High-Quality Materials</h2>
+								<p> We use premium materials to ensure durability and long-lasting performance across all our products.</p>
+							</div>
+							
+					</div>
+					<div class="row m-4">
+					<div class="col-md-4">
+							<h2 class="pb-2">Custom Fabrication
+							</h2>
+								<p>Our expertise in steel and aluminum work allows us to deliver tailored solutions that meet specific project requirements.
+
+								</p>
+							</div>
+							<div class="col-md-4">
+							<h2 class="pb-2">Expert Craftsmanship </h2>
+								<p>Our skilled team employs advanced techniques and strict quality control to deliver exceptional results.
+								</p>
+							</div>
+							<div class="col-md-4">
+							<h2 class="pb-2">Customer-Centric Approach</h2>
+								<p>We are committed to providing outstanding service from the initial consultation through to project completion and support.</p>
+							</div>
+							
+					</div>
 				</div><!-- /.container -->
 			</div><!-- /.testimony -->
             <div class="partners bg4">

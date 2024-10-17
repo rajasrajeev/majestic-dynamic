@@ -36,7 +36,8 @@
 								<i class="carevan-icon-clock"></i><!-- /.Carivon-icon-placeholder -->
 							</div><!-- /.icon-block -->
 							<div class="text-block">
-								<p><span>Mon-Sat: 8am - 7pm</span> Opening Time</p>
+								<p><span>Mon-Sat: 8am - 1pm</span> Morning Time</p>
+								<p><span>Mon-Sat: 5pm - 8pm</span> Evening Time</p>
 							</div><!-- /.text-block -->
 						</div><!-- /.single-right-contact -->
 						<div class="single-right-contact">
