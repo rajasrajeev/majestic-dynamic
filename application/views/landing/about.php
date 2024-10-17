@@ -12,7 +12,7 @@
         <div class="about-page f1">
             <div class="container">
 				<h1 class="text-center pb-4">About US</h1>
-			<p>
+			<p class="pb-2 f1 fw-3">
 				Welcome to MAJESTIC, where quality meets innovation in the realm of manufacturing. Since 2006, we have been committed to delivering exceptional products across a diverse range of categories, including shades, canopies, caravans, hangars, steel structures, doors and gates, car parking shades, panel work, and comprehensive steel and aluminum solutions.
 
 				</p>
@@ -41,12 +41,9 @@
                 </p>
                 </div>
                 <div  class="col-md-6">
-                <h1>Our Vision
-                </h1>
+                <h1 class="pb-2">Our Vision</h1>
                 <p>
-                Looking to the future, we strive to continue leading the industry with innovative solutions and unparalleled service. We are committed to expanding our capabilities and product offerings to better meet the evolving needs of our customers and the market.
-
-                </p>
+                Looking to the future, we strive to continue leading the industry with innovative solutions and unparalleled service. We are committed to expanding our capabilities and product offerings to better meet the evolving needs of our customers and the market. </p>
                 </div>
                 </div>
             </div><!-- /.container -->
@@ -65,56 +62,41 @@
                         </div><!-- /.col-12 -->
 						<div class="row">
 							<div class="col-md-3">
-								<h4>Shades and Canopies</h4>
+								<h4 class="pb-2">Shades and Canopies</h4>
 								<p>Stylish and functional designs that offer protection and enhance outdoor environments.
 								</p>
 							</div>
 							<div class="col-md-3">
-							<h4>Caravans</h4>
-								<p> Comfortable and well-crafted mobile homes designed for travel and leisure.
-
-								</p>
+							<h4 class="pb-2">Caravans</h4>
+								<p> Comfortable and well-crafted mobile homes designed for travel and leisure.</p>
 							</div>
 							<div class="col-md-3">
-							<h4>Steel Structures</h4>
-								<p>Versatile and robust constructions suitable for commercial, industrial, and residential uses.
-								</p>
+							<h4 class="pb-2">Steel Structures</h4>
+								<p>Versatile and robust constructions suitable for commercial, industrial, and residential uses.</p>
 							</div>
 							<div class="col-md-3">
-							<h4>Doors and Gates
+							<h4 class="pb-2">Doors and Gates
 							</h4>
-								<p>Custom-designed solutions providing both security and aesthetic appeal for various properties.
-								</p>
+								<p>Custom-designed solutions providing both security and aesthetic appeal for various properties.</p>
 							</div>
 						</div>
 						<div class="row m-2">
 							<div class="col-md-3">
-							<h4>Car Parking Shades
-							</h4>
-								<p>Innovative designs to protect vehicles and improve the functionality of parking areas.
-
-								</p>
+							<h4 class="pb-2">Car Parking Shades</h4>
+								<p>Innovative designs to protect vehicles and improve the functionality of parking areas.</p>
 							</div>
 							<div class="col-md-3">
-							<h4>Panel Work
-							</h4>
-								<p> Precision-engineered panels that combine visual appeal with structural integrity.
-
-								</p>
+							<h4 class="pb-2">Panel Work</h4>
+								<p> Precision-engineered panels that combine visual appeal with structural integrity.</p>
 							</div>
 							<div class="col-md-3">
-							<h4>Hangars
-							</h4>
-								<p>Durable and efficient structures designed for the secure storage and operation of aircraft.
-
-								</p>
+							<h4 class="pb-2">Hangars</h4>
+								<p>Durable and efficient structures designed for the secure storage and operation of aircraft.</p>
 							</div>
 							<div class="col-md-3">
-							<h4>Steel and Aluminum Work
+							<h4 class="pb-2">Steel and Aluminum Work
 							</h4>
-								<p>Expert fabrication and installation of steel and aluminum components tailored to specific project requirements.
-
-								</p>
+								<p>Expert fabrication and installation of steel and aluminum components tailored to specific project requirements.</p>
 							</div>
 						</div>
 						<!-- <?php foreach ($services as $product): ?>
@@ -189,8 +171,17 @@
 					</div>
 				</div><!-- /.container -->
 			</div><!-- /.testimony -->
+			<div class="Team mt-4 mb-4">
+                <div class="container">
+					<h1 class="text-center c3">Meet Our Team</h1>
+					<p class="justify-content">Our team comprises experienced professionals who are passionate about manufacturing excellence. With a diverse range of skills and a commitment to quality, we work collaboratively to bring your vision to life and achieve superior results.
+					</P>
+                    
+                </div><!-- /.container -->
+            </div>
             <div class="partners bg4">
                 <div class="container">
+					
                     <div class="partner-carousel owl-carousel">
 						<?php foreach ($clients as $product): ?>
                         	<a href="#"><img src="<?= base_url('' . $product['image']); ?>" alt="Partners"></a>

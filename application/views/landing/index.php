@@ -16,7 +16,7 @@
 								<div class="content text-left">
 									<p data-animation="animated fadeInUp " class="tag-line animDe-1"><span class="text-uppercase f1 fw-8">Crafting Excellence since 2006</span></p>
 		                            <h2 data-animation="animated fadeInUp " class="animDe-2">Welcome to MAJESTIC — Where Quality Meets Innovation</h2>
-		                            <p data-animation="animated fadeInUp " class="animDe-3">: With over a decade of experience, we deliver exceptional solutions for all your structural needs. From canopies and caravans to advanced steel and aluminum work, we cover it all</p>
+		                            <p data-animation="animated fadeInUp " class="animDe-3">With over a decade of experience, we deliver exceptional solutions for all your structural needs. From canopies and caravans to advanced steel and aluminum work, we cover it all</p>
 		                            <a href="<?php echo base_url(); ?>services" data-animation="animated fadeInUp " class="bg1 text-white banner-btn animDe-4">our services</a>
 								</div>
 							</div>
@@ -178,11 +178,6 @@
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</div><!-- /.whyus -->
-		<div class="whatsapp social_box">
-   			 <a href="https://wa.me/919447789047?text=Hai,%20I%20would%20liked%20to%20know%20more%20about%20CodSynapse" target="_blank">
-      		 <i class="fa fa-whatsapp" aria-hidden="true"></i>
-			 </a>
-  		</div> 
 	<?php $this->load->view("landing/components/footer"); ?>
 	<?php $this->load->view("landing/components/bottom"); ?>
 

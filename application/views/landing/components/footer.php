@@ -38,7 +38,7 @@
 									</li>
 									<li>
 										<span><i class="fa fa-phone-square c1"></i>+971563337317</span><br/>
-										<span><i class="fa fa-phone-square c1"></i>+971561011153</span><br/>
+										<span><i class="fa fa-whatsapp c1"></i>+971561011153</span><br/>
 										<span><i class="fa fa-phone-square c1"></i>+971561260004</span>
 									</li>
 								</ul>
@@ -61,4 +61,9 @@
 					</div><!-- /.row -->
 				</div><!-- /.container -->
 			</div><!-- /.footer-bottom -->
+			<div class="whatsapp social_box">
+   			 <a href="https://wa.me/919447789047?text=Hai,%20I%20would%20liked%20to%20know%20more%20about%20Majestic" target="_blank">
+      		 <i class="fa fa-whatsapp" aria-hidden="true"></i>
+			 </a>
+  		</div> 
 		</footer>
