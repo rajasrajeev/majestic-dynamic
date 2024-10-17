@@ -143,7 +143,7 @@
 						</div><!-- /.col-12 -->
 						
 					</div><!-- /.row -->
-					<div class="row mb-4">
+					<div class="row mb-4 row-gap">
 							<div class="col-md-4">
 								<h2 class="pb-2">Comprehensive Product Range</h2>
 								<p>We offer a broad selection of products, from outdoor shading solutions and mobile homes to structural projects and custom metalwork.
@@ -162,7 +162,7 @@
 							</div>
 							
 					</div>
-					<div class="row m-4">
+					<div class="row m-4 row-gap">
 					<div class="col-md-4">
 							<h2 class="pb-2">Custom Fabrication
 							</h2>
