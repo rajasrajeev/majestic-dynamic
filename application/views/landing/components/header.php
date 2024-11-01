@@ -68,10 +68,10 @@
                     </div><!-- /.navbar-collapse -->
                     <div class="right-side-box">
                         <div class="social">
-							<a href="https://x.com/majesticuae2006"><i class="fa fa-twitter"></i></a><!--
-                            --><a href="https://www.snapchat.com/add/majesticuae?share_id=QHaRdj766Eo&locale=en-US"><i class="fa fa-snapchat"></i></a><!--
-                            --><a href="https://www.instagram.com/majestic.u.a.e/"><i class="fa fa-instagram"></i></a><!--                            
-                            --><a href="https://www.tiktok.com/@majesticuae?lang=en"><i class="fa fa-tiktok"></i></a>
+							<a href="https://x.com/majesticuae2006"><i class="fa-brands fa-twitter"></i></a><!--
+                            --><a href="https://www.snapchat.com/add/majesticuae?share_id=QHaRdj766Eo&locale=en-US"><i class="fa-brands fa-snapchat"></i></a><!--
+                            --><a href="https://www.instagram.com/majestic.u.a.e/"><i class="fa-brands fa-instagram"></i></a><!--                            
+                            --><a href="https://www.tiktok.com/@majesticuae?lang=en"><i class="fa-brands fa-tiktok"></i></a>
                         </div><!-- /.social -->
                     </div>
                     <!-- /.right-side-box -->

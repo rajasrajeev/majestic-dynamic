@@ -33,6 +33,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/landing/css/animate.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/landing/css/magnific-popup.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/landing/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/landing/css/jquery.bxslider.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/landing/css/hover-min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/landing/plugins/bands-icon/style.css">

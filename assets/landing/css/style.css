@@ -37,6 +37,13 @@ quote-area
             box-sizing: border-box !important;
 }
 
+.fa-custom-tiktok {
+	background: url(../img/icons/tiktok.svg) no-repeat;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+}
+
 a,
 a:hover,
 a:active,

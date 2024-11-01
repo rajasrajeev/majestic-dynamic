@@ -52,10 +52,10 @@
 				<div class="container">
 					<div class="row justify-content-sm-between justify-content-center text-sm-left text-center flex-sm-row flex-column">
 						<ul>
-							<li><a href="https://x.com/majesticuae2006"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="https://www.snapchat.com/add/majesticuae?share_id=QHaRdj766Eo&locale=en-US"><i class="fa fa-snapchat"></i></a></li>
-							<li><a href="https://www.instagram.com/majestic.u.a.e/"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="https://www.tiktok.com/@majesticuae?lang=en"><i class="fa fa-tiktok"></i></a></li>
+							<li><a href="https://x.com/majesticuae2006"><i class="fa-brands fa-twitter"></i></a></li>
+							<li><a href="https://www.snapchat.com/add/majesticuae?share_id=QHaRdj766Eo&locale=en-US"><i class="fa-brands fa-snapchat"></i></a></li>
+							<li><a href="https://www.instagram.com/majestic.u.a.e/"><i class="fa-brands fa-instagram"></i></a></li>
+							<li><a href="https://www.tiktok.com/@majesticuae?lang=en"><i class="fa-brands fa-tiktok"></i></a></li>
 						</ul>
 						<p>© copyright 2024 by <a href="#" target="_blank">Five Designer Technologies </a></p>
 					</div><!-- /.row -->
@@ -63,7 +63,7 @@
 			</div><!-- /.footer-bottom -->
 			<div class="whatsapp social_box">
    			 <a href="https://wa.me/971561011153?text=Hai,%20I%20would%20liked%20to%20know%20more%20about%20Majestic" target="_blank">
-      		 <i class="fa fa-whatsapp" aria-hidden="true"></i>
+      		 <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
 			 </a>
   		</div> 
 		</footer>
