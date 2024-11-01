@@ -28,7 +28,7 @@
 								<i class="carevan-icon-phone-call"></i><!-- /.Carivon-icon-placeholder -->
 							</div><!-- /.icon-block -->
 							<div class="text-block">
-								<p><span>+971561011153</span> Phone line</p>
+								<p><span>+971 563 337 317</span> Phone line</p>
 							</div><!-- /.text-block -->
 						</div><!-- /.single-right-contact -->
 						<div class="single-right-contact">
@@ -37,7 +37,7 @@
 							</div><!-- /.icon-block -->
 							<div class="text-block">
 								<p><span>Sat-Thu: 8am - 1pm</span> Morning Time</p>
-								<p><span>Sat-Thu: 5pm - 8pm</span> Evening Time</p>
+								<!-- <p><span>Sat-Thu: 5pm - 8pm</span> Evening Time</p> -->
 							</div><!-- /.text-block -->
 						</div><!-- /.single-right-contact -->
 						<div class="single-right-contact">
@@ -68,10 +68,10 @@
                     </div><!-- /.navbar-collapse -->
                     <div class="right-side-box">
                         <div class="social">
-							<a href="#"><i class="fa fa-twitter"></i></a><!--
-                            --><a href="#"><i class="fa fa-facebook-f"></i></a><!--
-                            --><a href="#"><i class="fa fa-youtube-play"></i></a><!--                            
-                            --><a href="#"><i class="fa fa-google-plus"></i></a>
+							<a href="https://x.com/majesticuae2006"><i class="fa fa-twitter"></i></a><!--
+                            --><a href="https://www.snapchat.com/add/majesticuae?share_id=QHaRdj766Eo&locale=en-US"><i class="fa fa-snapchat"></i></a><!--
+                            --><a href="https://www.instagram.com/majestic.u.a.e/"><i class="fa fa-instagram"></i></a><!--                            
+                            --><a href="https://www.tiktok.com/@majesticuae?lang=en"><i class="fa fa-tiktok"></i></a>
                         </div><!-- /.social -->
                     </div>
                     <!-- /.right-side-box -->
