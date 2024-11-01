@@ -41,7 +41,7 @@
 							</div><!-- /.text-block -->
 						</div><!-- /.single-right-contact -->
 						<div class="single-right-contact">
-							<a href="#contact" class="header-btn">Contact Us</a><!-- /.header-btn -->
+							<a href="<?php echo base_url(); ?>contact" class="header-btn">Contact Us</a><!-- /.header-btn -->
 						</div><!-- /.single-right-contact -->
 					</div><!-- /.float-right -->					
 				</div><!-- /.container -->
@@ -68,10 +68,10 @@
                     </div><!-- /.navbar-collapse -->
                     <div class="right-side-box">
                         <div class="social">
-							<a href="https://x.com/majesticuae2006"><i class="fa-brands fa-twitter"></i></a><!--
-                            --><a href="https://www.snapchat.com/add/majesticuae?share_id=QHaRdj766Eo&locale=en-US"><i class="fa-brands fa-snapchat"></i></a><!--
-                            --><a href="https://www.instagram.com/majestic.u.a.e/"><i class="fa-brands fa-instagram"></i></a><!--                            
-                            --><a href="https://www.tiktok.com/@majesticuae?lang=en"><i class="fa-brands fa-tiktok"></i></a>
+							<a target="_blank" href="https://x.com/majesticuae2006"><i class="fa-brands fa-twitter"></i></a><!--
+                            --><a target="_blank" href="https://www.snapchat.com/add/majesticuae?share_id=QHaRdj766Eo&locale=en-US"><i class="fa-brands fa-snapchat"></i></a><!--
+                            --><a target="_blank" href="https://www.instagram.com/majestic.u.a.e/"><i class="fa-brands fa-instagram"></i></a><!--                            
+                            --><a target="_blank" href="https://www.tiktok.com/@majesticuae?lang=en"><i class="fa-brands fa-tiktok"></i></a>
                         </div><!-- /.social -->
                     </div>
                     <!-- /.right-side-box -->

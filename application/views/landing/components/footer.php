@@ -17,11 +17,11 @@
 							<div class="footer-col">
 								<h2>company</h2>
 								<ul>
-									<li><a href="about.html">About</a></li>
-									<li><a href="contact.html">Book Online</a></li>
-									<li><a href="#">Testimonials</a></li>
-									<li><a href="#">Gallery</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="<?php echo base_url(); ?>about">About</a></li>
+									<!-- <li><a href="<?php echo base_url(); ?>contact.html">Book Online</a></li> -->
+									<!-- <li><a href="<?php echo base_url(); ?>">Testimonials</a></li> -->
+									<li><a href="<?php echo base_url(); ?>gallery">Gallery</a></li>
+									<li><a href="<?php echo base_url(); ?>contact">Contact</a></li>
 								</ul>
 							</div><!-- /.footer-col -->
 						</div><!-- /.col-xl-3 -->
@@ -34,7 +34,7 @@
 								<ul>
 									<li>
 										<span><i class="fa fa-envelope c1"></i>info@majesticuae.ae</span><br/>
-										<span><i class="fa fa-envelope c1"></i> majestictrailer@gmail.com</span>
+										<span><i class="fa fa-envelope c1"></i>majestictrailer@gmail.com</span>
 									</li>
 									<li>
 										<span><i class="fa fa-phone-square c1"></i>+971 563 337 317</span><br/>
@@ -52,12 +52,12 @@
 				<div class="container">
 					<div class="row justify-content-sm-between justify-content-center text-sm-left text-center flex-sm-row flex-column">
 						<ul>
-							<li><a href="https://x.com/majesticuae2006"><i class="fa-brands fa-twitter"></i></a></li>
-							<li><a href="https://www.snapchat.com/add/majesticuae?share_id=QHaRdj766Eo&locale=en-US"><i class="fa-brands fa-snapchat"></i></a></li>
-							<li><a href="https://www.instagram.com/majestic.u.a.e/"><i class="fa-brands fa-instagram"></i></a></li>
-							<li><a href="https://www.tiktok.com/@majesticuae?lang=en"><i class="fa-brands fa-tiktok"></i></a></li>
+							<li><a target="_blank" href="https://x.com/majesticuae2006"><i class="fa-brands fa-twitter"></i></a></li>
+							<li><a target="_blank" href="https://www.snapchat.com/add/majesticuae?share_id=QHaRdj766Eo&locale=en-US"><i class="fa-brands fa-snapchat"></i></a></li>
+							<li><a target="_blank" href="https://www.instagram.com/majestic.u.a.e/"><i class="fa-brands fa-instagram"></i></a></li>
+							<li><a target="_blank" href="https://www.tiktok.com/@majesticuae?lang=en"><i class="fa-brands fa-tiktok"></i></a></li>
 						</ul>
-						<p>© copyright 2024 by <a href="#" target="_blank">Five Designer Technologies </a></p>
+						<p>copyright 2024 © majesticuae  <a href="https://fivedesigner.com" target="_blank">Designed By Five Designer Technologies </a></p>
 					</div><!-- /.row -->
 				</div><!-- /.container -->
 			</div><!-- /.footer-bottom -->
