@@ -38,7 +38,7 @@
 									</li>
 									<li>
 										<span><i class="fa fa-phone-square c1"></i>+971 563 337 317</span><br/>
-										<span><i class="fa fa-whatsapp c1"></i>+971 561 011 153 </span><br/>
+										<span><i class="fa-brands fa-whatsapp c1"></i>+971 561 011 153 </span><br/>
 										<!-- <span><i class="fa fa-phone-square c1"></i>+971561260004</span> -->
 									</li>
 								</ul>

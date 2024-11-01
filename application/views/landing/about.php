@@ -5,7 +5,7 @@
                     <li><a href="#" class="c1">Home</a></li>
                     <li class="c1">about us</li>
                 </ul>
-                
+                <h1 class="c3">About us</h1>
             </div><!-- /.thm-header -->
         </div><!-- /.op-header -->
 
